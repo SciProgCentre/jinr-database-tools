@@ -1,0 +1,151 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JINR To Database Conversion Tools Schema",
+  "description": "",
+  "type": "object",
+  "required": [
+    "table",
+    "format",
+    "columns"
+  ],
+  "properties": {
+    "table": {
+      "description": "The target table of database.",
+      "type": "string",
+      "uniqueItems": true
+    },
+    "format": {
+      "description": "The input file format.",
+      "type": "string",
+      "enum": [
+        "CSV",
+        "XML"
+      ],
+      "uniqueItems": true
+    },
+    "parser_settings": {
+      "description": "Settings for file readers",
+      "type": "object",
+      "uniqueItems": true,
+      "properties": {
+        "CSV": {
+          "description": "CSV dialects and formatting parameters.",
+          "type": "object",
+          "uniqueItems": true,
+          "properties": {
+            "header": {
+              "type": "boolean",
+              "description": "When `true`, first line interpreted as header and will skipped.",
+              "default": false
+            },
+            "delimiter": {
+              "type": "string",
+              "description": "A character used to separate fields.",
+              "default": ","
+            },
+            "quotechar": {
+              "type": "string",
+              "description": "A character used to quote fields containing special characters.",
+              "default": "\""
+            },
+            "comment": {
+              "type": "string",
+              "description": "A character used to comment line.",
+              "default": "#"
+            },
+            "skipinitialspace": {
+              "type": "boolean",
+              "description": "When `true`, whitespace immediately following the delimiter is ignored.",
+              "default": false
+            },
+            "skipinitialrow": {
+              "type": "integer",
+              "description": "Skip this number of initial row, exclude header row.",
+              "minimum": 0,
+              "default": 0
+            }
+          }
+        },
+        "XML": {
+          "description": "XML dialects and formatting parameters.",
+          "type": "object",
+          "uniqueItems": true,
+          "properties": {
+            "header": {
+              "type": "boolean",
+              "description": "When `true`, first line interpreted as header and will skipped.",
+              "default": false
+            }
+          }
+        }
+      }
+    },
+    "columns": {
+      "description": "Columns description.",
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "type"
+        ],
+        "properties": {
+          "name": {
+            "description": "The name of target column of database table.",
+            "type": "string",
+            "uniqueItems": true
+          },
+          "order": {
+            "description": "Uses if order columns in data file different with order in description (FIXME: Нужно ли это свойство?))",
+            "type": "integer",
+            "default": -1,
+            "uniqueItems": true
+          },
+          "type": {
+            "description": "The generic type of data.",
+            "type": "string",
+            "enum": [
+              "boolean",
+              "integer",
+              "float",
+              "decimal",
+              "string",
+              "binary",
+              "datetime"
+            ],
+            "uniqueItems": true
+          },
+          "type_properties": {
+            "description": "The data type settings.",
+            "type": "object",
+            "uniqueItems": true,
+            "properties": {
+              "datetime_flavour": {
+                "description": "The time format",
+                "type": "string",
+                "enum": [
+                  "unixtime",
+                  "sql",
+                  "iso"
+                ],
+                "default": "iso"
+              },
+              "length": {
+                "description": "The string or binary maximum length",
+                "type": "integer",
+                "default": -1
+              },
+              "encoding": {
+                "description": "Encoding for conversion text string to binary",
+                "type": "string",
+                "default": "UTF-8"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

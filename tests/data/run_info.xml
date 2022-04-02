@@ -1,0 +1,4592 @@
+<!-- saved from url=(0040)http://bmnshift.jinr.ru/run_summary.html -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="generator" content=
+"HTML Tidy for Linux (vers 25 March 2009), see www.w3.org" />
+<meta http-equiv="Content-Type" content=
+"text/html; charset=us-ascii" />
+<title>Run1 summary table</title>
+<style type="text/css">
+/*<![CDATA[*/
+ body,td{ background-color: #FFFFCC; font-family: arial, arial ce, helvetica; font-size: 14px; }
+   td.s0 { font-family: arial, arial ce, helvetica; }
+   td.s1 { font-family: arial, arial ce, helvetica; font-weight: bold; background-color: #FFC169; text-align: center;}
+   td.s2 { font-family: arial, arial ce, helvetica; background-color: #eeeeee; }
+   td.s3 { font-family: arial, arial ce, helvetica; background-color: #d0d0d0; }
+   td.s4 { font-family: arial, arial ce, helvetica; background-color: #FFC169; }
+/*]]>*/
+</style>
+</head>
+<body>
+<table>
+<tbody>
+<tr>
+<td class="s1" align="center">#</td>
+<td class="s1" align="center">File name</td>
+<td class="s1" align="center">Events</td>
+<td class="s1" align="center">Start Time</td>
+<td class="s1" align="center">End Time</td>
+<td class="s1" align="center">Average Rate</td>
+<td class="s1" align="center">BField</td>
+<td class="s1" align="center">detales</td>
+</tr>
+<tr>
+<td class="s4" align="center">1</td>
+<td class="s2" align="center">run688.data</td>
+<td class="s2" align="center">49766</td>
+<td class="s2" align="center">2015-03-15 08:05:39</td>
+<td class="s2" align="center">2015-03-15 08:24:28</td>
+<td class="s2" align="center">44.08</td>
+<td class="s2" align="center">0.05</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run688.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">2</td>
+<td class="s3" align="center">run687.data</td>
+<td class="s3" align="center">3643</td>
+<td class="s3" align="center">2015-03-15 07:56:49</td>
+<td class="s3" align="center">2015-03-15 08:04:39</td>
+<td class="s3" align="center">7.75</td>
+<td class="s3" align="center">0.06</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run687.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">3</td>
+<td class="s2" align="center">run686.data</td>
+<td class="s2" align="center">744</td>
+<td class="s2" align="center">2015-03-15 07:49:25</td>
+<td class="s2" align="center">2015-03-15 07:56:16</td>
+<td class="s2" align="center">1.81</td>
+<td class="s2" align="center">0.07</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run686.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">4</td>
+<td class="s3" align="center">run685.data</td>
+<td class="s3" align="center">6599</td>
+<td class="s3" align="center">2015-03-15 07:39:01</td>
+<td class="s3" align="center">2015-03-15 07:45:37</td>
+<td class="s3" align="center">16.66</td>
+<td class="s3" align="center">55.30</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run685.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">5</td>
+<td class="s2" align="center">run684.data</td>
+<td class="s2" align="center">303520</td>
+<td class="s2" align="center">2015-03-15 07:11:16</td>
+<td class="s2" align="center">2015-03-15 07:38:37</td>
+<td class="s2" align="center">184.96</td>
+<td class="s2" align="center">59.79</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run684.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">6</td>
+<td class="s3" align="center">run682.data</td>
+<td class="s3" align="center">10796</td>
+<td class="s3" align="center">2015-03-15 06:58:37</td>
+<td class="s3" align="center">2015-03-15 06:59:02</td>
+<td class="s3" align="center">431.84</td>
+<td class="s3" align="center">59.80</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run682.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">7</td>
+<td class="s2" align="center">run681.data</td>
+<td class="s2" align="center">49976</td>
+<td class="s2" align="center">2015-03-15 06:55:17</td>
+<td class="s2" align="center">2015-03-15 06:58:03</td>
+<td class="s2" align="center">301.06</td>
+<td class="s2" align="center">59.78</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run681.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">8</td>
+<td class="s3" align="center">run680.data</td>
+<td class="s3" align="center">61053</td>
+<td class="s3" align="center">2015-03-15 06:51:37</td>
+<td class="s3" align="center">2015-03-15 06:55:05</td>
+<td class="s3" align="center">293.52</td>
+<td class="s3" align="center">59.78</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run680.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">9</td>
+<td class="s2" align="center">run675.data</td>
+<td class="s2" align="center">9633</td>
+<td class="s2" align="center">2015-03-15 06:30:37</td>
+<td class="s2" align="center">2015-03-15 06:30:44</td>
+<td class="s2" align="center">1376.14</td>
+<td class="s2" align="center">59.80</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run675.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">10</td>
+<td class="s3" align="center">run672.data</td>
+<td class="s3" align="center">59162</td>
+<td class="s3" align="center">2015-03-15 03:44:00</td>
+<td class="s3" align="center">2015-03-15 03:48:14</td>
+<td class="s3" align="center">232.92</td>
+<td class="s3" align="center">59.75</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run672.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">11</td>
+<td class="s2" align="center">run651.data</td>
+<td class="s2" align="center">59161</td>
+<td class="s2" align="center">2015-03-15 03:44:00</td>
+<td class="s2" align="center">2015-03-15 03:48:14</td>
+<td class="s2" align="center">232.92</td>
+<td class="s2" align="center">59.75</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run651.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">12</td>
+<td class="s3" align="center">run650.data</td>
+<td class="s3" align="center">500572</td>
+<td class="s3" align="center">2015-03-15 02:41:14</td>
+<td class="s3" align="center">2015-03-15 03:36:26</td>
+<td class="s3" align="center">151.14</td>
+<td class="s3" align="center">59.72</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run650.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">13</td>
+<td class="s2" align="center">run649.data</td>
+<td class="s2" align="center">517970</td>
+<td class="s2" align="center">2015-03-15 01:47:00</td>
+<td class="s2" align="center">2015-03-15 02:40:26</td>
+<td class="s2" align="center">161.56</td>
+<td class="s2" align="center">59.73</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run649.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">14</td>
+<td class="s3" align="center">run648.data</td>
+<td class="s3" align="center">540761</td>
+<td class="s3" align="center">2015-03-15 00:49:47</td>
+<td class="s3" align="center">2015-03-15 01:45:38</td>
+<td class="s3" align="center">161.37</td>
+<td class="s3" align="center">59.71</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run648.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">15</td>
+<td class="s2" align="center">run647.data</td>
+<td class="s2" align="center">524991</td>
+<td class="s2" align="center">2015-03-15 00:04:47</td>
+<td class="s2" align="center">2015-03-15 00:48:37</td>
+<td class="s2" align="center">199.62</td>
+<td class="s2" align="center">59.70</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run647.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">16</td>
+<td class="s3" align="center">run646.data</td>
+<td class="s3" align="center">508602</td>
+<td class="s3" align="center">2015-03-14 23:17:23</td>
+<td class="s3" align="center">2015-03-14 23:59:13</td>
+<td class="s3" align="center">202.63</td>
+<td class="s3" align="center">59.70</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run646.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">17</td>
+<td class="s2" align="center">run645.data</td>
+<td class="s2" align="center">378469</td>
+<td class="s2" align="center">2015-03-14 22:25:44</td>
+<td class="s2" align="center">2015-03-14 23:10:37</td>
+<td class="s2" align="center">140.54</td>
+<td class="s2" align="center">59.69</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run645.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">18</td>
+<td class="s3" align="center">run644.data</td>
+<td class="s3" align="center">512338</td>
+<td class="s3" align="center">2015-03-14 20:26:54</td>
+<td class="s3" align="center">2015-03-14 22:01:55</td>
+<td class="s3" align="center">89.87</td>
+<td class="s3" align="center">59.63</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run644.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">19</td>
+<td class="s2" align="center">run643.data</td>
+<td class="s2" align="center">505324</td>
+<td class="s2" align="center">2015-03-14 19:34:33</td>
+<td class="s2" align="center">2015-03-14 20:26:36</td>
+<td class="s2" align="center">161.81</td>
+<td class="s2" align="center">59.61</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run643.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">20</td>
+<td class="s3" align="center">run642.data</td>
+<td class="s3" align="center">454358</td>
+<td class="s3" align="center">2015-03-14 18:48:03</td>
+<td class="s3" align="center">2015-03-14 19:34:15</td>
+<td class="s3" align="center">163.91</td>
+<td class="s3" align="center">59.57</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run642.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">21</td>
+<td class="s2" align="center">run641.data</td>
+<td class="s2" align="center">1765</td>
+<td class="s2" align="center">2015-03-14 18:47:43</td>
+<td class="s2" align="center">2015-03-14 18:47:45</td>
+<td class="s2" align="center">882.50</td>
+<td class="s2" align="center">0.00</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run641.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">22</td>
+<td class="s3" align="center">run640.data</td>
+<td class="s3" align="center">23620</td>
+<td class="s3" align="center">2015-03-14 18:40:03</td>
+<td class="s3" align="center">2015-03-14 18:42:35</td>
+<td class="s3" align="center">155.39</td>
+<td class="s3" align="center">59.57</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run640.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">23</td>
+<td class="s2" align="center">run634.data</td>
+<td class="s2" align="center">218797</td>
+<td class="s2" align="center">2015-03-14 16:43:27</td>
+<td class="s2" align="center">2015-03-14 17:26:48</td>
+<td class="s2" align="center">84.12</td>
+<td class="s2" align="center">59.62</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run634.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">24</td>
+<td class="s3" align="center">run633.data</td>
+<td class="s3" align="center">425536</td>
+<td class="s3" align="center">2015-03-14 15:42:26</td>
+<td class="s3" align="center">2015-03-14 16:39:18</td>
+<td class="s3" align="center">124.72</td>
+<td class="s3" align="center">59.62</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run633.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">25</td>
+<td class="s2" align="center">run632.data</td>
+<td class="s2" align="center">13103</td>
+<td class="s2" align="center">2015-03-14 15:12:45</td>
+<td class="s2" align="center">2015-03-14 15:34:16</td>
+<td class="s2" align="center">10.15</td>
+<td class="s2" align="center">59.62</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run632.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">26</td>
+<td class="s3" align="center">run631.data</td>
+<td class="s3" align="center">640309</td>
+<td class="s3" align="center">2015-03-14 14:03:05</td>
+<td class="s3" align="center">2015-03-14 15:08:57</td>
+<td class="s3" align="center">162.02</td>
+<td class="s3" align="center">59.62</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run631.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">27</td>
+<td class="s2" align="center">run630.data</td>
+<td class="s2" align="center">63933</td>
+<td class="s2" align="center">2015-03-14 13:28:45</td>
+<td class="s2" align="center">2015-03-14 14:03:05</td>
+<td class="s2" align="center">31.04</td>
+<td class="s2" align="center">59.64</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run630.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">28</td>
+<td class="s3" align="center">run629.data</td>
+<td class="s3" align="center">49388</td>
+<td class="s3" align="center">2015-03-14 13:22:25</td>
+<td class="s3" align="center">2015-03-14 13:26:57</td>
+<td class="s3" align="center">181.57</td>
+<td class="s3" align="center">59.65</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run629.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">29</td>
+<td class="s2" align="center">run628.data</td>
+<td class="s2" align="center">27643</td>
+<td class="s2" align="center">2015-03-14 13:17:15</td>
+<td class="s2" align="center">2015-03-14 13:20:36</td>
+<td class="s2" align="center">137.53</td>
+<td class="s2" align="center">59.66</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run628.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">30</td>
+<td class="s3" align="center">run627.data</td>
+<td class="s3" align="center">15201</td>
+<td class="s3" align="center">2015-03-14 13:12:45</td>
+<td class="s3" align="center">2015-03-14 13:14:56</td>
+<td class="s3" align="center">116.04</td>
+<td class="s3" align="center">59.65</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run627.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">31</td>
+<td class="s2" align="center">run625.data</td>
+<td class="s2" align="center">7075</td>
+<td class="s2" align="center">2015-03-14 13:09:25</td>
+<td class="s2" align="center">2015-03-14 13:10:25</td>
+<td class="s2" align="center">117.92</td>
+<td class="s2" align="center">59.66</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run625.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">32</td>
+<td class="s3" align="center">run624.data</td>
+<td class="s3" align="center">26488</td>
+<td class="s3" align="center">2015-03-14 13:03:44</td>
+<td class="s3" align="center">2015-03-14 13:05:19</td>
+<td class="s3" align="center">278.82</td>
+<td class="s3" align="center">59.65</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run624.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">33</td>
+<td class="s2" align="center">run623.data</td>
+<td class="s2" align="center">73</td>
+<td class="s2" align="center">2015-03-14 13:02:48</td>
+<td class="s2" align="center">2015-03-14 13:02:54</td>
+<td class="s2" align="center">12.17</td>
+<td class="s2" align="center">0.00</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run623.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">34</td>
+<td class="s3" align="center">run622.data</td>
+<td class="s3" align="center">451</td>
+<td class="s3" align="center">2015-03-14 13:01:44</td>
+<td class="s3" align="center">2015-03-14 13:01:45</td>
+<td class="s3" align="center">451.00</td>
+<td class="s3" align="center">0.00</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run622.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">35</td>
+<td class="s2" align="center">run621.data</td>
+<td class="s2" align="center">13</td>
+<td class="s2" align="center">2015-03-14 12:38:06</td>
+<td class="s2" align="center">2015-03-14 12:38:06</td>
+<td class="s2" align="center">inf</td>
+<td class="s2" align="center">0.00</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run621.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">36</td>
+<td class="s3" align="center">run620.data</td>
+<td class="s3" align="center">5</td>
+<td class="s3" align="center">2015-03-14 12:35:24</td>
+<td class="s3" align="center">2015-03-14 12:35:24</td>
+<td class="s3" align="center">inf</td>
+<td class="s3" align="center">0.00</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run620.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">37</td>
+<td class="s2" align="center">run619.data</td>
+<td class="s2" align="center">12</td>
+<td class="s2" align="center">2015-03-14 12:34:24</td>
+<td class="s2" align="center">2015-03-14 12:34:24</td>
+<td class="s2" align="center">inf</td>
+<td class="s2" align="center">0.00</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run619.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">38</td>
+<td class="s3" align="center">run618.data</td>
+<td class="s3" align="center">215</td>
+<td class="s3" align="center">2015-03-14 12:32:14</td>
+<td class="s3" align="center">2015-03-14 12:33:25</td>
+<td class="s3" align="center">3.03</td>
+<td class="s3" align="center">59.63</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run618.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">39</td>
+<td class="s2" align="center">run616.data</td>
+<td class="s2" align="center">15393</td>
+<td class="s2" align="center">2015-03-14 12:31:04</td>
+<td class="s2" align="center">2015-03-14 12:31:37</td>
+<td class="s2" align="center">466.45</td>
+<td class="s2" align="center">59.63</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run616.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">40</td>
+<td class="s3" align="center">run611.data</td>
+<td class="s3" align="center">13</td>
+<td class="s3" align="center">2015-03-14 12:26:26</td>
+<td class="s3" align="center">2015-03-14 12:26:26</td>
+<td class="s3" align="center">inf</td>
+<td class="s3" align="center">59.64</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run611.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">41</td>
+<td class="s2" align="center">run610.data</td>
+<td class="s2" align="center">47</td>
+<td class="s2" align="center">2015-03-14 12:25:35</td>
+<td class="s2" align="center">2015-03-14 12:25:35</td>
+<td class="s2" align="center">inf</td>
+<td class="s2" align="center">59.65</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run610.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">42</td>
+<td class="s3" align="center">run609.data</td>
+<td class="s3" align="center">121</td>
+<td class="s3" align="center">2015-03-14 12:24:54</td>
+<td class="s3" align="center">2015-03-14 12:24:54</td>
+<td class="s3" align="center">inf</td>
+<td class="s3" align="center">0.00</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run609.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">43</td>
+<td class="s2" align="center">run608.data</td>
+<td class="s2" align="center">12781</td>
+<td class="s2" align="center">2015-03-14 11:40:44</td>
+<td class="s2" align="center">2015-03-14 11:43:46</td>
+<td class="s2" align="center">70.23</td>
+<td class="s2" align="center">59.64</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run608.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">44</td>
+<td class="s3" align="center">run607.data</td>
+<td class="s3" align="center">968881</td>
+<td class="s3" align="center">2015-03-14 10:55:14</td>
+<td class="s3" align="center">2015-03-14 11:29:36</td>
+<td class="s3" align="center">469.87</td>
+<td class="s3" align="center">59.67</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run607.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">45</td>
+<td class="s2" align="center">run606.data</td>
+<td class="s2" align="center">12763</td>
+<td class="s2" align="center">2015-03-14 10:52:34</td>
+<td class="s2" align="center">2015-03-14 10:52:55</td>
+<td class="s2" align="center">607.76</td>
+<td class="s2" align="center">59.68</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run606.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">46</td>
+<td class="s3" align="center">run605.data</td>
+<td class="s3" align="center">4580</td>
+<td class="s3" align="center">2015-03-14 10:48:04</td>
+<td class="s3" align="center">2015-03-14 10:48:06</td>
+<td class="s3" align="center">2290.00</td>
+<td class="s3" align="center">0.00</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run605.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">47</td>
+<td class="s2" align="center">run604.data</td>
+<td class="s2" align="center">196314</td>
+<td class="s2" align="center">2015-03-14 09:47:03</td>
+<td class="s2" align="center">2015-03-14 10:07:55</td>
+<td class="s2" align="center">156.80</td>
+<td class="s2" align="center">59.73</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run604.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">48</td>
+<td class="s3" align="center">run600.data</td>
+<td class="s3" align="center">950</td>
+<td class="s3" align="center">2015-03-14 09:42:43</td>
+<td class="s3" align="center">2015-03-14 09:42:44</td>
+<td class="s3" align="center">950.00</td>
+<td class="s3" align="center">0.00</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run600.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">49</td>
+<td class="s2" align="center">run599.data</td>
+<td class="s2" align="center">731</td>
+<td class="s2" align="center">2015-03-14 09:39:43</td>
+<td class="s2" align="center">2015-03-14 09:39:44</td>
+<td class="s2" align="center">731.00</td>
+<td class="s2" align="center">0.00</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run599.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">50</td>
+<td class="s3" align="center">run598.data</td>
+<td class="s3" align="center">700</td>
+<td class="s3" align="center">2015-03-14 09:38:13</td>
+<td class="s3" align="center">2015-03-14 09:38:15</td>
+<td class="s3" align="center">350.00</td>
+<td class="s3" align="center">0.00</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run598.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">51</td>
+<td class="s2" align="center">run597.data</td>
+<td class="s2" align="center">249091</td>
+<td class="s2" align="center">2015-03-14 08:03:43</td>
+<td class="s2" align="center">2015-03-14 08:32:05</td>
+<td class="s2" align="center">146.35</td>
+<td class="s2" align="center">59.76</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run597.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">52</td>
+<td class="s3" align="center">run596.data</td>
+<td class="s3" align="center">56994</td>
+<td class="s3" align="center">2015-03-14 08:00:33</td>
+<td class="s3" align="center">2015-03-14 08:02:05</td>
+<td class="s3" align="center">619.50</td>
+<td class="s3" align="center">59.76</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run596.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">53</td>
+<td class="s2" align="center">run595.data</td>
+<td class="s2" align="center">77260</td>
+<td class="s2" align="center">2015-03-14 07:58:23</td>
+<td class="s2" align="center">2015-03-14 08:00:23</td>
+<td class="s2" align="center">643.83</td>
+<td class="s2" align="center">59.77</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run595.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">54</td>
+<td class="s3" align="center">run594.data</td>
+<td class="s3" align="center">2321</td>
+<td class="s3" align="center">2015-03-14 07:54:53</td>
+<td class="s3" align="center">2015-03-14 07:57:45</td>
+<td class="s3" align="center">13.49</td>
+<td class="s3" align="center">59.77</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run594.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">55</td>
+<td class="s2" align="center">run593.data</td>
+<td class="s2" align="center">497330</td>
+<td class="s2" align="center">2015-03-14 06:24:52</td>
+<td class="s2" align="center">2015-03-14 07:52:55</td>
+<td class="s2" align="center">94.14</td>
+<td class="s2" align="center">59.77</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run593.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">56</td>
+<td class="s3" align="center">run592.data</td>
+<td class="s3" align="center">1005782</td>
+<td class="s3" align="center">2015-03-14 05:44:32</td>
+<td class="s3" align="center">2015-03-14 06:18:54</td>
+<td class="s3" align="center">487.77</td>
+<td class="s3" align="center">59.79</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run592.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">57</td>
+<td class="s2" align="center">run591.data</td>
+<td class="s2" align="center">1001111</td>
+<td class="s2" align="center">2015-03-14 05:10:02</td>
+<td class="s2" align="center">2015-03-14 05:44:14</td>
+<td class="s2" align="center">487.87</td>
+<td class="s2" align="center">59.81</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run591.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">58</td>
+<td class="s3" align="center">run590.data</td>
+<td class="s3" align="center">1004628</td>
+<td class="s3" align="center">2015-03-14 04:35:11</td>
+<td class="s3" align="center">2015-03-14 05:09:44</td>
+<td class="s3" align="center">484.63</td>
+<td class="s3" align="center">59.82</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run590.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">59</td>
+<td class="s2" align="center">run589.data</td>
+<td class="s2" align="center">1019853</td>
+<td class="s2" align="center">2015-03-14 03:59:21</td>
+<td class="s2" align="center">2015-03-14 04:34:43</td>
+<td class="s2" align="center">480.61</td>
+<td class="s2" align="center">59.83</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run589.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">60</td>
+<td class="s3" align="center">run586.data</td>
+<td class="s3" align="center">682772</td>
+<td class="s3" align="center">2015-03-13 16:42:51</td>
+<td class="s3" align="center">2015-03-13 17:00:14</td>
+<td class="s3" align="center">654.62</td>
+<td class="s3" align="center">59.91</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run586.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">61</td>
+<td class="s2" align="center">run585.data</td>
+<td class="s2" align="center">692976</td>
+<td class="s2" align="center">2015-03-13 15:46:01</td>
+<td class="s2" align="center">2015-03-13 16:42:32</td>
+<td class="s2" align="center">204.36</td>
+<td class="s2" align="center">59.90</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run585.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">62</td>
+<td class="s3" align="center">run584.data</td>
+<td class="s3" align="center">43122</td>
+<td class="s3" align="center">2015-03-13 15:15:41</td>
+<td class="s3" align="center">2015-03-13 15:17:33</td>
+<td class="s3" align="center">385.02</td>
+<td class="s3" align="center">59.90</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run584.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">63</td>
+<td class="s2" align="center">run583.data</td>
+<td class="s2" align="center">682166</td>
+<td class="s2" align="center">2015-03-13 14:52:41</td>
+<td class="s2" align="center">2015-03-13 15:12:52</td>
+<td class="s2" align="center">563.31</td>
+<td class="s2" align="center">59.90</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run583.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">64</td>
+<td class="s3" align="center">run577.data</td>
+<td class="s3" align="center">35360</td>
+<td class="s3" align="center">2015-03-13 14:11:00</td>
+<td class="s3" align="center">2015-03-13 14:12:42</td>
+<td class="s3" align="center">346.67</td>
+<td class="s3" align="center">59.90</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run577.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">65</td>
+<td class="s2" align="center">run576.data</td>
+<td class="s2" align="center">23554</td>
+<td class="s2" align="center">2015-03-13 14:05:00</td>
+<td class="s2" align="center">2015-03-13 14:07:42</td>
+<td class="s2" align="center">145.40</td>
+<td class="s2" align="center">59.89</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run576.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">66</td>
+<td class="s3" align="center">run575.data</td>
+<td class="s3" align="center">162848</td>
+<td class="s3" align="center">2015-03-13 12:17:40</td>
+<td class="s3" align="center">2015-03-13 14:01:00</td>
+<td class="s3" align="center">26.27</td>
+<td class="s3" align="center">59.92</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run575.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">67</td>
+<td class="s2" align="center">run574.data</td>
+<td class="s2" align="center">47457</td>
+<td class="s2" align="center">2015-03-13 12:11:30</td>
+<td class="s2" align="center">2015-03-13 12:12:22</td>
+<td class="s2" align="center">912.63</td>
+<td class="s2" align="center">59.95</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run574.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">68</td>
+<td class="s3" align="center">run573.data</td>
+<td class="s3" align="center">51236</td>
+<td class="s3" align="center">2015-03-13 12:10:00</td>
+<td class="s3" align="center">2015-03-13 12:11:02</td>
+<td class="s3" align="center">826.39</td>
+<td class="s3" align="center">59.95</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run573.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">69</td>
+<td class="s2" align="center">run572.data</td>
+<td class="s2" align="center">46194</td>
+<td class="s2" align="center">2015-03-13 12:08:30</td>
+<td class="s2" align="center">2015-03-13 12:09:22</td>
+<td class="s2" align="center">888.35</td>
+<td class="s2" align="center">59.95</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run572.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">70</td>
+<td class="s3" align="center">run571.data</td>
+<td class="s3" align="center">54557</td>
+<td class="s3" align="center">2015-03-13 12:07:00</td>
+<td class="s3" align="center">2015-03-13 12:08:02</td>
+<td class="s3" align="center">879.95</td>
+<td class="s3" align="center">59.96</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run571.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">71</td>
+<td class="s2" align="center">run570.data</td>
+<td class="s2" align="center">52691</td>
+<td class="s2" align="center">2015-03-13 12:05:20</td>
+<td class="s2" align="center">2015-03-13 12:06:22</td>
+<td class="s2" align="center">849.85</td>
+<td class="s2" align="center">59.94</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run570.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">72</td>
+<td class="s3" align="center">run569.data</td>
+<td class="s3" align="center">46094</td>
+<td class="s3" align="center">2015-03-13 12:03:30</td>
+<td class="s3" align="center">2015-03-13 12:04:32</td>
+<td class="s3" align="center">743.45</td>
+<td class="s3" align="center">59.95</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run569.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">73</td>
+<td class="s2" align="center">run568.data</td>
+<td class="s2" align="center">55424</td>
+<td class="s2" align="center">2015-03-13 12:01:50</td>
+<td class="s2" align="center">2015-03-13 12:02:52</td>
+<td class="s2" align="center">893.94</td>
+<td class="s2" align="center">59.95</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run568.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">74</td>
+<td class="s3" align="center">run567.data</td>
+<td class="s3" align="center">50744</td>
+<td class="s3" align="center">2015-03-13 11:59:39</td>
+<td class="s3" align="center">2015-03-13 12:00:42</td>
+<td class="s3" align="center">805.46</td>
+<td class="s3" align="center">59.94</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run567.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">75</td>
+<td class="s2" align="center">run566.data</td>
+<td class="s2" align="center">1627373</td>
+<td class="s2" align="center">2015-03-13 10:55:20</td>
+<td class="s2" align="center">2015-03-13 11:36:51</td>
+<td class="s2" align="center">653.30</td>
+<td class="s2" align="center">59.96</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run566.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">76</td>
+<td class="s3" align="center">run565.data</td>
+<td class="s3" align="center">429</td>
+<td class="s3" align="center">2015-03-13 10:55:09</td>
+<td class="s3" align="center">2015-03-13 10:55:10</td>
+<td class="s3" align="center">429.00</td>
+<td class="s3" align="center">0.00</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run565.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">77</td>
+<td class="s2" align="center">run564.data</td>
+<td class="s2" align="center">9119</td>
+<td class="s2" align="center">2015-03-13 10:48:59</td>
+<td class="s2" align="center">2015-03-13 10:49:11</td>
+<td class="s2" align="center">759.92</td>
+<td class="s2" align="center">59.98</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run564.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">78</td>
+<td class="s3" align="center">run563.data</td>
+<td class="s3" align="center">24408</td>
+<td class="s3" align="center">2015-03-13 10:48:00</td>
+<td class="s3" align="center">2015-03-13 10:48:41</td>
+<td class="s3" align="center">595.32</td>
+<td class="s3" align="center">59.95</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run563.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">79</td>
+<td class="s2" align="center">run562.data</td>
+<td class="s2" align="center">525</td>
+<td class="s2" align="center">2015-03-13 10:47:40</td>
+<td class="s2" align="center">2015-03-13 10:47:40</td>
+<td class="s2" align="center">inf</td>
+<td class="s2" align="center">0.00</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run562.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">80</td>
+<td class="s3" align="center">run561.data</td>
+<td class="s3" align="center">17809</td>
+<td class="s3" align="center">2015-03-13 10:41:29</td>
+<td class="s3" align="center">2015-03-13 10:47:21</td>
+<td class="s3" align="center">50.59</td>
+<td class="s3" align="center">59.95</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run561.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">81</td>
+<td class="s2" align="center">run560.data</td>
+<td class="s2" align="center">8352</td>
+<td class="s2" align="center">2015-03-13 10:35:39</td>
+<td class="s2" align="center">2015-03-13 10:38:19</td>
+<td class="s2" align="center">52.20</td>
+<td class="s2" align="center">59.71</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run560.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">82</td>
+<td class="s3" align="center">run559.data</td>
+<td class="s3" align="center">3562</td>
+<td class="s3" align="center">2015-03-13 10:33:29</td>
+<td class="s3" align="center">2015-03-13 10:35:02</td>
+<td class="s3" align="center">38.30</td>
+<td class="s3" align="center">59.71</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run559.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">83</td>
+<td class="s2" align="center">run558.data</td>
+<td class="s2" align="center">6660</td>
+<td class="s2" align="center">2015-03-13 10:30:59</td>
+<td class="s2" align="center">2015-03-13 10:33:01</td>
+<td class="s2" align="center">54.59</td>
+<td class="s2" align="center">59.71</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run558.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">84</td>
+<td class="s3" align="center">run557.data</td>
+<td class="s3" align="center">9192</td>
+<td class="s3" align="center">2015-03-13 10:27:09</td>
+<td class="s3" align="center">2015-03-13 10:29:41</td>
+<td class="s3" align="center">60.47</td>
+<td class="s3" align="center">59.71</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run557.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">85</td>
+<td class="s2" align="center">run546.data</td>
+<td class="s2" align="center">34122</td>
+<td class="s2" align="center">2015-03-13 08:23:28</td>
+<td class="s2" align="center">2015-03-13 08:36:20</td>
+<td class="s2" align="center">44.20</td>
+<td class="s2" align="center">61.25</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run546.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">86</td>
+<td class="s3" align="center">run545.data</td>
+<td class="s3" align="center">42057</td>
+<td class="s3" align="center">2015-03-13 08:06:59</td>
+<td class="s3" align="center">2015-03-13 08:23:20</td>
+<td class="s3" align="center">42.87</td>
+<td class="s3" align="center">61.28</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run545.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">87</td>
+<td class="s2" align="center">run544.data</td>
+<td class="s2" align="center">55005</td>
+<td class="s2" align="center">2015-03-13 07:44:49</td>
+<td class="s2" align="center">2015-03-13 08:06:50</td>
+<td class="s2" align="center">41.64</td>
+<td class="s2" align="center">61.29</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run544.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">88</td>
+<td class="s3" align="center">run543.data</td>
+<td class="s3" align="center">76493</td>
+<td class="s3" align="center">2015-03-13 07:09:08</td>
+<td class="s3" align="center">2015-03-13 07:44:30</td>
+<td class="s3" align="center">36.05</td>
+<td class="s3" align="center">61.33</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run543.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">89</td>
+<td class="s2" align="center">run542.data</td>
+<td class="s2" align="center">31858</td>
+<td class="s2" align="center">2015-03-13 06:49:18</td>
+<td class="s2" align="center">2015-03-13 07:08:50</td>
+<td class="s2" align="center">27.18</td>
+<td class="s2" align="center">61.35</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run542.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">90</td>
+<td class="s3" align="center">run541.data</td>
+<td class="s3" align="center">33444</td>
+<td class="s3" align="center">2015-03-13 06:28:38</td>
+<td class="s3" align="center">2015-03-13 06:49:09</td>
+<td class="s3" align="center">27.17</td>
+<td class="s3" align="center">61.33</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run541.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">91</td>
+<td class="s2" align="center">run540.data</td>
+<td class="s2" align="center">31454</td>
+<td class="s2" align="center">2015-03-13 06:10:38</td>
+<td class="s2" align="center">2015-03-13 06:28:19</td>
+<td class="s2" align="center">29.65</td>
+<td class="s2" align="center">61.33</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run540.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">92</td>
+<td class="s3" align="center">run539.data</td>
+<td class="s3" align="center">26555</td>
+<td class="s3" align="center">2015-03-13 05:50:39</td>
+<td class="s3" align="center">2015-03-13 06:10:29</td>
+<td class="s3" align="center">22.32</td>
+<td class="s3" align="center">61.33</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run539.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">93</td>
+<td class="s2" align="center">run538.data</td>
+<td class="s2" align="center">5139</td>
+<td class="s2" align="center">2015-03-13 05:47:48</td>
+<td class="s2" align="center">2015-03-13 05:50:29</td>
+<td class="s2" align="center">31.92</td>
+<td class="s2" align="center">61.34</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run538.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">94</td>
+<td class="s3" align="center">run537.data</td>
+<td class="s3" align="center">4666</td>
+<td class="s3" align="center">2015-03-13 05:44:08</td>
+<td class="s3" align="center">2015-03-13 05:47:29</td>
+<td class="s3" align="center">23.21</td>
+<td class="s3" align="center">61.34</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run537.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">95</td>
+<td class="s2" align="center">run536.data</td>
+<td class="s2" align="center">21117</td>
+<td class="s2" align="center">2015-03-13 05:29:58</td>
+<td class="s2" align="center">2015-03-13 05:43:49</td>
+<td class="s2" align="center">25.41</td>
+<td class="s2" align="center">61.32</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run536.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">96</td>
+<td class="s3" align="center">run535.data</td>
+<td class="s3" align="center">30893</td>
+<td class="s3" align="center">2015-03-13 05:08:08</td>
+<td class="s3" align="center">2015-03-13 05:29:39</td>
+<td class="s3" align="center">23.93</td>
+<td class="s3" align="center">61.32</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run535.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">97</td>
+<td class="s2" align="center">run534.data</td>
+<td class="s2" align="center">22642</td>
+<td class="s2" align="center">2015-03-13 04:36:48</td>
+<td class="s2" align="center">2015-03-13 05:07:49</td>
+<td class="s2" align="center">12.17</td>
+<td class="s2" align="center">61.34</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run534.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">98</td>
+<td class="s3" align="center">run533.data</td>
+<td class="s3" align="center">21809</td>
+<td class="s3" align="center">2015-03-13 04:13:27</td>
+<td class="s3" align="center">2015-03-13 04:36:38</td>
+<td class="s3" align="center">15.68</td>
+<td class="s3" align="center">61.35</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run533.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">99</td>
+<td class="s2" align="center">run530.data</td>
+<td class="s2" align="center">1129</td>
+<td class="s2" align="center">2015-03-13 03:48:27</td>
+<td class="s2" align="center">2015-03-13 03:49:28</td>
+<td class="s2" align="center">18.51</td>
+<td class="s2" align="center">61.35</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run530.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">100</td>
+<td class="s3" align="center">run529.data</td>
+<td class="s3" align="center">26987</td>
+<td class="s3" align="center">2015-03-13 03:21:48</td>
+<td class="s3" align="center">2015-03-13 03:46:38</td>
+<td class="s3" align="center">18.11</td>
+<td class="s3" align="center">61.36</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run529.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">101</td>
+<td class="s2" align="center">run528.data</td>
+<td class="s2" align="center">14516</td>
+<td class="s2" align="center">2015-03-13 03:06:47</td>
+<td class="s2" align="center">2015-03-13 03:21:38</td>
+<td class="s2" align="center">16.29</td>
+<td class="s2" align="center">61.35</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run528.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">102</td>
+<td class="s3" align="center">run527.data</td>
+<td class="s3" align="center">12503</td>
+<td class="s3" align="center">2015-03-13 02:53:38</td>
+<td class="s3" align="center">2015-03-13 03:06:38</td>
+<td class="s3" align="center">16.03</td>
+<td class="s3" align="center">61.35</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run527.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">103</td>
+<td class="s2" align="center">run526.data</td>
+<td class="s2" align="center">19790</td>
+<td class="s2" align="center">2015-03-13 02:36:07</td>
+<td class="s2" align="center">2015-03-13 02:52:28</td>
+<td class="s2" align="center">20.17</td>
+<td class="s2" align="center">61.34</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run526.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">104</td>
+<td class="s3" align="center">run525.data</td>
+<td class="s3" align="center">7061</td>
+<td class="s3" align="center">2015-03-13 02:31:17</td>
+<td class="s3" align="center">2015-03-13 02:35:58</td>
+<td class="s3" align="center">25.13</td>
+<td class="s3" align="center">61.34</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run525.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">105</td>
+<td class="s2" align="center">run524.data</td>
+<td class="s2" align="center">5865</td>
+<td class="s2" align="center">2015-03-13 02:27:27</td>
+<td class="s2" align="center">2015-03-13 02:31:08</td>
+<td class="s2" align="center">26.54</td>
+<td class="s2" align="center">61.33</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run524.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">106</td>
+<td class="s3" align="center">run523.data</td>
+<td class="s3" align="center">10692</td>
+<td class="s3" align="center">2015-03-13 02:19:28</td>
+<td class="s3" align="center">2015-03-13 02:26:58</td>
+<td class="s3" align="center">23.76</td>
+<td class="s3" align="center">61.34</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run523.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">107</td>
+<td class="s2" align="center">run522.data</td>
+<td class="s2" align="center">2496</td>
+<td class="s2" align="center">2015-03-13 02:17:07</td>
+<td class="s2" align="center">2015-03-13 02:18:48</td>
+<td class="s2" align="center">24.71</td>
+<td class="s2" align="center">61.34</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run522.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">108</td>
+<td class="s3" align="center">run520.data</td>
+<td class="s3" align="center">4518</td>
+<td class="s3" align="center">2015-03-13 02:09:16</td>
+<td class="s3" align="center">2015-03-13 02:12:27</td>
+<td class="s3" align="center">23.65</td>
+<td class="s3" align="center">61.34</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run520.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">109</td>
+<td class="s2" align="center">run519.data</td>
+<td class="s2" align="center">28689</td>
+<td class="s2" align="center">2015-03-13 01:33:36</td>
+<td class="s2" align="center">2015-03-13 02:08:16</td>
+<td class="s2" align="center">13.79</td>
+<td class="s2" align="center">61.32</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run519.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">110</td>
+<td class="s3" align="center">run518.data</td>
+<td class="s3" align="center">7947</td>
+<td class="s3" align="center">2015-03-13 01:31:18</td>
+<td class="s3" align="center">2015-03-13 01:33:18</td>
+<td class="s3" align="center">66.22</td>
+<td class="s3" align="center">61.32</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run518.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">111</td>
+<td class="s2" align="center">run515.data</td>
+<td class="s2" align="center">2428</td>
+<td class="s2" align="center">2015-03-13 01:11:28</td>
+<td class="s2" align="center">2015-03-13 01:12:09</td>
+<td class="s2" align="center">59.22</td>
+<td class="s2" align="center">61.34</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run515.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">112</td>
+<td class="s3" align="center">run514.data</td>
+<td class="s3" align="center">25878</td>
+<td class="s3" align="center">2015-03-13 01:02:58</td>
+<td class="s3" align="center">2015-03-13 01:09:29</td>
+<td class="s3" align="center">66.18</td>
+<td class="s3" align="center">61.32</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run514.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">113</td>
+<td class="s2" align="center">run513.data</td>
+<td class="s2" align="center">4751</td>
+<td class="s2" align="center">2015-03-13 00:55:36</td>
+<td class="s2" align="center">2015-03-13 00:59:07</td>
+<td class="s2" align="center">22.52</td>
+<td class="s2" align="center">61.31</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run513.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">114</td>
+<td class="s3" align="center">run512.data</td>
+<td class="s3" align="center">36447</td>
+<td class="s3" align="center">2015-03-13 00:28:36</td>
+<td class="s3" align="center">2015-03-13 00:55:17</td>
+<td class="s3" align="center">22.77</td>
+<td class="s3" align="center">61.29</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run512.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">115</td>
+<td class="s2" align="center">run511.data</td>
+<td class="s2" align="center">8417</td>
+<td class="s2" align="center">2015-03-13 00:18:06</td>
+<td class="s2" align="center">2015-03-13 00:21:37</td>
+<td class="s2" align="center">39.89</td>
+<td class="s2" align="center">61.28</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run511.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">116</td>
+<td class="s3" align="center">run510.data</td>
+<td class="s3" align="center">10804</td>
+<td class="s3" align="center">2015-03-13 00:12:55</td>
+<td class="s3" align="center">2015-03-13 00:17:47</td>
+<td class="s3" align="center">37.00</td>
+<td class="s3" align="center">61.28</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run510.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">117</td>
+<td class="s2" align="center">run509.data</td>
+<td class="s2" align="center">15499</td>
+<td class="s2" align="center">2015-03-13 00:04:56</td>
+<td class="s2" align="center">2015-03-13 00:11:57</td>
+<td class="s2" align="center">36.81</td>
+<td class="s2" align="center">61.28</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run509.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">118</td>
+<td class="s3" align="center">run508.data</td>
+<td class="s3" align="center">31370</td>
+<td class="s3" align="center">2015-03-12 23:48:56</td>
+<td class="s3" align="center">2015-03-13 00:04:47</td>
+<td class="s3" align="center">32.99</td>
+<td class="s3" align="center">61.29</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run508.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">119</td>
+<td class="s2" align="center">run507.data</td>
+<td class="s2" align="center">42692</td>
+<td class="s2" align="center">2015-03-12 23:28:05</td>
+<td class="s2" align="center">2015-03-12 23:48:37</td>
+<td class="s2" align="center">34.65</td>
+<td class="s2" align="center">61.29</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run507.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">120</td>
+<td class="s3" align="center">run506.data</td>
+<td class="s3" align="center">24551</td>
+<td class="s3" align="center">2015-03-12 23:15:35</td>
+<td class="s3" align="center">2015-03-12 23:27:47</td>
+<td class="s3" align="center">33.54</td>
+<td class="s3" align="center">61.28</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run506.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">121</td>
+<td class="s2" align="center">run505.data</td>
+<td class="s2" align="center">16965</td>
+<td class="s2" align="center">2015-03-12 23:06:55</td>
+<td class="s2" align="center">2015-03-12 23:15:25</td>
+<td class="s2" align="center">33.26</td>
+<td class="s2" align="center">61.26</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run505.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">122</td>
+<td class="s3" align="center">run504.data</td>
+<td class="s3" align="center">46667</td>
+<td class="s3" align="center">2015-03-12 22:46:26</td>
+<td class="s3" align="center">2015-03-12 23:06:37</td>
+<td class="s3" align="center">38.54</td>
+<td class="s3" align="center">60.84</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run504.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">123</td>
+<td class="s2" align="center">run503.data</td>
+<td class="s2" align="center">41583</td>
+<td class="s2" align="center">2015-03-12 22:29:55</td>
+<td class="s2" align="center">2015-03-12 22:46:17</td>
+<td class="s2" align="center">42.35</td>
+<td class="s2" align="center">59.78</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run503.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">124</td>
+<td class="s3" align="center">run502.data</td>
+<td class="s3" align="center">32944</td>
+<td class="s3" align="center">2015-03-12 22:22:27</td>
+<td class="s3" align="center">2015-03-12 22:28:36</td>
+<td class="s3" align="center">89.28</td>
+<td class="s3" align="center">59.78</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run502.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">125</td>
+<td class="s2" align="center">run501.data</td>
+<td class="s2" align="center">21525</td>
+<td class="s2" align="center">2015-03-12 22:16:27</td>
+<td class="s2" align="center">2015-03-12 22:21:49</td>
+<td class="s2" align="center">66.85</td>
+<td class="s2" align="center">59.78</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run501.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">126</td>
+<td class="s3" align="center">run500.data</td>
+<td class="s3" align="center">23896</td>
+<td class="s3" align="center">2015-03-12 22:07:57</td>
+<td class="s3" align="center">2015-03-12 22:15:29</td>
+<td class="s3" align="center">52.87</td>
+<td class="s3" align="center">59.77</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run500.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">127</td>
+<td class="s2" align="center">run499.data</td>
+<td class="s2" align="center">3995</td>
+<td class="s2" align="center">2015-03-12 22:02:26</td>
+<td class="s2" align="center">2015-03-12 22:04:06</td>
+<td class="s2" align="center">39.95</td>
+<td class="s2" align="center">59.77</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run499.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">128</td>
+<td class="s3" align="center">run498.data</td>
+<td class="s3" align="center">5</td>
+<td class="s3" align="center">2015-03-12 21:57:15</td>
+<td class="s3" align="center">2015-03-12 21:57:15</td>
+<td class="s3" align="center">inf</td>
+<td class="s3" align="center">0.00</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run498.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">129</td>
+<td class="s2" align="center">run497.data</td>
+<td class="s2" align="center">21775</td>
+<td class="s2" align="center">2015-03-12 21:46:45</td>
+<td class="s2" align="center">2015-03-12 21:56:26</td>
+<td class="s2" align="center">37.48</td>
+<td class="s2" align="center">60.43</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run497.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">130</td>
+<td class="s3" align="center">run496.data</td>
+<td class="s3" align="center">22104</td>
+<td class="s3" align="center">2015-03-12 21:37:15</td>
+<td class="s3" align="center">2015-03-12 21:46:26</td>
+<td class="s3" align="center">40.12</td>
+<td class="s3" align="center">59.93</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run496.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">131</td>
+<td class="s2" align="center">run495.data</td>
+<td class="s2" align="center">19765</td>
+<td class="s2" align="center">2015-03-12 21:29:04</td>
+<td class="s2" align="center">2015-03-12 21:36:56</td>
+<td class="s2" align="center">41.88</td>
+<td class="s2" align="center">61.20</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run495.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">132</td>
+<td class="s3" align="center">run494.data</td>
+<td class="s3" align="center">30925</td>
+<td class="s3" align="center">2015-03-12 21:12:45</td>
+<td class="s3" align="center">2015-03-12 21:28:16</td>
+<td class="s3" align="center">33.22</td>
+<td class="s3" align="center">60.19</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run494.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">133</td>
+<td class="s2" align="center">run493.data</td>
+<td class="s2" align="center">40612</td>
+<td class="s2" align="center">2015-03-12 20:33:34</td>
+<td class="s2" align="center">2015-03-12 20:50:06</td>
+<td class="s2" align="center">40.94</td>
+<td class="s2" align="center">60.09</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run493.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">134</td>
+<td class="s3" align="center">run492.data</td>
+<td class="s3" align="center">309707</td>
+<td class="s3" align="center">2015-03-12 18:30:33</td>
+<td class="s3" align="center">2015-03-12 20:25:36</td>
+<td class="s3" align="center">44.87</td>
+<td class="s3" align="center">60.18</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run492.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">135</td>
+<td class="s2" align="center">run491.data</td>
+<td class="s2" align="center">274131</td>
+<td class="s2" align="center">2015-03-12 16:55:42</td>
+<td class="s2" align="center">2015-03-12 18:29:35</td>
+<td class="s2" align="center">48.67</td>
+<td class="s2" align="center">60.21</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run491.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">136</td>
+<td class="s3" align="center">run490.data</td>
+<td class="s3" align="center">24567</td>
+<td class="s3" align="center">2015-03-12 16:34:23</td>
+<td class="s3" align="center">2015-03-12 16:42:34</td>
+<td class="s3" align="center">50.03</td>
+<td class="s3" align="center">60.18</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run490.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">137</td>
+<td class="s2" align="center">run489.data</td>
+<td class="s2" align="center">170154</td>
+<td class="s2" align="center">2015-03-12 14:48:22</td>
+<td class="s2" align="center">2015-03-12 15:55:24</td>
+<td class="s2" align="center">42.31</td>
+<td class="s2" align="center">60.19</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run489.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">138</td>
+<td class="s3" align="center">run488.data</td>
+<td class="s3" align="center">19590</td>
+<td class="s3" align="center">2015-03-12 14:41:22</td>
+<td class="s3" align="center">2015-03-12 14:48:04</td>
+<td class="s3" align="center">48.73</td>
+<td class="s3" align="center">60.17</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run488.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">139</td>
+<td class="s2" align="center">run487.data</td>
+<td class="s2" align="center">77685</td>
+<td class="s2" align="center">2015-03-12 14:11:12</td>
+<td class="s2" align="center">2015-03-12 14:41:04</td>
+<td class="s2" align="center">43.35</td>
+<td class="s2" align="center">60.17</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run487.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">140</td>
+<td class="s3" align="center">run486.data</td>
+<td class="s3" align="center">24559</td>
+<td class="s3" align="center">2015-03-12 13:50:33</td>
+<td class="s3" align="center">2015-03-12 13:58:24</td>
+<td class="s3" align="center">52.14</td>
+<td class="s3" align="center">62.75</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run486.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">141</td>
+<td class="s2" align="center">run485.data</td>
+<td class="s2" align="center">44152</td>
+<td class="s2" align="center">2015-03-12 13:37:31</td>
+<td class="s2" align="center">2015-03-12 13:50:22</td>
+<td class="s2" align="center">57.27</td>
+<td class="s2" align="center">62.74</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run485.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">142</td>
+<td class="s3" align="center">run484.data</td>
+<td class="s3" align="center">1553</td>
+<td class="s3" align="center">2015-03-12 13:34:21</td>
+<td class="s3" align="center">2015-03-12 13:37:13</td>
+<td class="s3" align="center">9.03</td>
+<td class="s3" align="center">62.75</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run484.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">143</td>
+<td class="s2" align="center">run483.data</td>
+<td class="s2" align="center">5</td>
+<td class="s2" align="center">2015-03-12 12:49:41</td>
+<td class="s2" align="center">2015-03-12 12:49:41</td>
+<td class="s2" align="center">inf</td>
+<td class="s2" align="center">0.00</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run483.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">144</td>
+<td class="s3" align="center">run482.data</td>
+<td class="s3" align="center">23979</td>
+<td class="s3" align="center">2015-03-12 12:30:31</td>
+<td class="s3" align="center">2015-03-12 12:44:42</td>
+<td class="s3" align="center">28.18</td>
+<td class="s3" align="center">58.53</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run482.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">145</td>
+<td class="s2" align="center">run481.data</td>
+<td class="s2" align="center">16522</td>
+<td class="s2" align="center">2015-03-12 12:25:51</td>
+<td class="s2" align="center">2015-03-12 12:30:13</td>
+<td class="s2" align="center">63.06</td>
+<td class="s2" align="center">54.33</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run481.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">146</td>
+<td class="s3" align="center">run480.data</td>
+<td class="s3" align="center">25055</td>
+<td class="s3" align="center">2015-03-12 12:18:21</td>
+<td class="s3" align="center">2015-03-12 12:25:33</td>
+<td class="s3" align="center">58.00</td>
+<td class="s3" align="center">53.75</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run480.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">147</td>
+<td class="s2" align="center">run479.data</td>
+<td class="s2" align="center">5</td>
+<td class="s2" align="center">2015-03-12 12:17:21</td>
+<td class="s2" align="center">2015-03-12 12:17:21</td>
+<td class="s2" align="center">inf</td>
+<td class="s2" align="center">0.00</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run479.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">148</td>
+<td class="s3" align="center">run478.data</td>
+<td class="s3" align="center">30653</td>
+<td class="s3" align="center">2015-03-12 12:07:21</td>
+<td class="s3" align="center">2015-03-12 12:15:33</td>
+<td class="s3" align="center">62.30</td>
+<td class="s3" align="center">55.74</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run478.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">149</td>
+<td class="s2" align="center">run477.data</td>
+<td class="s2" align="center">28434</td>
+<td class="s2" align="center">2015-03-12 11:58:21</td>
+<td class="s2" align="center">2015-03-12 12:06:53</td>
+<td class="s2" align="center">55.54</td>
+<td class="s2" align="center">55.92</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run477.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">150</td>
+<td class="s3" align="center">run476.data</td>
+<td class="s3" align="center">37059</td>
+<td class="s3" align="center">2015-03-12 11:47:51</td>
+<td class="s3" align="center">2015-03-12 11:58:03</td>
+<td class="s3" align="center">60.55</td>
+<td class="s3" align="center">55.91</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run476.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">151</td>
+<td class="s2" align="center">run475.data</td>
+<td class="s2" align="center">5</td>
+<td class="s2" align="center">2015-03-12 11:46:31</td>
+<td class="s2" align="center">2015-03-12 11:46:31</td>
+<td class="s2" align="center">inf</td>
+<td class="s2" align="center">0.00</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run475.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">152</td>
+<td class="s3" align="center">run474.data</td>
+<td class="s3" align="center">29051</td>
+<td class="s3" align="center">2015-03-12 11:36:50</td>
+<td class="s3" align="center">2015-03-12 11:45:13</td>
+<td class="s3" align="center">57.76</td>
+<td class="s3" align="center">55.90</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run474.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">153</td>
+<td class="s2" align="center">run473.data</td>
+<td class="s2" align="center">31923</td>
+<td class="s2" align="center">2015-03-12 11:26:21</td>
+<td class="s2" align="center">2015-03-12 11:36:23</td>
+<td class="s2" align="center">53.03</td>
+<td class="s2" align="center">55.90</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run473.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">154</td>
+<td class="s3" align="center">run472.data</td>
+<td class="s3" align="center">31807</td>
+<td class="s3" align="center">2015-03-12 11:16:30</td>
+<td class="s3" align="center">2015-03-12 11:24:53</td>
+<td class="s3" align="center">63.23</td>
+<td class="s3" align="center">55.89</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run472.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">155</td>
+<td class="s2" align="center">run471.data</td>
+<td class="s2" align="center">6775</td>
+<td class="s2" align="center">2015-03-12 11:08:50</td>
+<td class="s2" align="center">2015-03-12 11:10:22</td>
+<td class="s2" align="center">73.64</td>
+<td class="s2" align="center">55.89</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run471.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">156</td>
+<td class="s3" align="center">run470.data</td>
+<td class="s3" align="center">5296</td>
+<td class="s3" align="center">2015-03-12 11:07:00</td>
+<td class="s3" align="center">2015-03-12 11:08:12</td>
+<td class="s3" align="center">73.56</td>
+<td class="s3" align="center">55.92</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run470.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">157</td>
+<td class="s2" align="center">run468.data</td>
+<td class="s2" align="center">4521</td>
+<td class="s2" align="center">2015-03-12 11:02:20</td>
+<td class="s2" align="center">2015-03-12 11:03:22</td>
+<td class="s2" align="center">72.92</td>
+<td class="s2" align="center">55.94</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run468.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">158</td>
+<td class="s3" align="center">run467.data</td>
+<td class="s3" align="center">7208</td>
+<td class="s3" align="center">2015-03-12 11:00:10</td>
+<td class="s3" align="center">2015-03-12 11:01:52</td>
+<td class="s3" align="center">70.67</td>
+<td class="s3" align="center">55.94</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run467.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">159</td>
+<td class="s2" align="center">run466.data</td>
+<td class="s2" align="center">5811</td>
+<td class="s2" align="center">2015-03-12 10:58:20</td>
+<td class="s2" align="center">2015-03-12 10:59:42</td>
+<td class="s2" align="center">70.87</td>
+<td class="s2" align="center">55.91</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run466.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">160</td>
+<td class="s3" align="center">run465.data</td>
+<td class="s3" align="center">19188</td>
+<td class="s3" align="center">2015-03-12 10:52:40</td>
+<td class="s3" align="center">2015-03-12 10:57:12</td>
+<td class="s3" align="center">70.54</td>
+<td class="s3" align="center">22.57</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run465.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">161</td>
+<td class="s2" align="center">run462.data</td>
+<td class="s2" align="center">6438</td>
+<td class="s2" align="center">2015-03-12 08:36:19</td>
+<td class="s2" align="center">2015-03-12 08:37:42</td>
+<td class="s2" align="center">77.57</td>
+<td class="s2" align="center">55.93</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run462.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">162</td>
+<td class="s3" align="center">run458.data</td>
+<td class="s3" align="center">185868</td>
+<td class="s3" align="center">2015-03-12 07:35:49</td>
+<td class="s3" align="center">2015-03-12 08:24:31</td>
+<td class="s3" align="center">63.61</td>
+<td class="s3" align="center">55.96</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run458.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">163</td>
+<td class="s2" align="center">run457.data</td>
+<td class="s2" align="center">326868</td>
+<td class="s2" align="center">2015-03-12 05:37:28</td>
+<td class="s2" align="center">2015-03-12 07:09:29</td>
+<td class="s2" align="center">59.20</td>
+<td class="s2" align="center">56.00</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run457.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">164</td>
+<td class="s3" align="center">run456.data</td>
+<td class="s3" align="center">262103</td>
+<td class="s3" align="center">2015-03-12 04:23:08</td>
+<td class="s3" align="center">2015-03-12 05:37:10</td>
+<td class="s3" align="center">59.01</td>
+<td class="s3" align="center">55.99</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run456.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">165</td>
+<td class="s2" align="center">run455.data</td>
+<td class="s2" align="center">314008</td>
+<td class="s2" align="center">2015-03-12 02:05:57</td>
+<td class="s2" align="center">2015-03-12 03:40:19</td>
+<td class="s2" align="center">55.46</td>
+<td class="s2" align="center">55.96</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run455.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">166</td>
+<td class="s3" align="center">run454.data</td>
+<td class="s3" align="center">239065</td>
+<td class="s3" align="center">2015-03-12 01:06:27</td>
+<td class="s3" align="center">2015-03-12 02:05:28</td>
+<td class="s3" align="center">67.51</td>
+<td class="s3" align="center">55.91</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run454.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">167</td>
+<td class="s2" align="center">run453.data</td>
+<td class="s2" align="center">36926</td>
+<td class="s2" align="center">2015-03-12 00:55:07</td>
+<td class="s2" align="center">2015-03-12 01:04:29</td>
+<td class="s2" align="center">65.70</td>
+<td class="s2" align="center">55.94</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run453.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">168</td>
+<td class="s3" align="center">run450.data</td>
+<td class="s3" align="center">40947</td>
+<td class="s3" align="center">2015-03-12 00:41:08</td>
+<td class="s3" align="center">2015-03-12 00:51:09</td>
+<td class="s3" align="center">68.13</td>
+<td class="s3" align="center">55.91</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run450.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">169</td>
+<td class="s2" align="center">run449.data</td>
+<td class="s2" align="center">20434</td>
+<td class="s2" align="center">2015-03-12 00:38:16</td>
+<td class="s2" align="center">2015-03-12 00:40:59</td>
+<td class="s2" align="center">125.36</td>
+<td class="s2" align="center">55.91</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run449.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">170</td>
+<td class="s3" align="center">run448.data</td>
+<td class="s3" align="center">68738</td>
+<td class="s3" align="center">2015-03-12 00:15:46</td>
+<td class="s3" align="center">2015-03-12 00:33:28</td>
+<td class="s3" align="center">64.73</td>
+<td class="s3" align="center">55.97</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run448.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">171</td>
+<td class="s2" align="center">run447.data</td>
+<td class="s2" align="center">158</td>
+<td class="s2" align="center">2015-03-12 00:14:46</td>
+<td class="s2" align="center">2015-03-12 00:15:27</td>
+<td class="s2" align="center">3.85</td>
+<td class="s2" align="center">56.00</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run447.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">172</td>
+<td class="s3" align="center">run446.data</td>
+<td class="s3" align="center">153</td>
+<td class="s3" align="center">2015-03-12 00:14:26</td>
+<td class="s3" align="center">2015-03-12 00:14:27</td>
+<td class="s3" align="center">153.00</td>
+<td class="s3" align="center">0.00</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run446.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">173</td>
+<td class="s2" align="center">run445.data</td>
+<td class="s2" align="center">696</td>
+<td class="s2" align="center">2015-03-12 00:13:06</td>
+<td class="s2" align="center">2015-03-12 00:13:08</td>
+<td class="s2" align="center">348.00</td>
+<td class="s2" align="center">55.99</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run445.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">174</td>
+<td class="s3" align="center">run444.data</td>
+<td class="s3" align="center">321</td>
+<td class="s3" align="center">2015-03-12 00:11:56</td>
+<td class="s3" align="center">2015-03-12 00:11:57</td>
+<td class="s3" align="center">321.00</td>
+<td class="s3" align="center">55.97</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run444.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">175</td>
+<td class="s2" align="center">run442.data</td>
+<td class="s2" align="center">1668</td>
+<td class="s2" align="center">2015-03-12 00:08:46</td>
+<td class="s2" align="center">2015-03-12 00:09:07</td>
+<td class="s2" align="center">79.43</td>
+<td class="s2" align="center">55.99</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run442.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">176</td>
+<td class="s3" align="center">run432.data</td>
+<td class="s3" align="center">13302</td>
+<td class="s3" align="center">2015-03-11 23:29:26</td>
+<td class="s3" align="center">2015-03-11 23:37:16</td>
+<td class="s3" align="center">28.30</td>
+<td class="s3" align="center">55.98</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run432.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">177</td>
+<td class="s2" align="center">run431.data</td>
+<td class="s2" align="center">8619</td>
+<td class="s2" align="center">2015-03-11 23:26:57</td>
+<td class="s2" align="center">2015-03-11 23:29:08</td>
+<td class="s2" align="center">65.79</td>
+<td class="s2" align="center">55.99</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run431.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">178</td>
+<td class="s3" align="center">run430.data</td>
+<td class="s3" align="center">104</td>
+<td class="s3" align="center">2015-03-11 23:26:06</td>
+<td class="s3" align="center">2015-03-11 23:26:06</td>
+<td class="s3" align="center">inf</td>
+<td class="s3" align="center">55.96</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run430.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">179</td>
+<td class="s2" align="center">run429.data</td>
+<td class="s2" align="center">71</td>
+<td class="s2" align="center">2015-03-11 23:25:47</td>
+<td class="s2" align="center">2015-03-11 23:25:47</td>
+<td class="s2" align="center">inf</td>
+<td class="s2" align="center">0.00</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run429.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">180</td>
+<td class="s3" align="center">run427.data</td>
+<td class="s3" align="center">4217</td>
+<td class="s3" align="center">2015-03-11 23:19:47</td>
+<td class="s3" align="center">2015-03-11 23:20:08</td>
+<td class="s3" align="center">200.81</td>
+<td class="s3" align="center">55.99</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run427.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">181</td>
+<td class="s2" align="center">run426.data</td>
+<td class="s2" align="center">237</td>
+<td class="s2" align="center">2015-03-11 23:18:56</td>
+<td class="s2" align="center">2015-03-11 23:18:56</td>
+<td class="s2" align="center">inf</td>
+<td class="s2" align="center">0.00</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run426.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">182</td>
+<td class="s3" align="center">run425.data</td>
+<td class="s3" align="center">18817</td>
+<td class="s3" align="center">2015-03-11 23:04:56</td>
+<td class="s3" align="center">2015-03-11 23:15:26</td>
+<td class="s3" align="center">29.87</td>
+<td class="s3" align="center">0.36</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run425.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">183</td>
+<td class="s2" align="center">run424.data</td>
+<td class="s2" align="center">56530</td>
+<td class="s2" align="center">2015-03-11 22:49:55</td>
+<td class="s2" align="center">2015-03-11 23:02:58</td>
+<td class="s2" align="center">72.20</td>
+<td class="s2" align="center">0.06</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run424.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">184</td>
+<td class="s3" align="center">run423.data</td>
+<td class="s3" align="center">10562</td>
+<td class="s3" align="center">2015-03-11 22:17:25</td>
+<td class="s3" align="center">2015-03-11 22:20:28</td>
+<td class="s3" align="center">57.72</td>
+<td class="s3" align="center">0.06</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run423.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">185</td>
+<td class="s2" align="center">run422.data</td>
+<td class="s2" align="center">48713</td>
+<td class="s2" align="center">2015-03-11 22:06:26</td>
+<td class="s2" align="center">2015-03-11 22:11:00</td>
+<td class="s2" align="center">177.78</td>
+<td class="s2" align="center">0.06</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run422.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">186</td>
+<td class="s3" align="center">run421.data</td>
+<td class="s3" align="center">4894</td>
+<td class="s3" align="center">2015-03-11 22:05:15</td>
+<td class="s3" align="center">2015-03-11 22:05:25</td>
+<td class="s3" align="center">489.40</td>
+<td class="s3" align="center">0.06</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run421.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">187</td>
+<td class="s2" align="center">run420.data</td>
+<td class="s2" align="center">16482</td>
+<td class="s2" align="center">2015-03-11 22:03:15</td>
+<td class="s2" align="center">2015-03-11 22:03:47</td>
+<td class="s2" align="center">515.06</td>
+<td class="s2" align="center">0.06</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run420.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">188</td>
+<td class="s3" align="center">run419.data</td>
+<td class="s3" align="center">3273</td>
+<td class="s3" align="center">2015-03-11 22:02:55</td>
+<td class="s3" align="center">2015-03-11 22:02:59</td>
+<td class="s3" align="center">818.25</td>
+<td class="s3" align="center">0.06</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run419.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">189</td>
+<td class="s2" align="center">run418.data</td>
+<td class="s2" align="center">2916</td>
+<td class="s2" align="center">2015-03-11 22:00:40</td>
+<td class="s2" align="center">2015-03-11 22:00:57</td>
+<td class="s2" align="center">171.53</td>
+<td class="s2" align="center">0.06</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run418.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">190</td>
+<td class="s3" align="center">run417.data</td>
+<td class="s3" align="center">14505</td>
+<td class="s3" align="center">2015-03-11 21:59:55</td>
+<td class="s3" align="center">2015-03-11 22:00:20</td>
+<td class="s3" align="center">580.20</td>
+<td class="s3" align="center">0.06</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run417.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">191</td>
+<td class="s2" align="center">run416.data</td>
+<td class="s2" align="center">11847</td>
+<td class="s2" align="center">2015-03-11 21:58:26</td>
+<td class="s2" align="center">2015-03-11 21:59:30</td>
+<td class="s2" align="center">185.11</td>
+<td class="s2" align="center">0.06</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run416.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">192</td>
+<td class="s3" align="center">run415.data</td>
+<td class="s3" align="center">5</td>
+<td class="s3" align="center">2015-03-11 21:56:55</td>
+<td class="s3" align="center">2015-03-11 21:56:55</td>
+<td class="s3" align="center">inf</td>
+<td class="s3" align="center">0.06</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run415.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">193</td>
+<td class="s2" align="center">run414.data</td>
+<td class="s2" align="center">43647</td>
+<td class="s2" align="center">2015-03-11 21:43:46</td>
+<td class="s2" align="center">2015-03-11 21:49:00</td>
+<td class="s2" align="center">139.00</td>
+<td class="s2" align="center">0.06</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run414.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">194</td>
+<td class="s3" align="center">run413.data</td>
+<td class="s3" align="center">8551</td>
+<td class="s3" align="center">2015-03-11 21:40:27</td>
+<td class="s3" align="center">2015-03-11 21:42:20</td>
+<td class="s3" align="center">75.67</td>
+<td class="s3" align="center">0.06</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run413.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">195</td>
+<td class="s2" align="center">run412.data</td>
+<td class="s2" align="center">176276</td>
+<td class="s2" align="center">2015-03-11 21:29:16</td>
+<td class="s2" align="center">2015-03-11 21:31:08</td>
+<td class="s2" align="center">1573.89</td>
+<td class="s2" align="center">0.06</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run412.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">196</td>
+<td class="s3" align="center">run411.data</td>
+<td class="s3" align="center">2987</td>
+<td class="s3" align="center">2015-03-11 21:18:46</td>
+<td class="s3" align="center">2015-03-11 21:18:49</td>
+<td class="s3" align="center">995.67</td>
+<td class="s3" align="center">0.00</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run411.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">197</td>
+<td class="s2" align="center">run410.data</td>
+<td class="s2" align="center">2753</td>
+<td class="s2" align="center">2015-03-11 21:17:25</td>
+<td class="s2" align="center">2015-03-11 21:17:28</td>
+<td class="s2" align="center">917.67</td>
+<td class="s2" align="center">0.00</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run410.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">198</td>
+<td class="s3" align="center">run409.data</td>
+<td class="s3" align="center">56776</td>
+<td class="s3" align="center">2015-03-11 21:14:46</td>
+<td class="s3" align="center">2015-03-11 21:16:40</td>
+<td class="s3" align="center">498.04</td>
+<td class="s3" align="center">0.06</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run409.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">199</td>
+<td class="s2" align="center">run408.data</td>
+<td class="s2" align="center">79627</td>
+<td class="s2" align="center">2015-03-11 21:11:25</td>
+<td class="s2" align="center">2015-03-11 21:14:38</td>
+<td class="s2" align="center">412.58</td>
+<td class="s2" align="center">0.06</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run408.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">200</td>
+<td class="s3" align="center">run407.data</td>
+<td class="s3" align="center">79392</td>
+<td class="s3" align="center">2015-03-11 21:08:06</td>
+<td class="s3" align="center">2015-03-11 21:10:48</td>
+<td class="s3" align="center">490.07</td>
+<td class="s3" align="center">0.06</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run407.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">201</td>
+<td class="s2" align="center">run406.data</td>
+<td class="s2" align="center">38369</td>
+<td class="s2" align="center">2015-03-11 21:04:35</td>
+<td class="s2" align="center">2015-03-11 21:07:57</td>
+<td class="s2" align="center">189.95</td>
+<td class="s2" align="center">0.06</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run406.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">202</td>
+<td class="s3" align="center">run405.data</td>
+<td class="s3" align="center">18090</td>
+<td class="s3" align="center">2015-03-11 21:03:16</td>
+<td class="s3" align="center">2015-03-11 21:03:50</td>
+<td class="s3" align="center">532.06</td>
+<td class="s3" align="center">0.07</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run405.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">203</td>
+<td class="s2" align="center">run404.data</td>
+<td class="s2" align="center">59466</td>
+<td class="s2" align="center">2015-03-11 21:00:46</td>
+<td class="s2" align="center">2015-03-11 21:02:47</td>
+<td class="s2" align="center">491.45</td>
+<td class="s2" align="center">0.06</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run404.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">204</td>
+<td class="s3" align="center">run403.data</td>
+<td class="s3" align="center">4697</td>
+<td class="s3" align="center">2015-03-11 20:59:55</td>
+<td class="s3" align="center">2015-03-11 21:00:00</td>
+<td class="s3" align="center">939.40</td>
+<td class="s3" align="center">0.05</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run403.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">205</td>
+<td class="s2" align="center">run395.data</td>
+<td class="s2" align="center">99324</td>
+<td class="s2" align="center">2015-03-08 13:48:26</td>
+<td class="s2" align="center">2015-03-08 14:27:20</td>
+<td class="s2" align="center">42.56</td>
+<td class="s2" align="center">0.05</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run395.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">206</td>
+<td class="s3" align="center">run394.data</td>
+<td class="s3" align="center">5803</td>
+<td class="s3" align="center">2015-03-08 13:31:56</td>
+<td class="s3" align="center">2015-03-08 13:41:55</td>
+<td class="s3" align="center">9.69</td>
+<td class="s3" align="center">0.04</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run394.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">207</td>
+<td class="s2" align="center">run393.data</td>
+<td class="s2" align="center">90424</td>
+<td class="s2" align="center">2015-03-08 12:51:02</td>
+<td class="s2" align="center">2015-03-08 13:30:30</td>
+<td class="s2" align="center">38.19</td>
+<td class="s2" align="center">0.05</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run393.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">208</td>
+<td class="s3" align="center">run392.data</td>
+<td class="s3" align="center">581</td>
+<td class="s3" align="center">2015-03-08 12:35:17</td>
+<td class="s3" align="center">2015-03-08 12:43:55</td>
+<td class="s3" align="center">1.12</td>
+<td class="s3" align="center">0.04</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run392.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">209</td>
+<td class="s2" align="center">run391.data</td>
+<td class="s2" align="center">30690</td>
+<td class="s2" align="center">2015-03-08 12:16:12</td>
+<td class="s2" align="center">2015-03-08 12:27:58</td>
+<td class="s2" align="center">43.47</td>
+<td class="s2" align="center">0.05</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run391.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">210</td>
+<td class="s3" align="center">run390.data</td>
+<td class="s3" align="center">10496</td>
+<td class="s3" align="center">2015-03-08 12:08:31</td>
+<td class="s3" align="center">2015-03-08 12:13:06</td>
+<td class="s3" align="center">38.17</td>
+<td class="s3" align="center">0.05</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run390.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">211</td>
+<td class="s2" align="center">run389.data</td>
+<td class="s2" align="center">16478</td>
+<td class="s2" align="center">2015-03-08 12:01:22</td>
+<td class="s2" align="center">2015-03-08 12:08:10</td>
+<td class="s2" align="center">40.39</td>
+<td class="s2" align="center">0.04</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run389.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">212</td>
+<td class="s3" align="center">run388.data</td>
+<td class="s3" align="center">12867</td>
+<td class="s3" align="center">2015-03-08 11:53:28</td>
+<td class="s3" align="center">2015-03-08 11:59:11</td>
+<td class="s3" align="center">37.51</td>
+<td class="s3" align="center">0.05</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run388.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">213</td>
+<td class="s2" align="center">run387.data</td>
+<td class="s2" align="center">22771</td>
+<td class="s2" align="center">2015-03-08 11:43:23</td>
+<td class="s2" align="center">2015-03-08 11:52:02</td>
+<td class="s2" align="center">43.87</td>
+<td class="s2" align="center">0.08</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run387.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">214</td>
+<td class="s3" align="center">run386.data</td>
+<td class="s3" align="center">102993</td>
+<td class="s3" align="center">2015-03-08 10:56:27</td>
+<td class="s3" align="center">2015-03-08 11:40:51</td>
+<td class="s3" align="center">38.66</td>
+<td class="s3" align="center">66.08</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run386.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">215</td>
+<td class="s2" align="center">run385.data</td>
+<td class="s2" align="center">84939</td>
+<td class="s2" align="center">2015-03-08 10:03:40</td>
+<td class="s2" align="center">2015-03-08 10:42:21</td>
+<td class="s2" align="center">36.60</td>
+<td class="s2" align="center">66.07</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run385.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">216</td>
+<td class="s3" align="center">run384.data</td>
+<td class="s3" align="center">106619</td>
+<td class="s3" align="center">2015-03-08 09:06:26</td>
+<td class="s3" align="center">2015-03-08 09:49:44</td>
+<td class="s3" align="center">41.04</td>
+<td class="s3" align="center">66.08</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run384.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">217</td>
+<td class="s2" align="center">run383.data</td>
+<td class="s2" align="center">77007</td>
+<td class="s2" align="center">2015-03-08 07:16:04</td>
+<td class="s2" align="center">2015-03-08 07:46:54</td>
+<td class="s2" align="center">41.63</td>
+<td class="s2" align="center">66.10</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run383.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">218</td>
+<td class="s3" align="center">run382.data</td>
+<td class="s3" align="center">101389</td>
+<td class="s3" align="center">2015-03-08 06:34:27</td>
+<td class="s3" align="center">2015-03-08 07:11:08</td>
+<td class="s3" align="center">46.06</td>
+<td class="s3" align="center">66.07</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run382.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">219</td>
+<td class="s2" align="center">run381.data</td>
+<td class="s2" align="center">11715</td>
+<td class="s2" align="center">2015-03-08 06:24:00</td>
+<td class="s2" align="center">2015-03-08 06:28:03</td>
+<td class="s2" align="center">48.21</td>
+<td class="s2" align="center">68.76</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run381.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">220</td>
+<td class="s3" align="center">run380.data</td>
+<td class="s3" align="center">125360</td>
+<td class="s3" align="center">2015-03-08 05:32:06</td>
+<td class="s3" align="center">2015-03-08 06:16:52</td>
+<td class="s3" align="center">46.67</td>
+<td class="s3" align="center">68.79</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run380.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">221</td>
+<td class="s2" align="center">run378.data</td>
+<td class="s2" align="center">2104</td>
+<td class="s2" align="center">2015-03-08 05:29:43</td>
+<td class="s2" align="center">2015-03-08 05:30:18</td>
+<td class="s2" align="center">60.11</td>
+<td class="s2" align="center">68.78</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run378.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">222</td>
+<td class="s3" align="center">run377.data</td>
+<td class="s3" align="center">14929</td>
+<td class="s3" align="center">2015-03-08 05:24:02</td>
+<td class="s3" align="center">2015-03-08 05:29:12</td>
+<td class="s3" align="center">48.16</td>
+<td class="s3" align="center">68.78</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run377.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">223</td>
+<td class="s2" align="center">run376.data</td>
+<td class="s2" align="center">203782</td>
+<td class="s2" align="center">2015-03-08 05:09:44</td>
+<td class="s2" align="center">2015-03-08 05:18:56</td>
+<td class="s2" align="center">369.17</td>
+<td class="s2" align="center">74.56</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run376.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">224</td>
+<td class="s3" align="center">run375.data</td>
+<td class="s3" align="center">111864</td>
+<td class="s3" align="center">2015-03-08 04:58:33</td>
+<td class="s3" align="center">2015-03-08 05:03:32</td>
+<td class="s3" align="center">374.13</td>
+<td class="s3" align="center">69.02</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run375.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">225</td>
+<td class="s2" align="center">run374.data</td>
+<td class="s2" align="center">149</td>
+<td class="s2" align="center">2015-03-08 04:55:59</td>
+<td class="s2" align="center">2015-03-08 04:57:40</td>
+<td class="s2" align="center">1.48</td>
+<td class="s2" align="center">69.01</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run374.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">226</td>
+<td class="s3" align="center">run373.data</td>
+<td class="s3" align="center">93475</td>
+<td class="s3" align="center">2015-03-08 04:47:00</td>
+<td class="s3" align="center">2015-03-08 04:51:13</td>
+<td class="s3" align="center">369.47</td>
+<td class="s3" align="center">69.04</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run373.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">227</td>
+<td class="s2" align="center">run370.data</td>
+<td class="s2" align="center">21389</td>
+<td class="s2" align="center">2015-03-08 03:44:18</td>
+<td class="s2" align="center">2015-03-08 04:05:35</td>
+<td class="s2" align="center">16.75</td>
+<td class="s2" align="center">69.04</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run370.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">228</td>
+<td class="s3" align="center">run369.data</td>
+<td class="s3" align="center">7075</td>
+<td class="s3" align="center">2015-03-08 03:27:37</td>
+<td class="s3" align="center">2015-03-08 03:28:21</td>
+<td class="s3" align="center">160.80</td>
+<td class="s3" align="center">69.05</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run369.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">229</td>
+<td class="s2" align="center">run368.data</td>
+<td class="s2" align="center">5801</td>
+<td class="s2" align="center">2015-03-08 03:16:04</td>
+<td class="s2" align="center">2015-03-08 03:16:26</td>
+<td class="s2" align="center">263.68</td>
+<td class="s2" align="center">69.07</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run368.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">230</td>
+<td class="s3" align="center">run367.data</td>
+<td class="s3" align="center">1220</td>
+<td class="s3" align="center">2015-03-08 03:13:29</td>
+<td class="s3" align="center">2015-03-08 03:13:30</td>
+<td class="s3" align="center">1220.00</td>
+<td class="s3" align="center">69.07</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run367.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">231</td>
+<td class="s2" align="center">run366.data</td>
+<td class="s2" align="center">15447</td>
+<td class="s2" align="center">2015-03-08 02:46:43</td>
+<td class="s2" align="center">2015-03-08 02:51:30</td>
+<td class="s2" align="center">53.82</td>
+<td class="s2" align="center">69.07</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run366.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">232</td>
+<td class="s3" align="center">run365.data</td>
+<td class="s3" align="center">8532</td>
+<td class="s3" align="center">2015-03-08 02:36:49</td>
+<td class="s3" align="center">2015-03-08 02:41:04</td>
+<td class="s3" align="center">33.46</td>
+<td class="s3" align="center">69.06</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run365.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">233</td>
+<td class="s2" align="center">run364.data</td>
+<td class="s2" align="center">3155</td>
+<td class="s2" align="center">2015-03-08 02:30:35</td>
+<td class="s2" align="center">2015-03-08 02:31:20</td>
+<td class="s2" align="center">70.11</td>
+<td class="s2" align="center">69.06</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run364.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">234</td>
+<td class="s3" align="center">run363.data</td>
+<td class="s3" align="center">6766</td>
+<td class="s3" align="center">2015-03-08 02:13:45</td>
+<td class="s3" align="center">2015-03-08 02:14:28</td>
+<td class="s3" align="center">157.35</td>
+<td class="s3" align="center">69.10</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run363.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">235</td>
+<td class="s2" align="center">run362.data</td>
+<td class="s2" align="center">96120</td>
+<td class="s2" align="center">2015-03-08 01:22:23</td>
+<td class="s2" align="center">2015-03-08 01:35:47</td>
+<td class="s2" align="center">119.55</td>
+<td class="s2" align="center">61.70</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run362.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">236</td>
+<td class="s3" align="center">run361.data</td>
+<td class="s3" align="center">8979</td>
+<td class="s3" align="center">2015-03-08 01:15:59</td>
+<td class="s3" align="center">2015-03-08 01:16:31</td>
+<td class="s3" align="center">280.59</td>
+<td class="s3" align="center">61.69</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run361.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">237</td>
+<td class="s2" align="center">run360.data</td>
+<td class="s2" align="center">80511</td>
+<td class="s2" align="center">2015-03-08 00:24:28</td>
+<td class="s2" align="center">2015-03-08 00:35:17</td>
+<td class="s2" align="center">124.05</td>
+<td class="s2" align="center">56.50</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run360.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">238</td>
+<td class="s3" align="center">run359.data</td>
+<td class="s3" align="center">5082</td>
+<td class="s3" align="center">2015-03-08 00:00:14</td>
+<td class="s3" align="center">2015-03-08 00:00:37</td>
+<td class="s3" align="center">220.96</td>
+<td class="s3" align="center">56.49</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run359.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">239</td>
+<td class="s2" align="center">run358.data</td>
+<td class="s2" align="center">601</td>
+<td class="s2" align="center">2015-03-07 23:59:19</td>
+<td class="s2" align="center">2015-03-07 23:59:42</td>
+<td class="s2" align="center">26.13</td>
+<td class="s2" align="center">55.82</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run358.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">240</td>
+<td class="s3" align="center">run357.data</td>
+<td class="s3" align="center">64053</td>
+<td class="s3" align="center">2015-03-07 23:18:04</td>
+<td class="s3" align="center">2015-03-07 23:27:15</td>
+<td class="s3" align="center">116.25</td>
+<td class="s3" align="center">0.04</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run357.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">241</td>
+<td class="s2" align="center">run356.data</td>
+<td class="s2" align="center">18356</td>
+<td class="s2" align="center">2015-03-07 22:56:59</td>
+<td class="s2" align="center">2015-03-07 22:58:06</td>
+<td class="s2" align="center">273.97</td>
+<td class="s2" align="center">0.04</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run356.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">242</td>
+<td class="s3" align="center">run355.data</td>
+<td class="s3" align="center">118659</td>
+<td class="s3" align="center">2015-03-07 18:29:23</td>
+<td class="s3" align="center">2015-03-07 19:40:24</td>
+<td class="s3" align="center">27.85</td>
+<td class="s3" align="center">68.40</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run355.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">243</td>
+<td class="s2" align="center">run354.data</td>
+<td class="s2" align="center">440</td>
+<td class="s2" align="center">2015-03-07 18:15:45</td>
+<td class="s2" align="center">2015-03-07 18:25:34</td>
+<td class="s2" align="center">0.75</td>
+<td class="s2" align="center">68.43</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run354.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">244</td>
+<td class="s3" align="center">run353.data</td>
+<td class="s3" align="center">11</td>
+<td class="s3" align="center">2015-03-07 18:13:45</td>
+<td class="s3" align="center">2015-03-07 18:13:50</td>
+<td class="s3" align="center">2.20</td>
+<td class="s3" align="center">68.44</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run353.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">245</td>
+<td class="s2" align="center">run352.data</td>
+<td class="s2" align="center">90</td>
+<td class="s2" align="center">2015-03-07 18:02:15</td>
+<td class="s2" align="center">2015-03-07 18:04:05</td>
+<td class="s2" align="center">0.82</td>
+<td class="s2" align="center">68.42</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run352.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">246</td>
+<td class="s3" align="center">run350.data</td>
+<td class="s3" align="center">3989</td>
+<td class="s3" align="center">2015-03-07 17:49:10</td>
+<td class="s3" align="center">2015-03-07 17:50:50</td>
+<td class="s3" align="center">39.89</td>
+<td class="s3" align="center">68.41</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run350.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">247</td>
+<td class="s2" align="center">run349.data</td>
+<td class="s2" align="center">60</td>
+<td class="s2" align="center">2015-03-07 17:48:24</td>
+<td class="s2" align="center">2015-03-07 17:48:54</td>
+<td class="s2" align="center">2.00</td>
+<td class="s2" align="center">68.38</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run349.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">248</td>
+<td class="s3" align="center">run348.data</td>
+<td class="s3" align="center">118</td>
+<td class="s3" align="center">2015-03-07 17:47:54</td>
+<td class="s3" align="center">2015-03-07 17:48:08</td>
+<td class="s3" align="center">8.43</td>
+<td class="s3" align="center">68.41</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run348.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">249</td>
+<td class="s2" align="center">run347.data</td>
+<td class="s2" align="center">13</td>
+<td class="s2" align="center">2015-03-07 17:47:22</td>
+<td class="s2" align="center">2015-03-07 17:47:27</td>
+<td class="s2" align="center">2.60</td>
+<td class="s2" align="center">0.00</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run347.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">250</td>
+<td class="s3" align="center">run346.data</td>
+<td class="s3" align="center">11</td>
+<td class="s3" align="center">2015-03-07 17:46:37</td>
+<td class="s3" align="center">2015-03-07 17:46:42</td>
+<td class="s3" align="center">2.20</td>
+<td class="s3" align="center">68.37</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run346.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">251</td>
+<td class="s2" align="center">run345.data</td>
+<td class="s2" align="center">131</td>
+<td class="s2" align="center">2015-03-07 17:43:22</td>
+<td class="s2" align="center">2015-03-07 17:46:10</td>
+<td class="s2" align="center">0.78</td>
+<td class="s2" align="center">68.40</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run345.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">252</td>
+<td class="s3" align="center">run344.data</td>
+<td class="s3" align="center">20</td>
+<td class="s3" align="center">2015-03-07 17:41:07</td>
+<td class="s3" align="center">2015-03-07 17:43:10</td>
+<td class="s3" align="center">0.16</td>
+<td class="s3" align="center">68.43</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run344.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">253</td>
+<td class="s2" align="center">run343.data</td>
+<td class="s2" align="center">121</td>
+<td class="s2" align="center">2015-03-07 17:41:07</td>
+<td class="s2" align="center">2015-03-07 17:41:27</td>
+<td class="s2" align="center">6.05</td>
+<td class="s2" align="center">68.42</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run343.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">254</td>
+<td class="s3" align="center">run339.data</td>
+<td class="s3" align="center">400</td>
+<td class="s3" align="center">2015-03-07 17:12:07</td>
+<td class="s3" align="center">2015-03-07 17:12:09</td>
+<td class="s3" align="center">200.00</td>
+<td class="s3" align="center">68.42</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run339.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">255</td>
+<td class="s2" align="center">run338.data</td>
+<td class="s2" align="center">48194</td>
+<td class="s2" align="center">2015-03-07 08:31:19</td>
+<td class="s2" align="center">2015-03-07 08:42:41</td>
+<td class="s2" align="center">70.67</td>
+<td class="s2" align="center">68.46</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run338.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">256</td>
+<td class="s3" align="center">run337.data</td>
+<td class="s3" align="center">15465</td>
+<td class="s3" align="center">2015-03-07 07:24:28</td>
+<td class="s3" align="center">2015-03-07 08:28:49</td>
+<td class="s3" align="center">4.01</td>
+<td class="s3" align="center">68.48</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run337.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">257</td>
+<td class="s2" align="center">run336.data</td>
+<td class="s2" align="center">1755</td>
+<td class="s2" align="center">2015-03-07 07:14:17</td>
+<td class="s2" align="center">2015-03-07 07:24:27</td>
+<td class="s2" align="center">2.88</td>
+<td class="s2" align="center">68.49</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run336.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">258</td>
+<td class="s3" align="center">run335.data</td>
+<td class="s3" align="center">339</td>
+<td class="s3" align="center">2015-03-07 07:12:27</td>
+<td class="s3" align="center">2015-03-07 07:12:58</td>
+<td class="s3" align="center">10.94</td>
+<td class="s3" align="center">68.48</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run335.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">259</td>
+<td class="s2" align="center">run334.data</td>
+<td class="s2" align="center">10458</td>
+<td class="s2" align="center">2015-03-07 06:54:17</td>
+<td class="s2" align="center">2015-03-07 06:56:29</td>
+<td class="s2" align="center">79.23</td>
+<td class="s2" align="center">68.47</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run334.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">260</td>
+<td class="s3" align="center">run333.data</td>
+<td class="s3" align="center">17</td>
+<td class="s3" align="center">2015-03-07 06:53:07</td>
+<td class="s3" align="center">2015-03-07 06:53:37</td>
+<td class="s3" align="center">0.57</td>
+<td class="s3" align="center">68.43</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run333.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">261</td>
+<td class="s2" align="center">run329.data</td>
+<td class="s2" align="center">61</td>
+<td class="s2" align="center">2015-03-07 06:40:46</td>
+<td class="s2" align="center">2015-03-07 06:42:26</td>
+<td class="s2" align="center">0.61</td>
+<td class="s2" align="center">68.46</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run329.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">262</td>
+<td class="s3" align="center">run328.data</td>
+<td class="s3" align="center">93</td>
+<td class="s3" align="center">2015-03-07 06:33:47</td>
+<td class="s3" align="center">2015-03-07 06:35:18</td>
+<td class="s3" align="center">1.02</td>
+<td class="s3" align="center">68.48</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run328.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">263</td>
+<td class="s2" align="center">run288.data</td>
+<td class="s2" align="center">100273</td>
+<td class="s2" align="center">2015-03-07 03:42:45</td>
+<td class="s2" align="center">2015-03-07 05:02:18</td>
+<td class="s2" align="center">21.01</td>
+<td class="s2" align="center">68.46</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run288.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">264</td>
+<td class="s3" align="center">run287.data</td>
+<td class="s3" align="center">116187</td>
+<td class="s3" align="center">2015-03-07 02:19:25</td>
+<td class="s3" align="center">2015-03-07 03:40:35</td>
+<td class="s3" align="center">23.86</td>
+<td class="s3" align="center">68.50</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run287.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">265</td>
+<td class="s2" align="center">run286.data</td>
+<td class="s2" align="center">86819</td>
+<td class="s2" align="center">2015-03-07 01:13:24</td>
+<td class="s2" align="center">2015-03-07 02:13:05</td>
+<td class="s2" align="center">24.24</td>
+<td class="s2" align="center">68.51</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run286.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">266</td>
+<td class="s3" align="center">run285.data</td>
+<td class="s3" align="center">100326</td>
+<td class="s3" align="center">2015-03-06 23:55:24</td>
+<td class="s3" align="center">2015-03-07 01:10:26</td>
+<td class="s3" align="center">22.28</td>
+<td class="s3" align="center">68.49</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run285.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">267</td>
+<td class="s2" align="center">run284.data</td>
+<td class="s2" align="center">10828</td>
+<td class="s2" align="center">2015-03-06 23:45:24</td>
+<td class="s2" align="center">2015-03-06 23:53:24</td>
+<td class="s2" align="center">22.56</td>
+<td class="s2" align="center">68.50</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run284.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">268</td>
+<td class="s3" align="center">run283.data</td>
+<td class="s3" align="center">29547</td>
+<td class="s3" align="center">2015-03-06 23:37:24</td>
+<td class="s3" align="center">2015-03-06 23:44:26</td>
+<td class="s3" align="center">70.02</td>
+<td class="s3" align="center">68.50</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run283.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">269</td>
+<td class="s2" align="center">run282.data</td>
+<td class="s2" align="center">100252</td>
+<td class="s2" align="center">2015-03-06 22:19:43</td>
+<td class="s2" align="center">2015-03-06 23:36:36</td>
+<td class="s2" align="center">21.73</td>
+<td class="s2" align="center">68.48</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run282.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">270</td>
+<td class="s3" align="center">run281.data</td>
+<td class="s3" align="center">97011</td>
+<td class="s3" align="center">2015-03-06 21:01:03</td>
+<td class="s3" align="center">2015-03-06 22:12:04</td>
+<td class="s3" align="center">22.77</td>
+<td class="s3" align="center">68.47</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run281.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">271</td>
+<td class="s2" align="center">run280.data</td>
+<td class="s2" align="center">133352</td>
+<td class="s2" align="center">2015-03-06 20:17:03</td>
+<td class="s2" align="center">2015-03-06 20:55:33</td>
+<td class="s2" align="center">57.73</td>
+<td class="s2" align="center">68.45</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run280.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">272</td>
+<td class="s3" align="center">run277.data</td>
+<td class="s3" align="center">23</td>
+<td class="s3" align="center">2015-03-06 20:12:53</td>
+<td class="s3" align="center">2015-03-06 20:13:34</td>
+<td class="s3" align="center">0.56</td>
+<td class="s3" align="center">68.42</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run277.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">273</td>
+<td class="s2" align="center">run276.data</td>
+<td class="s2" align="center">178</td>
+<td class="s2" align="center">2015-03-06 20:10:45</td>
+<td class="s2" align="center">2015-03-06 20:12:43</td>
+<td class="s2" align="center">1.51</td>
+<td class="s2" align="center">68.42</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run276.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">274</td>
+<td class="s3" align="center">run275.data</td>
+<td class="s3" align="center">68269</td>
+<td class="s3" align="center">2015-03-06 19:46:52</td>
+<td class="s3" align="center">2015-03-06 20:06:33</td>
+<td class="s3" align="center">57.81</td>
+<td class="s3" align="center">68.41</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run275.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">275</td>
+<td class="s2" align="center">run274.data</td>
+<td class="s2" align="center">112</td>
+<td class="s2" align="center">2015-03-06 19:45:54</td>
+<td class="s2" align="center">2015-03-06 19:46:14</td>
+<td class="s2" align="center">5.60</td>
+<td class="s2" align="center">68.41</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run274.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">276</td>
+<td class="s3" align="center">run273.data</td>
+<td class="s3" align="center">54127</td>
+<td class="s3" align="center">2015-03-06 19:24:12</td>
+<td class="s3" align="center">2015-03-06 19:39:34</td>
+<td class="s3" align="center">58.71</td>
+<td class="s3" align="center">68.41</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run273.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">277</td>
+<td class="s2" align="center">run272.data</td>
+<td class="s2" align="center">107</td>
+<td class="s2" align="center">2015-03-06 19:21:43</td>
+<td class="s2" align="center">2015-03-06 19:24:04</td>
+<td class="s2" align="center">0.76</td>
+<td class="s2" align="center">68.41</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run272.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">278</td>
+<td class="s3" align="center">run271.data</td>
+<td class="s3" align="center">64268</td>
+<td class="s3" align="center">2015-03-06 18:58:24</td>
+<td class="s3" align="center">2015-03-06 19:16:23</td>
+<td class="s3" align="center">59.56</td>
+<td class="s3" align="center">68.42</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run271.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">279</td>
+<td class="s2" align="center">run270.data</td>
+<td class="s2" align="center">118</td>
+<td class="s2" align="center">2015-03-06 18:53:22</td>
+<td class="s2" align="center">2015-03-06 18:58:02</td>
+<td class="s2" align="center">0.42</td>
+<td class="s2" align="center">68.41</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run270.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">280</td>
+<td class="s3" align="center">run269.data</td>
+<td class="s3" align="center">465</td>
+<td class="s3" align="center">2015-03-06 16:08:10</td>
+<td class="s3" align="center">2015-03-06 16:17:55</td>
+<td class="s3" align="center">0.79</td>
+<td class="s3" align="center">68.54</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run269.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">281</td>
+<td class="s2" align="center">run268.data</td>
+<td class="s2" align="center">106</td>
+<td class="s2" align="center">2015-03-06 16:05:40</td>
+<td class="s2" align="center">2015-03-06 16:07:50</td>
+<td class="s2" align="center">0.82</td>
+<td class="s2" align="center">68.53</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run268.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">282</td>
+<td class="s3" align="center">run267.data</td>
+<td class="s3" align="center">385</td>
+<td class="s3" align="center">2015-03-06 15:52:50</td>
+<td class="s3" align="center">2015-03-06 15:59:05</td>
+<td class="s3" align="center">1.03</td>
+<td class="s3" align="center">68.54</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run267.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">283</td>
+<td class="s2" align="center">run266.data</td>
+<td class="s2" align="center">232593</td>
+<td class="s2" align="center">2015-03-06 13:37:30</td>
+<td class="s2" align="center">2015-03-06 14:51:22</td>
+<td class="s2" align="center">52.48</td>
+<td class="s2" align="center">68.53</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run266.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">284</td>
+<td class="s3" align="center">run264.data</td>
+<td class="s3" align="center">3644</td>
+<td class="s3" align="center">2015-03-06 13:22:42</td>
+<td class="s3" align="center">2015-03-06 13:23:50</td>
+<td class="s3" align="center">53.59</td>
+<td class="s3" align="center">68.54</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run264.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">285</td>
+<td class="s2" align="center">run263.data</td>
+<td class="s2" align="center">11280</td>
+<td class="s2" align="center">2015-03-06 12:31:20</td>
+<td class="s2" align="center">2015-03-06 12:35:31</td>
+<td class="s2" align="center">44.94</td>
+<td class="s2" align="center">68.57</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run263.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">286</td>
+<td class="s3" align="center">run262.data</td>
+<td class="s3" align="center">160</td>
+<td class="s3" align="center">2015-03-06 12:28:00</td>
+<td class="s3" align="center">2015-03-06 12:30:11</td>
+<td class="s3" align="center">1.22</td>
+<td class="s3" align="center">68.57</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run262.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">287</td>
+<td class="s2" align="center">run261.data</td>
+<td class="s2" align="center">172</td>
+<td class="s2" align="center">2015-03-06 10:06:18</td>
+<td class="s2" align="center">2015-03-06 10:09:39</td>
+<td class="s2" align="center">0.86</td>
+<td class="s2" align="center">68.55</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run261.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">288</td>
+<td class="s3" align="center">run258.data</td>
+<td class="s3" align="center">294547</td>
+<td class="s3" align="center">2015-03-06 07:44:31</td>
+<td class="s3" align="center">2015-03-06 08:59:42</td>
+<td class="s3" align="center">65.30</td>
+<td class="s3" align="center">56.02</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run258.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">289</td>
+<td class="s2" align="center">run257.data</td>
+<td class="s2" align="center">230254</td>
+<td class="s2" align="center">2015-03-06 06:44:06</td>
+<td class="s2" align="center">2015-03-06 07:37:11</td>
+<td class="s2" align="center">72.29</td>
+<td class="s2" align="center">63.60</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run257.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">290</td>
+<td class="s3" align="center">run256.data</td>
+<td class="s3" align="center">241020</td>
+<td class="s3" align="center">2015-03-06 05:44:49</td>
+<td class="s3" align="center">2015-03-06 06:43:10</td>
+<td class="s3" align="center">68.84</td>
+<td class="s3" align="center">63.62</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run256.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">291</td>
+<td class="s2" align="center">run255.data</td>
+<td class="s2" align="center">248453</td>
+<td class="s2" align="center">2015-03-06 04:41:55</td>
+<td class="s2" align="center">2015-03-06 05:38:56</td>
+<td class="s2" align="center">72.63</td>
+<td class="s2" align="center">69.18</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run255.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">292</td>
+<td class="s3" align="center">run254.data</td>
+<td class="s3" align="center">212539</td>
+<td class="s3" align="center">2015-03-06 03:43:55</td>
+<td class="s3" align="center">2015-03-06 04:39:30</td>
+<td class="s3" align="center">63.73</td>
+<td class="s3" align="center">69.21</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run254.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">293</td>
+<td class="s2" align="center">run253.data</td>
+<td class="s2" align="center">179137</td>
+<td class="s2" align="center">2015-03-06 02:46:35</td>
+<td class="s2" align="center">2015-03-06 03:35:28</td>
+<td class="s2" align="center">61.08</td>
+<td class="s2" align="center">69.21</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run253.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">294</td>
+<td class="s3" align="center">run252.data</td>
+<td class="s3" align="center">160748</td>
+<td class="s3" align="center">2015-03-06 02:04:45</td>
+<td class="s3" align="center">2015-03-06 02:45:27</td>
+<td class="s3" align="center">65.83</td>
+<td class="s3" align="center">69.23</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run252.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">295</td>
+<td class="s2" align="center">run251.data</td>
+<td class="s2" align="center">157313</td>
+<td class="s2" align="center">2015-03-06 01:21:25</td>
+<td class="s2" align="center">2015-03-06 02:00:07</td>
+<td class="s2" align="center">67.75</td>
+<td class="s2" align="center">75.35</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run251.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">296</td>
+<td class="s3" align="center">run250.data</td>
+<td class="s3" align="center">158288</td>
+<td class="s3" align="center">2015-03-06 00:40:35</td>
+<td class="s3" align="center">2015-03-06 01:18:27</td>
+<td class="s3" align="center">69.67</td>
+<td class="s3" align="center">68.24</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run250.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">297</td>
+<td class="s2" align="center">run249.data</td>
+<td class="s2" align="center">161611</td>
+<td class="s2" align="center">2015-03-05 23:52:05</td>
+<td class="s2" align="center">2015-03-06 00:31:36</td>
+<td class="s2" align="center">68.16</td>
+<td class="s2" align="center">62.35</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run249.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">298</td>
+<td class="s3" align="center">run248.data</td>
+<td class="s3" align="center">158002</td>
+<td class="s3" align="center">2015-03-05 23:07:24</td>
+<td class="s3" align="center">2015-03-05 23:44:56</td>
+<td class="s3" align="center">70.16</td>
+<td class="s3" align="center">55.85</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run248.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">299</td>
+<td class="s2" align="center">run247.data</td>
+<td class="s2" align="center">156450</td>
+<td class="s2" align="center">2015-03-05 22:20:54</td>
+<td class="s2" align="center">2015-03-05 23:00:06</td>
+<td class="s2" align="center">66.52</td>
+<td class="s2" align="center">49.58</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run247.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">300</td>
+<td class="s3" align="center">run246.data</td>
+<td class="s3" align="center">161456</td>
+<td class="s3" align="center">2015-03-05 21:36:53</td>
+<td class="s3" align="center">2015-03-05 22:13:36</td>
+<td class="s3" align="center">73.29</td>
+<td class="s3" align="center">37.27</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run246.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">301</td>
+<td class="s2" align="center">run245.data</td>
+<td class="s2" align="center">258058</td>
+<td class="s2" align="center">2015-03-05 18:55:22</td>
+<td class="s2" align="center">2015-03-05 20:55:34</td>
+<td class="s2" align="center">35.78</td>
+<td class="s2" align="center">55.81</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run245.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">302</td>
+<td class="s3" align="center">run244.data</td>
+<td class="s3" align="center">302870</td>
+<td class="s3" align="center">2015-03-05 17:06:12</td>
+<td class="s3" align="center">2015-03-05 18:55:04</td>
+<td class="s3" align="center">46.37</td>
+<td class="s3" align="center">7.52</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run244.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">303</td>
+<td class="s2" align="center">run243.data</td>
+<td class="s2" align="center">28755</td>
+<td class="s2" align="center">2015-03-05 16:23:41</td>
+<td class="s2" align="center">2015-03-05 16:33:33</td>
+<td class="s2" align="center">48.57</td>
+<td class="s2" align="center">3.40</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run243.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">304</td>
+<td class="s3" align="center">run242.data</td>
+<td class="s3" align="center">107302</td>
+<td class="s3" align="center">2015-03-05 15:16:51</td>
+<td class="s3" align="center">2015-03-05 16:20:51</td>
+<td class="s3" align="center">27.94</td>
+<td class="s3" align="center">3.37</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run242.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">305</td>
+<td class="s2" align="center">run240.data</td>
+<td class="s2" align="center">5683</td>
+<td class="s2" align="center">2015-03-05 15:10:22</td>
+<td class="s2" align="center">2015-03-05 15:13:11</td>
+<td class="s2" align="center">33.63</td>
+<td class="s2" align="center">3.29</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run240.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">306</td>
+<td class="s3" align="center">run239.data</td>
+<td class="s3" align="center">22176</td>
+<td class="s3" align="center">2015-03-05 15:02:40</td>
+<td class="s3" align="center">2015-03-05 15:08:35</td>
+<td class="s3" align="center">62.47</td>
+<td class="s3" align="center">3.34</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run239.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">307</td>
+<td class="s2" align="center">run238.data</td>
+<td class="s2" align="center">7502</td>
+<td class="s2" align="center">2015-03-05 14:51:35</td>
+<td class="s2" align="center">2015-03-05 15:02:25</td>
+<td class="s2" align="center">11.54</td>
+<td class="s2" align="center">3.34</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run238.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">308</td>
+<td class="s3" align="center">run237.data</td>
+<td class="s3" align="center">317</td>
+<td class="s3" align="center">2015-03-05 14:47:43</td>
+<td class="s3" align="center">2015-03-05 14:51:25</td>
+<td class="s3" align="center">1.43</td>
+<td class="s3" align="center">3.31</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run237.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">309</td>
+<td class="s2" align="center">run236.data</td>
+<td class="s2" align="center">28465</td>
+<td class="s2" align="center">2015-03-05 14:27:10</td>
+<td class="s2" align="center">2015-03-05 14:41:25</td>
+<td class="s2" align="center">33.29</td>
+<td class="s2" align="center">18.08</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run236.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">310</td>
+<td class="s3" align="center">run234.data</td>
+<td class="s3" align="center">25191</td>
+<td class="s3" align="center">2015-03-05 14:15:12</td>
+<td class="s3" align="center">2015-03-05 14:21:03</td>
+<td class="s3" align="center">71.77</td>
+<td class="s3" align="center">68.01</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run234.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">311</td>
+<td class="s2" align="center">run233.data</td>
+<td class="s2" align="center">1796</td>
+<td class="s2" align="center">2015-03-05 14:10:40</td>
+<td class="s2" align="center">2015-03-05 14:14:35</td>
+<td class="s2" align="center">7.64</td>
+<td class="s2" align="center">68.02</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run233.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">312</td>
+<td class="s3" align="center">run230.data</td>
+<td class="s3" align="center">599</td>
+<td class="s3" align="center">2015-03-05 13:58:00</td>
+<td class="s3" align="center">2015-03-05 13:58:02</td>
+<td class="s3" align="center">299.50</td>
+<td class="s3" align="center">0.00</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run230.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">313</td>
+<td class="s2" align="center">run229.data</td>
+<td class="s2" align="center">21575</td>
+<td class="s2" align="center">2015-03-05 13:43:30</td>
+<td class="s2" align="center">2015-03-05 13:48:21</td>
+<td class="s2" align="center">74.14</td>
+<td class="s2" align="center">68.03</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run229.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">314</td>
+<td class="s3" align="center">run228.data</td>
+<td class="s3" align="center">19897</td>
+<td class="s3" align="center">2015-03-05 13:37:20</td>
+<td class="s3" align="center">2015-03-05 13:42:05</td>
+<td class="s3" align="center">69.81</td>
+<td class="s3" align="center">68.04</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run228.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">315</td>
+<td class="s2" align="center">run227.data</td>
+<td class="s2" align="center">40152</td>
+<td class="s2" align="center">2015-03-05 13:24:53</td>
+<td class="s2" align="center">2015-03-05 13:33:55</td>
+<td class="s2" align="center">74.08</td>
+<td class="s2" align="center">68.06</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run227.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">316</td>
+<td class="s3" align="center">run226.data</td>
+<td class="s3" align="center">110765</td>
+<td class="s3" align="center">2015-03-05 12:48:42</td>
+<td class="s3" align="center">2015-03-05 13:23:52</td>
+<td class="s3" align="center">52.50</td>
+<td class="s3" align="center">68.09</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run226.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">317</td>
+<td class="s2" align="center">run222.data</td>
+<td class="s2" align="center">2633450</td>
+<td class="s2" align="center">2015-03-05 04:43:00</td>
+<td class="s2" align="center">2015-03-05 08:59:31</td>
+<td class="s2" align="center">171.10</td>
+<td class="s2" align="center">0.04</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run222.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">318</td>
+<td class="s3" align="center">run221.data</td>
+<td class="s3" align="center">462314</td>
+<td class="s3" align="center">2015-03-05 03:36:39</td>
+<td class="s3" align="center">2015-03-05 04:26:19</td>
+<td class="s3" align="center">155.14</td>
+<td class="s3" align="center">0.04</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run221.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">319</td>
+<td class="s2" align="center">run220.data</td>
+<td class="s2" align="center">265</td>
+<td class="s2" align="center">2015-03-05 03:34:22</td>
+<td class="s2" align="center">2015-03-05 03:34:26</td>
+<td class="s2" align="center">66.25</td>
+<td class="s2" align="center">0.04</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run220.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">320</td>
+<td class="s3" align="center">run188.data</td>
+<td class="s3" align="center">49</td>
+<td class="s3" align="center">2015-02-25 01:11:55</td>
+<td class="s3" align="center">2015-02-25 01:11:56</td>
+<td class="s3" align="center">49.00</td>
+<td class="s3" align="center">0.00</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run188.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">321</td>
+<td class="s2" align="center">run187.data</td>
+<td class="s2" align="center">1924</td>
+<td class="s2" align="center">2015-02-25 00:37:21</td>
+<td class="s2" align="center">2015-02-25 00:37:43</td>
+<td class="s2" align="center">87.45</td>
+<td class="s2" align="center">0.00</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run187.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">322</td>
+<td class="s3" align="center">run174.data</td>
+<td class="s3" align="center">41076</td>
+<td class="s3" align="center">2015-02-24 11:44:24</td>
+<td class="s3" align="center">2015-02-24 11:58:53</td>
+<td class="s3" align="center">47.27</td>
+<td class="s3" align="center">68.56</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run174.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">323</td>
+<td class="s2" align="center">run173.data</td>
+<td class="s2" align="center">51117</td>
+<td class="s2" align="center">2015-02-24 11:28:02</td>
+<td class="s2" align="center">2015-02-24 11:43:18</td>
+<td class="s2" align="center">55.80</td>
+<td class="s2" align="center">68.58</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run173.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">324</td>
+<td class="s3" align="center">run172.data</td>
+<td class="s3" align="center">51080</td>
+<td class="s3" align="center">2015-02-24 11:11:43</td>
+<td class="s3" align="center">2015-02-24 11:26:48</td>
+<td class="s3" align="center">56.44</td>
+<td class="s3" align="center">68.57</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run172.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">325</td>
+<td class="s2" align="center">run170.data</td>
+<td class="s2" align="center">115</td>
+<td class="s2" align="center">2015-02-24 10:53:02</td>
+<td class="s2" align="center">2015-02-24 10:56:11</td>
+<td class="s2" align="center">0.61</td>
+<td class="s2" align="center">68.66</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run170.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">326</td>
+<td class="s3" align="center">run168.data</td>
+<td class="s3" align="center">198</td>
+<td class="s3" align="center">2015-02-24 10:36:11</td>
+<td class="s3" align="center">2015-02-24 10:46:50</td>
+<td class="s3" align="center">0.31</td>
+<td class="s3" align="center">68.66</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run168.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">327</td>
+<td class="s2" align="center">run167.data</td>
+<td class="s2" align="center">169</td>
+<td class="s2" align="center">2015-02-24 10:35:05</td>
+<td class="s2" align="center">2015-02-24 10:36:11</td>
+<td class="s2" align="center">2.56</td>
+<td class="s2" align="center">68.61</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run167.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">328</td>
+<td class="s3" align="center">run166.data</td>
+<td class="s3" align="center">60347</td>
+<td class="s3" align="center">2015-02-24 09:50:37</td>
+<td class="s3" align="center">2015-02-24 10:08:38</td>
+<td class="s3" align="center">55.83</td>
+<td class="s3" align="center">68.61</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run166.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">329</td>
+<td class="s2" align="center">run164.data</td>
+<td class="s2" align="center">45000</td>
+<td class="s2" align="center">2015-02-24 09:33:12</td>
+<td class="s2" align="center">2015-02-24 09:46:36</td>
+<td class="s2" align="center">55.97</td>
+<td class="s2" align="center">68.51</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run164.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">330</td>
+<td class="s3" align="center">run161.data</td>
+<td class="s3" align="center">128573</td>
+<td class="s3" align="center">2015-02-24 07:43:00</td>
+<td class="s3" align="center">2015-02-24 08:24:50</td>
+<td class="s3" align="center">51.22</td>
+<td class="s3" align="center">68.55</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run161.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">331</td>
+<td class="s2" align="center">run160.data</td>
+<td class="s2" align="center">55566</td>
+<td class="s2" align="center">2015-02-24 07:14:35</td>
+<td class="s2" align="center">2015-02-24 07:34:15</td>
+<td class="s2" align="center">47.09</td>
+<td class="s2" align="center">68.62</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run160.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">332</td>
+<td class="s3" align="center">run159.data</td>
+<td class="s3" align="center">293</td>
+<td class="s3" align="center">2015-02-24 07:08:46</td>
+<td class="s3" align="center">2015-02-24 07:13:11</td>
+<td class="s3" align="center">1.11</td>
+<td class="s3" align="center">68.62</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run159.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">333</td>
+<td class="s2" align="center">run157.data</td>
+<td class="s2" align="center">39630</td>
+<td class="s2" align="center">2015-02-24 06:59:00</td>
+<td class="s2" align="center">2015-02-24 07:05:29</td>
+<td class="s2" align="center">101.88</td>
+<td class="s2" align="center">68.67</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run157.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">334</td>
+<td class="s3" align="center">run155.data</td>
+<td class="s3" align="center">39736</td>
+<td class="s3" align="center">2015-02-24 05:55:56</td>
+<td class="s3" align="center">2015-02-24 06:57:45</td>
+<td class="s3" align="center">10.71</td>
+<td class="s3" align="center">68.64</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run155.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">335</td>
+<td class="s2" align="center">run151.data</td>
+<td class="s2" align="center">130199</td>
+<td class="s2" align="center">2015-02-24 05:06:15</td>
+<td class="s2" align="center">2015-02-24 05:55:46</td>
+<td class="s2" align="center">43.82</td>
+<td class="s2" align="center">68.65</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run151.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">336</td>
+<td class="s3" align="center">run149.data</td>
+<td class="s3" align="center">19769</td>
+<td class="s3" align="center">2015-02-24 04:24:16</td>
+<td class="s3" align="center">2015-02-24 04:45:12</td>
+<td class="s3" align="center">15.74</td>
+<td class="s3" align="center">68.69</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run149.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">337</td>
+<td class="s2" align="center">run148.data</td>
+<td class="s2" align="center">333</td>
+<td class="s2" align="center">2015-02-24 04:02:04</td>
+<td class="s2" align="center">2015-02-24 04:24:06</td>
+<td class="s2" align="center">0.25</td>
+<td class="s2" align="center">68.66</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run148.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">338</td>
+<td class="s3" align="center">run147.data</td>
+<td class="s3" align="center">533</td>
+<td class="s3" align="center">2015-02-24 03:25:13</td>
+<td class="s3" align="center">2015-02-24 03:32:57</td>
+<td class="s3" align="center">1.15</td>
+<td class="s3" align="center">68.64</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run147.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">339</td>
+<td class="s2" align="center">run146.data</td>
+<td class="s2" align="center">18436</td>
+<td class="s2" align="center">2015-02-24 02:08:56</td>
+<td class="s2" align="center">2015-02-24 02:09:45</td>
+<td class="s2" align="center">376.24</td>
+<td class="s2" align="center">68.56</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run146.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">340</td>
+<td class="s3" align="center">run143.data</td>
+<td class="s3" align="center">3237</td>
+<td class="s3" align="center">2015-02-24 01:59:24</td>
+<td class="s3" align="center">2015-02-24 01:59:28</td>
+<td class="s3" align="center">809.25</td>
+<td class="s3" align="center">68.47</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run143.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">341</td>
+<td class="s2" align="center">run138.data</td>
+<td class="s2" align="center">20770</td>
+<td class="s2" align="center">2015-02-24 01:49:52</td>
+<td class="s2" align="center">2015-02-24 01:50:51</td>
+<td class="s2" align="center">352.03</td>
+<td class="s2" align="center">68.54</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run138.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">342</td>
+<td class="s3" align="center">run137.data</td>
+<td class="s3" align="center">152308</td>
+<td class="s3" align="center">2015-02-24 00:56:31</td>
+<td class="s3" align="center">2015-02-24 01:34:09</td>
+<td class="s3" align="center">67.45</td>
+<td class="s3" align="center">68.50</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run137.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">343</td>
+<td class="s2" align="center">run134.data</td>
+<td class="s2" align="center">69878</td>
+<td class="s2" align="center">2015-02-24 00:31:45</td>
+<td class="s2" align="center">2015-02-24 00:49:13</td>
+<td class="s2" align="center">66.68</td>
+<td class="s2" align="center">68.64</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run134.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">344</td>
+<td class="s3" align="center">run133.data</td>
+<td class="s3" align="center">60737</td>
+<td class="s3" align="center">2015-02-24 00:09:00</td>
+<td class="s3" align="center">2015-02-24 00:23:43</td>
+<td class="s3" align="center">68.78</td>
+<td class="s3" align="center">68.67</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run133.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">345</td>
+<td class="s2" align="center">run132.data</td>
+<td class="s2" align="center">151648</td>
+<td class="s2" align="center">2015-02-23 23:30:19</td>
+<td class="s2" align="center">2015-02-24 00:06:51</td>
+<td class="s2" align="center">69.18</td>
+<td class="s2" align="center">68.64</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run132.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">346</td>
+<td class="s3" align="center">run131.data</td>
+<td class="s3" align="center">152765</td>
+<td class="s3" align="center">2015-02-23 22:50:32</td>
+<td class="s3" align="center">2015-02-23 23:28:31</td>
+<td class="s3" align="center">67.03</td>
+<td class="s3" align="center">68.63</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run131.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">347</td>
+<td class="s2" align="center">run130.data</td>
+<td class="s2" align="center">29361</td>
+<td class="s2" align="center">2015-02-23 22:40:27</td>
+<td class="s2" align="center">2015-02-23 22:48:00</td>
+<td class="s2" align="center">64.81</td>
+<td class="s2" align="center">68.58</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run130.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">348</td>
+<td class="s3" align="center">run129.data</td>
+<td class="s3" align="center">181</td>
+<td class="s3" align="center">2015-02-23 22:30:55</td>
+<td class="s3" align="center">2015-02-23 22:30:56</td>
+<td class="s3" align="center">181.00</td>
+<td class="s3" align="center">0.00</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run129.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">349</td>
+<td class="s2" align="center">run127.data</td>
+<td class="s2" align="center">25425</td>
+<td class="s2" align="center">2015-02-23 22:24:18</td>
+<td class="s2" align="center">2015-02-23 22:30:55</td>
+<td class="s2" align="center">64.04</td>
+<td class="s2" align="center">68.71</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run127.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">350</td>
+<td class="s3" align="center">run126.data</td>
+<td class="s3" align="center">21549</td>
+<td class="s3" align="center">2015-02-23 22:16:47</td>
+<td class="s3" align="center">2015-02-23 22:21:58</td>
+<td class="s3" align="center">69.29</td>
+<td class="s3" align="center">68.67</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run126.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">351</td>
+<td class="s2" align="center">run125.data</td>
+<td class="s2" align="center">20895</td>
+<td class="s2" align="center">2015-02-23 22:10:11</td>
+<td class="s2" align="center">2015-02-23 22:15:00</td>
+<td class="s2" align="center">72.30</td>
+<td class="s2" align="center">68.66</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run125.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">352</td>
+<td class="s3" align="center">run124.data</td>
+<td class="s3" align="center">25480</td>
+<td class="s3" align="center">2015-02-23 22:01:45</td>
+<td class="s3" align="center">2015-02-23 22:07:29</td>
+<td class="s3" align="center">74.07</td>
+<td class="s3" align="center">68.66</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run124.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">353</td>
+<td class="s2" align="center">run123.data</td>
+<td class="s2" align="center">178</td>
+<td class="s2" align="center">2015-02-23 21:46:33</td>
+<td class="s2" align="center">2015-02-23 21:46:34</td>
+<td class="s2" align="center">178.00</td>
+<td class="s2" align="center">0.00</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run123.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">354</td>
+<td class="s3" align="center">run121.data</td>
+<td class="s3" align="center">26598</td>
+<td class="s3" align="center">2015-02-23 21:40:31</td>
+<td class="s3" align="center">2015-02-23 21:46:33</td>
+<td class="s3" align="center">73.48</td>
+<td class="s3" align="center">68.65</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run121.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">355</td>
+<td class="s2" align="center">run120.data</td>
+<td class="s2" align="center">22897</td>
+<td class="s2" align="center">2015-02-23 21:32:15</td>
+<td class="s2" align="center">2015-02-23 21:37:25</td>
+<td class="s2" align="center">73.86</td>
+<td class="s2" align="center">68.65</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run120.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">356</td>
+<td class="s3" align="center">run119.data</td>
+<td class="s3" align="center">39379</td>
+<td class="s3" align="center">2015-02-23 21:20:19</td>
+<td class="s3" align="center">2015-02-23 21:28:26</td>
+<td class="s3" align="center">80.86</td>
+<td class="s3" align="center">68.72</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run119.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">357</td>
+<td class="s2" align="center">run117.data</td>
+<td class="s2" align="center">6091</td>
+<td class="s2" align="center">2015-02-23 20:57:56</td>
+<td class="s2" align="center">2015-02-23 20:58:11</td>
+<td class="s2" align="center">406.07</td>
+<td class="s2" align="center">68.68</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run117.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">358</td>
+<td class="s3" align="center">run093.data</td>
+<td class="s3" align="center">11135</td>
+<td class="s3" align="center">2015-02-23 07:58:08</td>
+<td class="s3" align="center">2015-02-23 08:16:41</td>
+<td class="s3" align="center">10.00</td>
+<td class="s3" align="center">69.13</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run093.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">359</td>
+<td class="s2" align="center">run092.data</td>
+<td class="s2" align="center">20131</td>
+<td class="s2" align="center">2015-02-23 07:50:36</td>
+<td class="s2" align="center">2015-02-23 07:58:08</td>
+<td class="s2" align="center">44.54</td>
+<td class="s2" align="center">69.17</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run092.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">360</td>
+<td class="s3" align="center">run090.data</td>
+<td class="s3" align="center">23293</td>
+<td class="s3" align="center">2015-02-23 07:33:44</td>
+<td class="s3" align="center">2015-02-23 07:42:35</td>
+<td class="s3" align="center">43.87</td>
+<td class="s3" align="center">69.15</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run090.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">361</td>
+<td class="s2" align="center">run088.data</td>
+<td class="s2" align="center">1006</td>
+<td class="s2" align="center">2015-02-23 07:23:07</td>
+<td class="s2" align="center">2015-02-23 07:32:30</td>
+<td class="s2" align="center">1.79</td>
+<td class="s2" align="center">69.12</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run088.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">362</td>
+<td class="s3" align="center">run087.data</td>
+<td class="s3" align="center">20658</td>
+<td class="s3" align="center">2015-02-23 07:15:46</td>
+<td class="s3" align="center">2015-02-23 07:23:07</td>
+<td class="s3" align="center">46.84</td>
+<td class="s3" align="center">69.08</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run087.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">363</td>
+<td class="s2" align="center">run086.data</td>
+<td class="s2" align="center">61</td>
+<td class="s2" align="center">2015-02-23 07:04:46</td>
+<td class="s2" align="center">2015-02-23 07:04:47</td>
+<td class="s2" align="center">61.00</td>
+<td class="s2" align="center">69.09</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run086.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">364</td>
+<td class="s3" align="center">run084.data</td>
+<td class="s3" align="center">24144</td>
+<td class="s3" align="center">2015-02-23 06:56:31</td>
+<td class="s3" align="center">2015-02-23 07:04:46</td>
+<td class="s3" align="center">48.78</td>
+<td class="s3" align="center">69.07</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run084.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">365</td>
+<td class="s2" align="center">run081.data</td>
+<td class="s2" align="center">111</td>
+<td class="s2" align="center">2015-02-23 06:45:43</td>
+<td class="s2" align="center">2015-02-23 06:45:43</td>
+<td class="s2" align="center">inf</td>
+<td class="s2" align="center">0.00</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run081.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">366</td>
+<td class="s3" align="center">run080.data</td>
+<td class="s3" align="center">23986</td>
+<td class="s3" align="center">2015-02-23 06:37:16</td>
+<td class="s3" align="center">2015-02-23 06:45:43</td>
+<td class="s3" align="center">47.31</td>
+<td class="s3" align="center">69.12</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run080.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">367</td>
+<td class="s2" align="center">run079.data</td>
+<td class="s2" align="center">104186</td>
+<td class="s2" align="center">2015-02-23 05:45:22</td>
+<td class="s2" align="center">2015-02-23 06:22:27</td>
+<td class="s2" align="center">46.83</td>
+<td class="s2" align="center">69.03</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run079.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">368</td>
+<td class="s3" align="center">run078.data</td>
+<td class="s3" align="center">96560</td>
+<td class="s3" align="center">2015-02-23 05:09:15</td>
+<td class="s3" align="center">2015-02-23 05:43:24</td>
+<td class="s3" align="center">47.13</td>
+<td class="s3" align="center">69.14</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run078.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">369</td>
+<td class="s2" align="center">run077.data</td>
+<td class="s2" align="center">105625</td>
+<td class="s2" align="center">2015-02-23 04:30:23</td>
+<td class="s2" align="center">2015-02-23 05:07:17</td>
+<td class="s2" align="center">47.71</td>
+<td class="s2" align="center">69.22</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run077.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">370</td>
+<td class="s3" align="center">run076.data</td>
+<td class="s3" align="center">110</td>
+<td class="s3" align="center">2015-02-23 03:43:40</td>
+<td class="s3" align="center">2015-02-23 03:43:40</td>
+<td class="s3" align="center">inf</td>
+<td class="s3" align="center">0.00</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run076.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">371</td>
+<td class="s2" align="center">run074.data</td>
+<td class="s2" align="center">30911</td>
+<td class="s2" align="center">2015-02-23 03:33:33</td>
+<td class="s2" align="center">2015-02-23 03:43:40</td>
+<td class="s2" align="center">50.92</td>
+<td class="s2" align="center">87.48</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run074.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">372</td>
+<td class="s3" align="center">run073.data</td>
+<td class="s3" align="center">38151</td>
+<td class="s3" align="center">2015-02-23 03:19:37</td>
+<td class="s3" align="center">2015-02-23 03:33:13</td>
+<td class="s3" align="center">46.75</td>
+<td class="s3" align="center">87.64</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run073.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">373</td>
+<td class="s2" align="center">run072.data</td>
+<td class="s2" align="center">34122</td>
+<td class="s2" align="center">2015-02-23 03:04:01</td>
+<td class="s2" align="center">2015-02-23 03:15:59</td>
+<td class="s2" align="center">47.52</td>
+<td class="s2" align="center">69.32</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run072.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">374</td>
+<td class="s3" align="center">run071.data</td>
+<td class="s3" align="center">2365</td>
+<td class="s3" align="center">2015-02-23 02:54:10</td>
+<td class="s3" align="center">2015-02-23 03:03:42</td>
+<td class="s3" align="center">4.13</td>
+<td class="s3" align="center">69.37</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run071.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">375</td>
+<td class="s2" align="center">run070.data</td>
+<td class="s2" align="center">24739</td>
+<td class="s2" align="center">2015-02-23 02:46:03</td>
+<td class="s2" align="center">2015-02-23 02:54:10</td>
+<td class="s2" align="center">50.80</td>
+<td class="s2" align="center">69.36</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run070.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">376</td>
+<td class="s3" align="center">run069.data</td>
+<td class="s3" align="center">18144</td>
+<td class="s3" align="center">2015-02-23 02:24:58</td>
+<td class="s3" align="center">2015-02-23 02:35:27</td>
+<td class="s3" align="center">28.85</td>
+<td class="s3" align="center">69.29</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run069.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">377</td>
+<td class="s2" align="center">run068.data</td>
+<td class="s2" align="center">44697</td>
+<td class="s2" align="center">2015-02-23 02:06:49</td>
+<td class="s2" align="center">2015-02-23 02:21:54</td>
+<td class="s2" align="center">49.39</td>
+<td class="s2" align="center">75.02</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run068.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">378</td>
+<td class="s3" align="center">run067.data</td>
+<td class="s3" align="center">25011</td>
+<td class="s3" align="center">2015-02-23 01:57:50</td>
+<td class="s3" align="center">2015-02-23 02:06:19</td>
+<td class="s3" align="center">49.14</td>
+<td class="s3" align="center">75.09</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run067.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">379</td>
+<td class="s2" align="center">run066.data</td>
+<td class="s2" align="center">39866</td>
+<td class="s2" align="center">2015-02-23 01:43:32</td>
+<td class="s2" align="center">2015-02-23 01:57:09</td>
+<td class="s2" align="center">48.80</td>
+<td class="s2" align="center">74.99</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run066.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">380</td>
+<td class="s3" align="center">run065.data</td>
+<td class="s3" align="center">25121</td>
+<td class="s3" align="center">2015-02-23 01:31:37</td>
+<td class="s3" align="center">2015-02-23 01:40:06</td>
+<td class="s3" align="center">49.35</td>
+<td class="s3" align="center">62.09</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run065.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">381</td>
+<td class="s2" align="center">run064.data</td>
+<td class="s2" align="center">26802</td>
+<td class="s2" align="center">2015-02-23 01:22:27</td>
+<td class="s2" align="center">2015-02-23 01:31:07</td>
+<td class="s2" align="center">51.54</td>
+<td class="s2" align="center">62.10</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run064.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">382</td>
+<td class="s3" align="center">run063.data</td>
+<td class="s3" align="center">27575</td>
+<td class="s3" align="center">2015-02-23 01:12:33</td>
+<td class="s3" align="center">2015-02-23 01:21:56</td>
+<td class="s3" align="center">48.98</td>
+<td class="s3" align="center">62.15</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run063.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">383</td>
+<td class="s2" align="center">run060.data</td>
+<td class="s2" align="center">26168</td>
+<td class="s2" align="center">2015-02-23 00:59:54</td>
+<td class="s2" align="center">2015-02-23 01:08:22</td>
+<td class="s2" align="center">51.51</td>
+<td class="s2" align="center">56.06</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run060.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">384</td>
+<td class="s3" align="center">run059.data</td>
+<td class="s3" align="center">8843</td>
+<td class="s3" align="center">2015-02-23 00:48:11</td>
+<td class="s3" align="center">2015-02-23 00:57:55</td>
+<td class="s3" align="center">15.14</td>
+<td class="s3" align="center">56.15</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run059.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">385</td>
+<td class="s2" align="center">run058.data</td>
+<td class="s2" align="center">17267</td>
+<td class="s2" align="center">2015-02-23 00:42:18</td>
+<td class="s2" align="center">2015-02-23 00:48:11</td>
+<td class="s2" align="center">48.92</td>
+<td class="s2" align="center">56.16</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run058.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">386</td>
+<td class="s3" align="center">run057.data</td>
+<td class="s3" align="center">22025</td>
+<td class="s3" align="center">2015-02-23 00:31:40</td>
+<td class="s3" align="center">2015-02-23 00:39:02</td>
+<td class="s3" align="center">49.83</td>
+<td class="s3" align="center">49.98</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run057.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">387</td>
+<td class="s2" align="center">run056.data</td>
+<td class="s2" align="center">12999</td>
+<td class="s2" align="center">2015-02-23 00:26:54</td>
+<td class="s2" align="center">2015-02-23 00:31:09</td>
+<td class="s2" align="center">50.98</td>
+<td class="s2" align="center">50.00</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run056.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">388</td>
+<td class="s3" align="center">run055.data</td>
+<td class="s3" align="center">9919</td>
+<td class="s3" align="center">2015-02-23 00:14:15</td>
+<td class="s3" align="center">2015-02-23 00:22:54</td>
+<td class="s3" align="center">19.11</td>
+<td class="s3" align="center">37.59</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run055.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">389</td>
+<td class="s2" align="center">run054.data</td>
+<td class="s2" align="center">10121</td>
+<td class="s2" align="center">2015-02-23 00:05:16</td>
+<td class="s2" align="center">2015-02-23 00:13:44</td>
+<td class="s2" align="center">19.92</td>
+<td class="s2" align="center">37.69</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run054.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">390</td>
+<td class="s3" align="center">run053.data</td>
+<td class="s3" align="center">10742</td>
+<td class="s3" align="center">2015-02-22 23:53:53</td>
+<td class="s3" align="center">2015-02-23 00:03:17</td>
+<td class="s3" align="center">19.05</td>
+<td class="s3" align="center">37.66</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run053.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">391</td>
+<td class="s2" align="center">run051.data</td>
+<td class="s2" align="center">25</td>
+<td class="s2" align="center">2015-02-22 23:45:50</td>
+<td class="s2" align="center">2015-02-22 23:45:51</td>
+<td class="s2" align="center">25.00</td>
+<td class="s2" align="center">0.00</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run051.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">392</td>
+<td class="s3" align="center">run050.data</td>
+<td class="s3" align="center">10649</td>
+<td class="s3" align="center">2015-02-22 23:35:11</td>
+<td class="s3" align="center">2015-02-22 23:45:50</td>
+<td class="s3" align="center">16.67</td>
+<td class="s3" align="center">37.60</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run050.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">393</td>
+<td class="s2" align="center">run049.data</td>
+<td class="s2" align="center">21150</td>
+<td class="s2" align="center">2015-02-22 23:19:24</td>
+<td class="s2" align="center">2015-02-22 23:34:29</td>
+<td class="s2" align="center">23.37</td>
+<td class="s2" align="center">37.57</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run049.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">394</td>
+<td class="s3" align="center">run048.data</td>
+<td class="s3" align="center">1820</td>
+<td class="s3" align="center">2015-02-22 23:12:37</td>
+<td class="s3" align="center">2015-02-22 23:12:37</td>
+<td class="s3" align="center">inf</td>
+<td class="s3" align="center">0.00</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run048.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">395</td>
+<td class="s2" align="center">run047.data</td>
+<td class="s2" align="center">8513</td>
+<td class="s2" align="center">2015-02-22 23:04:09</td>
+<td class="s2" align="center">2015-02-22 23:12:15</td>
+<td class="s2" align="center">17.52</td>
+<td class="s2" align="center">37.55</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run047.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">396</td>
+<td class="s3" align="center">run046.data</td>
+<td class="s3" align="center">10101</td>
+<td class="s3" align="center">2015-02-22 22:37:34</td>
+<td class="s3" align="center">2015-02-22 22:41:28</td>
+<td class="s3" align="center">43.17</td>
+<td class="s3" align="center">75.02</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run046.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">397</td>
+<td class="s2" align="center">run045.data</td>
+<td class="s2" align="center">15</td>
+<td class="s2" align="center">2015-02-22 22:32:59</td>
+<td class="s2" align="center">2015-02-22 22:32:59</td>
+<td class="s2" align="center">inf</td>
+<td class="s2" align="center">0.00</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run045.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">398</td>
+<td class="s3" align="center">run044.data</td>
+<td class="s3" align="center">10675</td>
+<td class="s3" align="center">2015-02-22 22:28:58</td>
+<td class="s3" align="center">2015-02-22 22:32:59</td>
+<td class="s3" align="center">44.29</td>
+<td class="s3" align="center">75.11</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run044.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">399</td>
+<td class="s2" align="center">run042.data</td>
+<td class="s2" align="center">9955</td>
+<td class="s2" align="center">2015-02-22 22:23:38</td>
+<td class="s2" align="center">2015-02-22 22:27:32</td>
+<td class="s2" align="center">42.54</td>
+<td class="s2" align="center">75.17</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run042.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">400</td>
+<td class="s3" align="center">run040.data</td>
+<td class="s3" align="center">46932</td>
+<td class="s3" align="center">2015-02-22 22:03:39</td>
+<td class="s3" align="center">2015-02-22 22:21:29</td>
+<td class="s3" align="center">43.86</td>
+<td class="s3" align="center">75.13</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run040.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">401</td>
+<td class="s2" align="center">run036.data</td>
+<td class="s2" align="center">8724</td>
+<td class="s2" align="center">2015-02-22 21:58:00</td>
+<td class="s2" align="center">2015-02-22 22:02:36</td>
+<td class="s2" align="center">31.61</td>
+<td class="s2" align="center">75.23</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run036.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">402</td>
+<td class="s3" align="center">run035.data</td>
+<td class="s3" align="center">3484</td>
+<td class="s3" align="center">2015-02-22 21:54:40</td>
+<td class="s3" align="center">2015-02-22 21:55:59</td>
+<td class="s3" align="center">44.10</td>
+<td class="s3" align="center">75.26</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run035.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">403</td>
+<td class="s2" align="center">run034.data</td>
+<td class="s2" align="center">133</td>
+<td class="s2" align="center">2015-02-22 21:41:50</td>
+<td class="s2" align="center">2015-02-22 21:53:58</td>
+<td class="s2" align="center">0.18</td>
+<td class="s2" align="center">75.16</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run034.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">404</td>
+<td class="s3" align="center">run033.data</td>
+<td class="s3" align="center">115</td>
+<td class="s3" align="center">2015-02-22 21:36:31</td>
+<td class="s3" align="center">2015-02-22 21:41:41</td>
+<td class="s3" align="center">0.37</td>
+<td class="s3" align="center">75.18</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run033.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">405</td>
+<td class="s2" align="center">run032.data</td>
+<td class="s2" align="center">16</td>
+<td class="s2" align="center">2015-02-22 21:36:09</td>
+<td class="s2" align="center">2015-02-22 21:36:22</td>
+<td class="s2" align="center">1.23</td>
+<td class="s2" align="center">75.32</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run032.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">406</td>
+<td class="s3" align="center">run027.data</td>
+<td class="s3" align="center">168</td>
+<td class="s3" align="center">2015-02-22 21:24:03</td>
+<td class="s3" align="center">2015-02-22 21:25:00</td>
+<td class="s3" align="center">2.95</td>
+<td class="s3" align="center">75.12</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run027.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">407</td>
+<td class="s2" align="center">run025.data</td>
+<td class="s2" align="center">24469</td>
+<td class="s2" align="center">2015-02-22 19:42:23</td>
+<td class="s2" align="center">2015-02-22 20:01:54</td>
+<td class="s2" align="center">20.90</td>
+<td class="s2" align="center">75.26</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run025.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">408</td>
+<td class="s3" align="center">run018.data</td>
+<td class="s3" align="center">12694</td>
+<td class="s3" align="center">2015-02-22 18:11:04</td>
+<td class="s3" align="center">2015-02-22 18:15:07</td>
+<td class="s3" align="center">52.24</td>
+<td class="s3" align="center">75.31</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run018.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">409</td>
+<td class="s2" align="center">run017.data</td>
+<td class="s2" align="center">22</td>
+<td class="s2" align="center">2015-02-22 16:13:09</td>
+<td class="s2" align="center">2015-02-22 16:13:56</td>
+<td class="s2" align="center">0.47</td>
+<td class="s2" align="center">75.25</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run017.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">410</td>
+<td class="s3" align="center">run016.data</td>
+<td class="s3" align="center">39</td>
+<td class="s3" align="center">2015-02-22 16:12:14</td>
+<td class="s3" align="center">2015-02-22 16:13:03</td>
+<td class="s3" align="center">0.80</td>
+<td class="s3" align="center">75.32</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run016.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">411</td>
+<td class="s2" align="center">run015.data</td>
+<td class="s2" align="center">41</td>
+<td class="s2" align="center">2015-02-22 16:10:13</td>
+<td class="s2" align="center">2015-02-22 16:11:13</td>
+<td class="s2" align="center">0.68</td>
+<td class="s2" align="center">75.24</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run015.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">412</td>
+<td class="s3" align="center">run014.data</td>
+<td class="s3" align="center">214</td>
+<td class="s3" align="center">2015-02-22 16:06:33</td>
+<td class="s3" align="center">2015-02-22 16:08:45</td>
+<td class="s3" align="center">1.62</td>
+<td class="s3" align="center">75.28</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run014.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">413</td>
+<td class="s2" align="center">run013.data</td>
+<td class="s2" align="center">5720</td>
+<td class="s2" align="center">2015-02-22 16:01:04</td>
+<td class="s2" align="center">2015-02-22 16:02:56</td>
+<td class="s2" align="center">51.07</td>
+<td class="s2" align="center">75.32</td>
+<td class="s2" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run013.data.html">detales</a></td>
+</tr>
+<tr>
+<td class="s4" align="center">414</td>
+<td class="s3" align="center">run012.data</td>
+<td class="s3" align="center">156</td>
+<td class="s3" align="center">2015-02-22 15:55:12</td>
+<td class="s3" align="center">2015-02-22 15:55:13</td>
+<td class="s3" align="center">156.00</td>
+<td class="s3" align="center">0.00</td>
+<td class="s3" align="center"><a href=
+"http://bmnshift.jinr.ru/run_summary/run012.data.html">detales</a></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,43 @@
+{
+  "format": "XML",
+  "table": "detector_",
+  "parser_settings" : {
+    "XML" : {
+      "header" : true
+    }
+  },
+  "columns": [
+    {
+      "name": "#",
+      "type": "integer"
+    },
+    {
+      "name": "File name",
+      "type": "string"
+    },
+    {
+      "name": "Events",
+      "type": "integer"
+    },
+    {
+      "name": "Start Time",
+      "type": "datetime"
+    },
+    {
+      "name": "End Time",
+      "type": "datetime"
+    },
+    {
+      "name": "Average Rate",
+      "type": "float"
+    },
+    {
+      "name": "BField",
+      "type": "float"
+    },
+    {
+      "name": "detales",
+      "type": "string"
+    }
+  ]
+}
