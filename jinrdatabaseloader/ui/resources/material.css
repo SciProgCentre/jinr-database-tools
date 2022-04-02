@@ -1,0 +1,28 @@
+
+QLabel {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+QGroupBox::title{
+    color: $QTMATERIAL_SECONDARYTEXTCOLOR;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.help {
+    border: 2px solid lightgray;
+    background-color: lightgray;
+    min-height: 14px;
+    min-width: 14px;
+    border-radius: 7px;
+    color: black;
+}
+
+.connected{
+    color: forestgreen;
+}
+
+.disconnected{
+    color: red;
+}

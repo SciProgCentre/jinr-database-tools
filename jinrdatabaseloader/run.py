@@ -9,7 +9,7 @@ from jinrdatabaseloader.database import Database
 from jinrdatabaseloader.description import Description
 from jinrdatabaseloader.utils import open_help_html
 from jinrdatabaseloader.dev_utils import generate_descriptions, generate_fake_data
-# from jinrdatabaseloader.ui.app import DatabaseApp
+from jinrdatabaseloader.ui.app import DatabaseApp
 
 
 class DebugAction(argparse.Action):
@@ -121,7 +121,7 @@ def console_app():
     return 0
 
 
-# def gui_app():
-#     app = DatabaseApp(sys.argv)
-#     app.start_main_window()
-#     return sys.exit(app.exec_())
+def gui_app():
+    app = DatabaseApp(sys.argv)
+    app.start_main_window()
+    return sys.exit(app.exec_())

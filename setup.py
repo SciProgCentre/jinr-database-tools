@@ -20,30 +20,31 @@ setuptools.setup(
       "console_scripts" : [
           "jinr-database-loader = jinrdatabaseloader.run:console_app"
       ],
-      # "gui_scripts" : [
-      #     "jinr-jinrdatabaseloader-gui = jinrdatabaseloader.run:gui_app"
-      # ]
+      "gui_scripts" : [
+          "jinr-database-loader-gui = jinrdatabaseloader.run:gui_app"
+      ]
     },
     package_data = {
       "jinrdatabaseloader" : ["resources/*"],
-      # "jinrdatabaseloader.ui" : ["resources/*", "qml/*"]
+      "jinrdatabaseloader.ui" : ["resources/*", "qml/*"]
     },
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    # project_urls={
-    #     "Bug Tracker": "",
-    #     "Documentation": "",
-    #     "Source Code": "",
-    # },
+    project_urls={
+        "Bug Tracker": "https://github.com/mipt-npm/jinr-database-tools",
+        "Documentation": "https://github.com/mipt-npm/jinr-database-tools",
+        "Source Code": "https://github.com/mipt-npm/jinr-database-tools",
+    },
     install_requires=[
         "SQLAlchemy",
         "psycopg2-binary",
         "jsonschema",
         "json_schema_for_humans",
-        # "qt-material"
+        "PySide2",
+        "qt-material"
     ]
     # test_suite='tests'
 )

@@ -7,7 +7,7 @@ Tools for load data to database
 
 ## Installation
 
-Dev instalation: `pip install -e .`
+Dev installation: `pip install -e .`
 
 ## Usage
 
