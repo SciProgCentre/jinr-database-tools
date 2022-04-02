@@ -12,17 +12,17 @@ from .utils import ORGANIZATION_NAME, ORGANIZATION_DOMAIN, APPLICATION_NAME, get
 class ConnectionAction(QPushButton):
 
     def __init__(self, parent):
-        super(ConnectionAction, self).__init__("Find connection\n to jinrdatabaseloader", parent)
-        self.setToolTip("Click to open jinrdatabaseloader settings")
+        super(ConnectionAction, self).__init__("Find connection\n to database", parent)
+        self.setToolTip("Click to open database settings")
 
     def change_status(self, state):
         if state:
-            self.setText("Connected\n to jinrdatabaseloader")
+            self.setText("Connected\n to database")
             self.setProperty("class", "success")
             self.style().unpolish(self)
             self.style().polish(self)
         else:
-            self.setText("Find connection\n to jinrdatabaseloader")
+            self.setText("Find connection\n to database")
             self.setProperty("class", "danger")
             self.style().unpolish(self)
             self.style().polish(self)
@@ -32,7 +32,7 @@ class DatabaseWindow(QMainWindow):
     def __init__(self, backend: Backend):
         super().__init__()
         self.setWindowTitle("Database tools")
-        self.setWindowIcon(get_icon("is-jinrdatabaseloader-upload.svg"))
+        self.setWindowIcon(get_icon("is-database-upload.svg"))
         self.backend = backend
         self.resize(backend.settings.app_settings.window_size)
         self.init_UI()

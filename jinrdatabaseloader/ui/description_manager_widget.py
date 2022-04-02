@@ -15,7 +15,7 @@ class DescriptionView(QTreeView):
         self.viewport().setAcceptDrops(True)
         self.setDropIndicatorShown(True)
         self.setHeaderHidden(True)
-        self.setSelectionMode(QTreeView.MultiSelection)
+        self.setSelectionMode(QTreeView.SingleSelection)
         self.setModel(backend.description_model)
         self.backend = backend
         self.setContextMenuPolicy(QtCore.Qt.CustomContextMenu)
@@ -62,7 +62,6 @@ class DescriptionView(QTreeView):
             self.backend.description_model.add_description_from_path(pathlib.Path(file), collection)
 
     def delete_items(self, items):
-
         for item in items:
             self.backend.description_model.delete_item(item)
 

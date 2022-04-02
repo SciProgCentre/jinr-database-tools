@@ -36,8 +36,8 @@ class DatabaseBasedField(QWidget):
 
     def __init__(self, description: Description, backend: Backend, database_callback, key: str, tooltip_name: str = ""):
         super(DatabaseBasedField, self).__init__()
-        self._no_connection = self.tr("Not connection to jinrdatabaseloader")
-        self._combo_tooltip = self.tr("Select {} from jinrdatabaseloader".format(tooltip_name))
+        self._no_connection = self.tr("Not connection to database")
+        self._combo_tooltip = self.tr("Select {} from database".format(tooltip_name))
         self.backend = backend
         self.callback = database_callback
         self.combo = QComboBox()

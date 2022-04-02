@@ -5,6 +5,7 @@ from unittest import TestCase
 from jinrdatabaseloader.description import Description
 from jinrdatabaseloader.ui.app import DatabaseApp
 from jinrdatabaseloader.ui.description_editor import DescriptionEditor, ColumnsEditor, ColumnWidget
+from jinrdatabaseloader.ui.description_manager_widget import DescriptionView
 from jinrdatabaseloader.ui.description_model import PathItem
 from jinrdatabaseloader.ui.utils import appdata
 
@@ -26,6 +27,17 @@ class BackendTest(TestCase):
     def test_appdata(self):
         path = appdata()
         print(path)
+
+
+class MainWindowTest(TestCase):
+    def setUp(self) -> None:
+        shutil.rmtree(PathItem.FD_PATH / "Test", ignore_errors=True)
+        self.app = DatabaseApp(sys.argv)
+
+    def test_description_manager(self):
+        widget = DescriptionView(self.app.backend)
+        widget.show()
+        self.app.exec_()
 
 
 class EditorTest(TestCase):

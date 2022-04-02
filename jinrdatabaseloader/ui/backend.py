@@ -7,7 +7,7 @@ from jinrdatabaseloader.file_status import LoadStatus
 from jinrdatabaseloader.ui.description_model import FDFilesTree
 from jinrdatabaseloader.ui.files_model import FilesModel
 from jinrdatabaseloader.ui.settings import Settings
-from jinrdatabaseloader.ui.utils import appdata, FD_FOLDER
+from jinrdatabaseloader.ui.utils import appdata
 
 
 class Backend(QObject):

@@ -29,7 +29,7 @@ class CentralWidget(QWidget):
 
     def init_loading_database(self, backend: Backend) -> QVBoxLayout:
         add_files = QPushButton(get_icon("is-folder-search.svg"), self.tr("Add files"))
-        load_to_database = QPushButton(get_icon("is-jinrdatabaseloader-upload"), self.tr("Load to jinrdatabaseloader"))
+        load_to_database = QPushButton(get_icon("is-database-upload"), self.tr("Load to database"))
         clear_loaded = QPushButton(get_icon("delete.svg"), self.tr("Clear loaded"))
         clear_all = QPushButton(get_icon("delete.svg"), self.tr("Clear all"))
 
@@ -51,7 +51,7 @@ class CentralWidget(QWidget):
         hbox_down = hbox(clear_loaded, clear_all)
         hbox_down.insertStretch(0)
 
-        return vbox(title_label(self.tr("Loading to jinrdatabaseloader")),
+        return vbox(title_label(self.tr("Loading to database")),
             hbox_up, FileListView(backend), hbox_down)
 
 
