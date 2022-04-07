@@ -1,13 +1,12 @@
 import pathlib
 
-import jsonschema
 from PySide2 import QtCore
 from PySide2.QtCore import QItemSelectionModel
 from PySide2.QtWidgets import QTreeView, QMenu, QFileDialog, QMessageBox
 
 from jinrdatabaseloader.ui.backend import Backend
 from jinrdatabaseloader.ui.description_editor import DescriptionEditor
-from jinrdatabaseloader.ui.description_model import CollectionItem
+from jinrdatabaseloader.ui.description_model import CollectionItem, FDItem
 from jinrdatabaseloader.ui.utils import get_icon
 
 
@@ -23,8 +22,16 @@ class DescriptionView(QTreeView):
         self.setSelectionMode(QTreeView.SingleSelection)
         self.setContextMenuPolicy(QtCore.Qt.CustomContextMenu)
         self.customContextMenuRequested.connect(self.open_context_menu)
-
+        self.selectionModel().currentChanged.connect(self.selection_change)
         self.init_context_menus()
+
+    def selection_change(self, curr_index, prev_index):
+        if curr_index.isValid():
+            item = self._item(curr_index)
+            if isinstance(item, FDItem):
+                self.backend.current_description_item = item
+            else:
+                self.backend.current_description_item = None
 
     def init_context_menus(self):
         self.descritpion_menu = QMenu()

@@ -5,8 +5,9 @@ from PySide2.QtWidgets import QApplication, QMainWindow, QAction, QToolBar, QPus
 
 from .backend import Backend
 from .central_widget import CentralWidget
+from .error_log_dock import ErrorLogDock
 from .settings import Settings, ConnectionDock
-from .utils import ORGANIZATION_NAME, ORGANIZATION_DOMAIN, APPLICATION_NAME, get_icon, FONTS_PATH, CSS_PATH
+from .utils import ORGANIZATION_NAME, ORGANIZATION_DOMAIN, APPLICATION_NAME, get_icon, CSS_PATH
 
 
 class ConnectionAction(QPushButton):
@@ -65,11 +66,16 @@ class DatabaseWindow(QMainWindow):
         self.backend.connection_status.connect(action.change_status)
         self.backend.check_connection_status()
 
+        error_log_dock = ErrorLogDock(self)
+        self.addDockWidget(QtCore.Qt.BottomDockWidgetArea, error_log_dock)
+        toolbar.addAction(error_log_dock.toggleViewAction())
+
+
         action = QAction("Open json\n scheme help", self)
         action.triggered.connect(self.backend.open_help_html)
         toolbar.addAction(action)
 
-        central = CentralWidget(self, self.backend)
+        central = CentralWidget(self.backend)
         self.setCentralWidget(central)
 
 

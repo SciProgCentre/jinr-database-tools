@@ -11,6 +11,10 @@ Dev installation: `pip install -e .`
 
 ## Usage
 
+### GUI
+
+Run: `jinr-database-loader-gui`
+
 ### CLI
 
 For example: 

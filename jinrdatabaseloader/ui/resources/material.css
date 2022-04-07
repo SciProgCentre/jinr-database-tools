@@ -26,3 +26,7 @@ QGroupBox::title{
 .disconnected{
     color: red;
 }
+
+.selected_description{
+    color: blue;
+}

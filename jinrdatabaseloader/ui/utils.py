@@ -15,7 +15,6 @@ ORGANIZATION_DOMAIN = "npm.mipt.ru"
 APPLICATION_NAME = "JINR Database Tools"
 FD_FOLDER =  "FileDescriptions"
 ROOT_DIR = pathlib.Path(__file__).parent
-FONTS_PATH = ROOT_DIR / "resources" / 'fonts' / 'roboto'
 CSS_PATH = ROOT_DIR / "resources" / "material.css"
 
 def appdata():

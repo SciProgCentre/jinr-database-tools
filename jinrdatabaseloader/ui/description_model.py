@@ -2,10 +2,11 @@ import abc
 import os
 import pathlib
 import shutil
+import typing
 from typing import Optional, Callable
 
-import jsonschema
 from PySide2 import QtCore
+from PySide2.QtCore import QModelIndex, Qt
 from PySide2.QtGui import QStandardItemModel, QStandardItem
 
 from .utils import get_icon, FD_FOLDER, appdata
@@ -68,6 +69,8 @@ class PathItem(QStandardItem):
                 self.change_name(value)
             super(PathItem, self).setData(value, PathItem.NAME_ROLE)
             self.sender.send(PathItem.NAME_ROLE)
+        elif role == Qt.EditRole:
+            self.setData(value, PathItem.NAME_ROLE)
         else:
             super(PathItem, self).setData(value, role)
 
@@ -92,13 +95,21 @@ class CollectionItem(PathItem):
         else:
             return super(CollectionItem, self).data(role)
 
+    def child_items(self) -> list["FDItem"]:
+        return [self.child(row, 0) for row in range(self.rowCount())]
+
     @property
     def path(self):
         return PathItem.FD_PATH / self.data(PathItem.NAME_ROLE)
 
     def change_name(self, new_name):
-        #TODO
-        shutil.move(self.path, PathItem.FD_PATH / new_name)
+        old_path = self.path
+        new_path = PathItem.FD_PATH / new_name
+        os.makedirs(new_path, exist_ok=True)
+        for item in self.child_items():
+            path = item.path
+            shutil.move(path, new_path / path.name)
+        os.removedirs(old_path)
 
     def delete(self):
         shutil.rmtree(self.path)

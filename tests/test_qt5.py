@@ -4,6 +4,7 @@ from unittest import TestCase
 
 from jinrdatabaseloader.description import Description
 from jinrdatabaseloader.ui.app import DatabaseApp
+from jinrdatabaseloader.ui.central_widget import CentralWidget
 from jinrdatabaseloader.ui.description_editor import DescriptionEditor, ColumnsEditor, ColumnWidget
 from jinrdatabaseloader.ui.description_manager_widget import DescriptionView
 from jinrdatabaseloader.ui.description_model import PathItem
@@ -36,6 +37,11 @@ class MainWindowTest(TestCase):
 
     def test_description_manager(self):
         widget = DescriptionView(self.app.backend)
+        widget.show()
+        self.app.exec_()
+
+    def test_central(self):
+        widget = CentralWidget(self.app.backend)
         widget.show()
         self.app.exec_()
 

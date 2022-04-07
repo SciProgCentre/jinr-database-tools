@@ -14,15 +14,33 @@ def title_label(text):
     return label
 
 
+class SelectedDescription(QLabel):
+    def __init__(self, backend: Backend):
+        super(SelectedDescription, self).__init__()
+        self.backend = backend
+        backend.description_changed.connect(self.update_label)
+        self.setProperty("class", "selected_description")
+        self.update_label()
+
+    def update_label(self):
+        item = self.backend.current_description_item
+        if item is None:
+            self.setText(self.tr("No selected description"))
+        else:
+            self.setText(item.name)
+
+
 class CentralWidget(QWidget):
-    def __init__(self, parent, backend):
-        super().__init__(parent)
+    def __init__(self, backend):
+        super().__init__()
         description_manager = self.init_description_manager(backend)
         loading_database = self.init_loading_database(backend)
         hbox(description_manager, loading_database, parent=self)
 
     def init_description_manager(self, backend: Backend) -> QVBoxLayout:
+
         return vbox(
+            SelectedDescription(backend),
             title_label(self.tr("Format description manager")),
             DescriptionView(backend),
         )
@@ -35,6 +53,17 @@ class CentralWidget(QWidget):
 
         clear_loaded.setProperty("class", "warning")
         clear_all.setProperty("class", "danger")
+
+        def block_loading():
+            if backend.current_description_item is None:
+                load_to_database.setDisabled(True)
+                load_to_database.setToolTip(self.tr("Select description of files"))
+            else:
+                load_to_database.setDisabled(False)
+                load_to_database.setToolTip(self.tr("Load this files in database"))
+
+        backend.description_changed.connect(block_loading)
+        block_loading()
 
         def add_file():
             files, _ = QFileDialog.getOpenFileNames(self, self.tr("Select Files for Loading to Database"))

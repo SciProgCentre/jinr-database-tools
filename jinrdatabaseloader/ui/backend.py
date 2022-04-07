@@ -1,3 +1,4 @@
+import logging
 import pathlib
 
 from PySide2.QtCore import QObject, Signal, Slot
@@ -14,6 +15,8 @@ class Backend(QObject):
 
     _files_model = None
     _description_model = None
+    _current_description_item = None
+    description_changed = Signal()
 
     def __init__(self, settings: Settings):
         super(Backend, self).__init__(parent=None)
@@ -45,14 +48,26 @@ class Backend(QObject):
             self._description_model.initialize()
         return self._description_model
 
+    @property
+    def current_description_item(self) -> "FDItem":
+        return self._current_description_item
+
+    @current_description_item.setter
+    def current_description_item(self, item):
+        self._current_description_item = item
+        self.description_changed.emit()
+
     @Slot()
     def load_to_database(self):
-        for row in range(self._files_model.rowCount()):
-            item = self._files_model.item(row)
-            path: pathlib.Path = item.path
-            if item.status != LoadStatus.SUCCESS:
-                #TODO(get description)
-                item.status = self.database.load_data({}, item.path)
+        description = self.current_description_item.description
+        if description is not None:
+            for row in range(self._files_model.rowCount()):
+                item = self._files_model.item(row)
+                if item.status != LoadStatus.SUCCESS:
+                    load_result = self.database.load_data(description, item.path)
+                    item.status = load_result.status
+                    if load_result.status != LoadStatus.SUCCESS:
+                        logging.error(load_result.to_string())
 
 
     @Slot()
