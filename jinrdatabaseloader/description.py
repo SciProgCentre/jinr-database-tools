@@ -145,6 +145,7 @@ class DescriptionList(UserList):
                 data[i] = item
         return data
 
+
 class DescriptionEncoder(json.JSONEncoder):
     def default(self, obj: Any) -> Any:
         if isinstance(obj, Description):

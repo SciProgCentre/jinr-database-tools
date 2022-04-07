@@ -4,6 +4,7 @@ import pathlib
 import shutil
 from typing import Optional, Callable
 
+import jsonschema
 from PySide2 import QtCore
 from PySide2.QtGui import QStandardItemModel, QStandardItem
 
@@ -96,7 +97,8 @@ class CollectionItem(PathItem):
         return PathItem.FD_PATH / self.data(PathItem.NAME_ROLE)
 
     def change_name(self, new_name):
-        shutil.copytree(self.path, PathItem.FD_PATH / new_name)
+        #TODO
+        shutil.move(self.path, PathItem.FD_PATH / new_name)
 
     def delete(self):
         shutil.rmtree(self.path)
@@ -149,6 +151,14 @@ class FDFilesTree(QStandardItemModel):
     def __init__(self):
         super(FDFilesTree, self).__init__()
 
+    @property
+    def default_collection(self):
+        root = self.invisibleRootItem()
+        if root.rowCount() == 0:
+            item = self.create_collection_item("General")
+            return item
+        return root.child(0,0)
+
     def initialize(self):
         self.clear()
         if not PathItem.FD_PATH.exists():
@@ -167,7 +177,7 @@ class FDFilesTree(QStandardItemModel):
                     self.add_description_from_path(sub_path, item)
 
     def add_description_from_path(self, path: pathlib.Path, collection):
-        self.create_description_item(path.stem, collection, Description.load(path))
+        self.create_description_item(path.stem, collection,  Description.load(path))
 
     @staticmethod
     def check_name(item, name):
@@ -203,35 +213,10 @@ class FDFilesTree(QStandardItemModel):
 
     def delete_item(self, item: PathItem):
         item.delete()
-        self.removeRow(item.row(), parent=item.parent().index())
-
-
-
-    # def add_path(self, path: pathlib.Path) -> Optional[PathItem]:
-    #     if path.is_dir():
-    #         item = self.create_collection_item(path.name)
-    #         for sub_path in path.iterdir():
-    #             if sub_path.is_file():
-    #                 self.create_description_item(sub_path, item)
-    #     elif path.is_file():
-    #         item = self.create_description_item(path)
-    #     else:
-    #         return None
-    #     return item
-
-    # def selected_items(self):
-    #     items = []
-    #     for i in range(self.rowCount()):
-    #         item : QStandardItem = self.item(i)
-    #         if item.isSelectable():
-    #             items.append(item)
-    #         else:
-    #             if item.hasChildren():
-    #                 for j in item.rowCount():
-    #                     child = item.child(j)
-    #                     if child.isSelectable():
-    #                         items.append(child)
-    #     return items
+        if not isinstance(item, CollectionItem):
+            self.removeRow(item.row(), parent=item.parent().index())
+        else:
+            self.removeRow(item.row())
 
     # def keyPressEvent(self, event):
     #     if event.key() == QtCore.Qt.Key_Delete:
@@ -252,7 +237,8 @@ class FDFilesTree(QStandardItemModel):
     def create_collection(self):
         self.create_collection_item("New collection")
 
-    def export_all_to_zip(self, filename):
+    @staticmethod
+    def export_all_to_zip(filename):
         shutil.make_archive(filename, "zip", PathItem.FD_PATH)
 
     @staticmethod
@@ -263,14 +249,5 @@ class FDFilesTree(QStandardItemModel):
     def import_from_zip(self, filename):
         shutil.unpack_archive(filename, PathItem.FD_PATH, "zip")
         self.initialize()
-
-    # def delete_descriptions(self):
-    #     items = self._selected_items()
-    #     if len(items) == 0: return 0
-    #     # text = "Do you want deleted this items? \n\n"
-    #     # text += "/n".join(map(repr, items))
-    #     for item in items:
-    #         item : PathItem = self.takeItem(item.row())
-    #         item.delete()
 
 
