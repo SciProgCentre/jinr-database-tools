@@ -4,8 +4,8 @@ import dataclasses
 import xml.etree.ElementTree as ET
 from typing import Iterable, Any, List
 
-from jinrdatabaseloader.description import Description
-from jinrdatabaseloader.description_typing import DatabaseType, DEFAULT_PEEKER
+from sdp.description import Description
+from sdp.description_typing import DatabaseType, DEFAULT_PEEKER
 
 
 @dataclasses.dataclass

@@ -10,10 +10,10 @@ from sqlalchemy import create_engine, MetaData, insert
 from sqlalchemy.engine import Engine
 from sqlalchemy.engine.url import URL
 
-from jinrdatabaseloader.description import Description
-from jinrdatabaseloader.description_typing import TypePeeker, DEFAULT_PEEKER
-from jinrdatabaseloader.source_readers import SourceReader
-from jinrdatabaseloader.file_status import LoadStatus, LoadResult
+from sdp.description import Description
+from sdp.description_typing import TypePeeker, DEFAULT_PEEKER
+from sdp.source_readers import SourceReader
+from sdp.file_status import LoadStatus, LoadResult
 
 
 class Drivers(Enum):

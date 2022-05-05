@@ -1,4 +1,4 @@
-from jinrdatabaseloader.run import gui_app
+from sdp.run import gui_app
 
 if __name__ == '__main__':
     gui_app()

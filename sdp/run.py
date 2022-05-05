@@ -5,11 +5,11 @@ import sys
 
 import jsonschema
 
-from jinrdatabaseloader.database import Database
-from jinrdatabaseloader.description import Description
-from jinrdatabaseloader.utils import open_help_html
-from jinrdatabaseloader.dev_utils import generate_descriptions, generate_fake_data
-from jinrdatabaseloader.ui.app import DatabaseApp
+from sdp.database import Database
+from sdp.description import Description
+from sdp.utils import open_help_html
+from sdp.dev_utils import generate_descriptions, generate_fake_data
+from sdp.ui.app import DatabaseApp
 
 
 class DebugAction(argparse.Action):

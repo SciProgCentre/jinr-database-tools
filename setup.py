@@ -5,12 +5,12 @@ with open(os.path.join(os.path.dirname(__file__), "README.md"), "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="jinrdatabaseloader",
+    name="smart-data-parser",
     version="0.0.1",
     author="NPM Group",
     author_email="mihail.zelenyy@phystech.edu",
     url='http://npm.mipt.ru/',
-    description="JINR Database Tools",
+    description="JINR Tools for parsing data and loading to database",
     license="MIT License",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -18,15 +18,15 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     entry_points = {
       "console_scripts" : [
-          "jinr-database-loader = jinrdatabaseloader.run:console_app"
+          "smart-data-parser = sdp.run:console_app"
       ],
       "gui_scripts" : [
-          "jinr-database-loader-gui = jinrdatabaseloader.run:gui_app"
+          "smart-data-parser-gui = sdp.run:gui_app"
       ]
     },
     package_data = {
-      "jinrdatabaseloader" : ["resources/*"],
-      "jinrdatabaseloader.ui" : ["resources/*", "qml/*"]
+      "sdp" : ["resources/*"],
+      "sdp.ui" : ["resources/*", "qml/*"]
     },
     classifiers=[
         "Programming Language :: Python :: 3",

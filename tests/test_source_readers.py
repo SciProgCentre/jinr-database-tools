@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from jinrdatabaseloader.description import Description
-from jinrdatabaseloader.source_readers import CSVReader, XMLReader
+from sdp.description import Description
+from sdp.source_readers import CSVReader, XMLReader
 
 
 class CVSReaderTest(TestCase):

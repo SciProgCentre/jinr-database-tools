@@ -6,7 +6,7 @@ from typing import Any, Union, Optional
 
 import jsonschema
 
-from jinrdatabaseloader.utils import JSON_SCHEMA
+from sdp.utils import JSON_SCHEMA
 
 
 class TypeChecker:

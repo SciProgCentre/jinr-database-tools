@@ -4,8 +4,8 @@ from typing import Optional
 from PySide2.QtCore import QSettings, QSize, QObject, Signal
 from PySide2.QtWidgets import QDockWidget, QVBoxLayout, QLabel, QWidget, QDesktopWidget
 
-from jinrdatabaseloader.database import DatabaseSettings
-from jinrdatabaseloader.ui.utils import hbox, FieldEditor, button
+from sdp.database import DatabaseSettings
+from sdp.ui.utils import hbox, FieldEditor, button
 
 
 def default_size():

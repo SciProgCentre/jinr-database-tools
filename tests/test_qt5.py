@@ -2,13 +2,13 @@ import shutil
 import sys
 from unittest import TestCase
 
-from jinrdatabaseloader.description import Description
-from jinrdatabaseloader.ui.app import DatabaseApp
-from jinrdatabaseloader.ui.central_widget import CentralWidget
-from jinrdatabaseloader.ui.description_editor import DescriptionEditor, ColumnsEditor, ColumnWidget
-from jinrdatabaseloader.ui.description_manager_widget import DescriptionView
-from jinrdatabaseloader.ui.description_model import PathItem
-from jinrdatabaseloader.ui.utils import appdata
+from sdp.description import Description
+from sdp.ui.app import DatabaseApp
+from sdp.ui.central_widget import CentralWidget
+from sdp.ui.description_editor import DescriptionEditor, ColumnsEditor, ColumnWidget
+from sdp.ui.description_manager_widget import DescriptionView
+from sdp.ui.description_model import PathItem
+from sdp.ui.utils import appdata
 
 
 class BackendTest(TestCase):

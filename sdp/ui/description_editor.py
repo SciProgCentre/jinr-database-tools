@@ -2,10 +2,10 @@ from PySide2.QtCore import Qt, Signal
 from PySide2.QtWidgets import QWidget, QLabel, QVBoxLayout, QLineEdit, QComboBox, QGroupBox, QPushButton, QBoxLayout, \
     QScrollArea, QCheckBox, QStackedLayout, QSpinBox
 
-from jinrdatabaseloader.description import Description
-from jinrdatabaseloader.ui.backend import Backend
-from jinrdatabaseloader.ui.description_model import FDItem, FDFilesTree, PathItem
-from jinrdatabaseloader.ui.utils import hbox
+from sdp.description import Description
+from sdp.ui.backend import Backend
+from sdp.ui.description_model import FDItem, FDFilesTree, PathItem
+from sdp.ui.utils import hbox
 
 
 class NameEditor(QWidget):

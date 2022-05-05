@@ -4,7 +4,7 @@ from abc import ABC
 from typing import Callable, Optional, Any, Union, Type
 import sqlalchemy.types
 
-from jinrdatabaseloader.description import Description
+from sdp.description import Description
 
 
 class DatabaseType:

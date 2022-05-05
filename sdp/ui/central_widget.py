@@ -3,9 +3,9 @@ import pathlib
 from PySide2 import QtCore
 from PySide2.QtWidgets import QWidget, QListView, QPushButton, QFileDialog, QLabel, QVBoxLayout
 
-from jinrdatabaseloader.ui.backend import Backend
-from jinrdatabaseloader.ui.description_manager_widget import DescriptionView
-from jinrdatabaseloader.ui.utils import hbox, get_icon, vbox
+from sdp.ui.backend import Backend
+from sdp.ui.description_manager_widget import DescriptionView
+from sdp.ui.utils import hbox, get_icon, vbox
 
 
 def title_label(text):

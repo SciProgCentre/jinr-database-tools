@@ -5,8 +5,8 @@ from typing import Union, TextIO
 
 from sqlalchemy import MetaData
 
-from jinrdatabaseloader.database import Database
-from jinrdatabaseloader.description_typing import DEFAULT_PEEKER, DatabaseType
+from sdp.database import Database
+from sdp.description_typing import DEFAULT_PEEKER, DatabaseType
 
 
 def walk_database(database : Database):

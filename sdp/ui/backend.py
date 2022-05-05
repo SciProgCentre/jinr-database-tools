@@ -3,12 +3,12 @@ import pathlib
 
 from PySide2.QtCore import QObject, Signal, Slot
 
-from jinrdatabaseloader.database import Database
-from jinrdatabaseloader.file_status import LoadStatus
-from jinrdatabaseloader.ui.description_model import FDFilesTree
-from jinrdatabaseloader.ui.files_model import FilesModel
-from jinrdatabaseloader.ui.settings import Settings
-from jinrdatabaseloader.ui.utils import appdata
+from sdp.database import Database
+from sdp.file_status import LoadStatus
+from sdp.ui.description_model import FDFilesTree
+from sdp.ui.files_model import FilesModel
+from sdp.ui.settings import Settings
+from sdp.ui.utils import appdata
 
 
 class Backend(QObject):

@@ -1,8 +1,8 @@
 from unittest import TestCase
 
-from jinrdatabaseloader.database import Database
-from jinrdatabaseloader.description import Description
-from jinrdatabaseloader.file_status import LoadStatus
+from sdp.database import Database
+from sdp.description import Description
+from sdp.file_status import LoadStatus
 
 
 class CVSReaderTest(TestCase):

@@ -4,10 +4,10 @@ from PySide2 import QtCore
 from PySide2.QtCore import QItemSelectionModel
 from PySide2.QtWidgets import QTreeView, QMenu, QFileDialog, QMessageBox
 
-from jinrdatabaseloader.ui.backend import Backend
-from jinrdatabaseloader.ui.description_editor import DescriptionEditor
-from jinrdatabaseloader.ui.description_model import CollectionItem, FDItem
-from jinrdatabaseloader.ui.utils import get_icon
+from sdp.ui.backend import Backend
+from sdp.ui.description_editor import DescriptionEditor
+from sdp.ui.description_model import CollectionItem, FDItem
+from sdp.ui.utils import get_icon
 
 
 class DescriptionView(QTreeView):
