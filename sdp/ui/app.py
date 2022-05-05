@@ -1,7 +1,7 @@
 import os
 
 from PySide2 import QtCore, QtGui
-from PySide2.QtWidgets import QApplication, QMainWindow, QAction, QToolBar, QPushButton
+from PySide2.QtWidgets import QApplication, QMainWindow, QAction, QToolBar, QPushButton, QWidget, QSizePolicy
 
 from .backend import Backend
 from .central_widget import CentralWidget
@@ -12,18 +12,21 @@ from .utils import ORGANIZATION_NAME, ORGANIZATION_DOMAIN, APPLICATION_NAME, get
 
 class ConnectionAction(QPushButton):
 
+    connected = "CONNECTED\n TO DATABASE"
+    disconnected = "NO CONNECTION\n TO DATABASE"
+
     def __init__(self, parent):
-        super(ConnectionAction, self).__init__("Find connection\n to database", parent)
-        self.setToolTip("Click to open database settings")
+        super(ConnectionAction, self).__init__(ConnectionAction.disconnected, parent)
+        self.setToolTip(self.tr("Click to open database settings"))
 
     def change_status(self, state):
         if state:
-            self.setText("Connected\n to database")
+            self.setText(ConnectionAction.connected)
             self.setProperty("class", "success")
             self.style().unpolish(self)
             self.style().polish(self)
         else:
-            self.setText("Find connection\n to database")
+            self.setText(ConnectionAction.disconnected)
             self.setProperty("class", "danger")
             self.style().unpolish(self)
             self.style().polish(self)
@@ -66,14 +69,18 @@ class DatabaseWindow(QMainWindow):
         self.backend.connection_status.connect(action.change_status)
         self.backend.check_connection_status()
 
+        # Empty widget for stretch empty space
+        spacer = QWidget()
+        spacer.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Preferred)
+        toolbar.addWidget(spacer)
+
+        action = QAction("JSON\n format description", self)
+        action.triggered.connect(self.backend.open_help_html)
+        toolbar.addAction(action)
+
         error_log_dock = ErrorLogDock(self)
         self.addDockWidget(QtCore.Qt.BottomDockWidgetArea, error_log_dock)
         toolbar.addAction(error_log_dock.toggleViewAction())
-
-
-        action = QAction("Open json\n scheme help", self)
-        action.triggered.connect(self.backend.open_help_html)
-        toolbar.addAction(action)
 
         central = CentralWidget(self.backend)
         self.setCentralWidget(central)

@@ -29,16 +29,17 @@ class Drivers(Enum):
 
 @dataclass
 class DatabaseSettings:
-    drivername: Drivers = Drivers.POSTGRES_PSYCOPG2
+    driver: Drivers = Drivers.POSTGRES_PSYCOPG2
     host: str = "localhost"
-    port: Optional[int] = None
+    port: int = 5432
     database: str = "postgres"
     username: str = "postgres"
     password: str = ""
 
     def to_url(self):
         settings = dataclasses.asdict(self)
-        settings["drivername"] = self.drivername.value
+        settings.pop("driver")
+        settings["drivername"] = self.driver.value
         return URL(**settings)
 
 

@@ -14,7 +14,7 @@ class ErrorHandler(logging.Handler):
 
 class ErrorLogDock(QDockWidget):
     def __init__(self, parent):
-        super().__init__("Error log", parent)
+        super().__init__("Error panel", parent)
         widget = QPlainTextEdit()
         self.setWidget(widget)
         widget.setReadOnly(True)

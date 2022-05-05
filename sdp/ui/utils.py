@@ -12,7 +12,7 @@ from PySide2.QtWidgets import QHBoxLayout, QWidget, QLayout, QBoxLayout, QLineEd
 
 ORGANIZATION_NAME = "NPM_Group"
 ORGANIZATION_DOMAIN = "npm.mipt.ru"
-APPLICATION_NAME = "JINR Database Tools"
+APPLICATION_NAME = "Smart Data Parser"
 FD_FOLDER =  "FileDescriptions"
 ROOT_DIR = pathlib.Path(__file__).parent
 CSS_PATH = ROOT_DIR / "resources" / "material.css"
@@ -51,7 +51,7 @@ class FieldEditor(QObject):
     def create_field_editor(obj, field: dataclasses.Field):
         if field.type == str:
             return StrFieldEditor(obj, field)
-        if field.type == Optional[int]:
+        if field.type == Optional[int] or field.type == int:
             return IntFieldEditor(obj, field)
         if issubclass(field.type, Enum):
             return EnumFieldEditor(obj, field)
