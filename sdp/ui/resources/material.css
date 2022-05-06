@@ -30,3 +30,9 @@ QGroupBox::title{
 .selected_description{
     color: blue;
 }
+
+.danger-title{
+    color : red;
+    text-transform: uppercase;
+    font-weight: bold;
+}

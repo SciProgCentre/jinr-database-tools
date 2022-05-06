@@ -11,6 +11,8 @@ from sdp.utils import open_help_html
 from sdp.dev_utils import generate_descriptions, generate_fake_data
 from sdp.ui.app import DatabaseApp
 
+FORMAT = "%(levelname)s: %(message)s"
+logging.basicConfig(format=FORMAT)
 
 class DebugAction(argparse.Action):
     def __call__(self, parser, namespace, values, option_string=None):
@@ -19,16 +21,22 @@ class DebugAction(argparse.Action):
 
 
 def create_parser():
-    parser = argparse.ArgumentParser(description='Add file to database.')
+    prog = sys.argv[0]
+    if ".py" in prog:
+        prog = "python {}".format(prog)
+    else:
+        prog = None
+    parser = argparse.ArgumentParser(prog = prog,
+        description='Parse input data file and load to database')
     parser.add_argument("--debug", action=DebugAction, nargs=0, help=argparse.SUPPRESS)
 
     subparsers = parser.add_subparsers(metavar="command", required=True)
 
-    parser_validate = subparsers.add_parser("validate", help="Validate json file")
+    parser_validate = subparsers.add_parser("validate", help="Validate JSON file with input data format")
     parser_validate.add_argument("descriptions", nargs="+", metavar="JSON_DESCRIPTIONS")
     parser_validate.set_defaults(func=validate)
 
-    parser_load = subparsers.add_parser("load", help="Load file to database")
+    parser_load = subparsers.add_parser("load", help="Parse input data file and load to database")
     parser_load.add_argument("files", nargs="+", metavar="FILE")
     parser_load.add_argument("-c", "--config", action="store", default="config.json",
                              help="Configuration file with database settings")
@@ -37,8 +45,8 @@ def create_parser():
     parser_load.set_defaults(func = load_to_database)
 
 
-    parser_schema = subparsers.add_parser("json_schema",
-                                          help="Open HTML documentation for JSON Schema")
+    parser_schema = subparsers.add_parser("format",
+                                          help="Open description of the JSON schema for input data")
     parser_schema.set_defaults(func=lambda x: open_help_html("scheme.html"))
 
     parser_gen = subparsers.add_parser("generate", help="Generate json templates from database")
@@ -54,7 +62,8 @@ def create_parser():
 
 def validate(args):
     for file in args.descriptions:
-        load_description(file)
+        if load_description(file) is not None:
+            print(file, "successfully validated.")
     return 0
 
 
@@ -64,7 +73,6 @@ def load_description(path):
     except jsonschema.exceptions.ValidationError as err:
         print(err)
         return None
-    print(path, "successfully validated.")
     return description
 
 
@@ -83,7 +91,7 @@ def load_to_database(args):
 
         database = Database.connect_from_file(args.config)
         if database is None:
-            print("Can't connect to database")
+            print("Cannot connect to the database for data loading")
             return 1
 
         load_result = database.load_data(description, path)
@@ -122,6 +130,8 @@ def console_app():
 
 
 def gui_app():
+    if "--debug" in sys.argv:
+        logging.root.setLevel(logging.DEBUG)
     app = DatabaseApp(sys.argv)
     app.start_main_window()
     return sys.exit(app.exec_())

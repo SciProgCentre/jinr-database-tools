@@ -41,7 +41,7 @@ class CentralWidget(QWidget):
 
         return vbox(
             SelectedDescription(backend),
-            title_label(self.tr("Format description manager")),
+            title_label(self.tr("Data format manager")),
             DescriptionView(backend),
         )
 

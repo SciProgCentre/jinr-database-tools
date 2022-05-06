@@ -29,12 +29,15 @@ class Backend(QObject):
         self.check_connection_status()
 
     connection_status = Signal(bool)
+    connection_error =  Signal(str)
 
     @Slot(result=bool)
     def check_connection_status(self):
         status = self.database.test_connect()
-        self.connection_status.emit(status)
-        return status
+        self.connection_status.emit(status.success)
+        if not status.success:
+            self.connection_error.emit(status.error)
+        return status.success
 
     @property
     def files_model(self):

@@ -9,6 +9,7 @@ from typing import Optional, Union
 from sqlalchemy import create_engine, MetaData, insert
 from sqlalchemy.engine import Engine
 from sqlalchemy.engine.url import URL
+from sqlalchemy.exc import DBAPIError
 
 from sdp.description import Description
 from sdp.description_typing import TypePeeker, DEFAULT_PEEKER
@@ -43,6 +44,12 @@ class DatabaseSettings:
         return URL(**settings)
 
 
+@dataclass
+class ConnectionTest:
+    success : bool
+    error : str = ""
+
+
 class Database:
     engine: Optional[Engine] = None
 
@@ -63,17 +70,20 @@ class Database:
         logging.debug(self.url)
         self.engine = create_engine(self.url, **self.engine_args)
 
-    def test_connect(self) -> bool:
+    def test_connect(self) -> ConnectionTest:
         conn = None
         try:
             conn = self.engine.connect()
-            return True
+            return ConnectionTest(True)
+        except DBAPIError as e:
+            error = str(e.orig)
         except Exception as e:
             logging.debug(e)
-            return False
+            error = "Unknown error"
         finally:
             if conn is not None:
                 conn.close()
+        return ConnectionTest(False, error)
 
     @property
     def tables_name(self):
@@ -149,11 +159,23 @@ class Database:
 
     @staticmethod
     def connect_from_file(config):
+        config = pathlib.Path(config)
+        if not config.exists():
+            logging.error("File {} don't exist. Can't set database settings")
+            return None
+
         with open(config) as fin:
             config = json.load(fin)
-        database_settings = DatabaseSettings(**config["database"])
+
+        try:
+            database_settings = DatabaseSettings(**config["database"])
+        except Exception as e:
+            logging.error(e)
+            logging.error("Not valid configuration file format")
+            return None
         database = Database(database_settings)
-        if not database.test_connect():
-            logging.warning("Bad database connection!")
+        conn_test = database.test_connect()
+        if not conn_test.success:
+            logging.error(conn_test.error)
             return None
         return database

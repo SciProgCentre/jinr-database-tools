@@ -66,11 +66,12 @@ class Settings(QObject):
 
 
 class ConnectionDock(QDockWidget):
-    def __init__(self, parent, settings: Settings):
+    def __init__(self, parent, backend: "Backend"):
         super().__init__("Database settings", parent)
-        self.init_UI(settings)
+        self.init_UI(backend)
 
-    def init_UI(self, settings):
+    def init_UI(self, backend: "Backend"):
+        settings = backend.settings
         database_settings : DatabaseSettings = settings.database_settings
         widget = QWidget()
         vbox = QVBoxLayout(widget)
@@ -80,4 +81,23 @@ class ConnectionDock(QDockWidget):
             editor = FieldEditor.create_field_editor(database_settings, field)
             hbox((QLabel(self.tr(field.name).title() + ":"), 1), editor.widget, parent=vbox)
             editor.updated.connect(lambda : settings.update_database_settings())
+
+        error_label = QLabel("")
+        error_label.setProperty("class", "danger-title")
+        error_label.setVisible(False)
+        error_label.setWordWrap(True)
+        vbox.addWidget(error_label)
+
+        def change_status(status):
+            error_label.setVisible(not status)
+
+        backend.connection_status.connect(change_status)
+
+        def set_error(error: str):
+            error = error.replace(" ", " \u200b")
+            error = error.replace(",", ",\u200b")
+            error = error.replace(":", ":\u200b")
+            error_label.setText(error)
+
+        backend.connection_error.connect(set_error)
         vbox.addStretch()

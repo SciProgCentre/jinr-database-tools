@@ -53,7 +53,7 @@ class DatabaseWindow(QMainWindow):
         toolbar.setAllowedAreas(QtCore.Qt.LeftToolBarArea)
         toolbar.setContextMenuPolicy(QtCore.Qt.PreventContextMenu)
 
-        connection_dock = ConnectionDock(self, self.backend.settings)
+        connection_dock = ConnectionDock(self, self.backend)
         self.addDockWidget(QtCore.Qt.LeftDockWidgetArea, connection_dock)
         connection_dock.setVisible(self.backend.settings.app_settings.database_settings_visible)
 

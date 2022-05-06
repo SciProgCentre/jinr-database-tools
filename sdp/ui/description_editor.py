@@ -74,7 +74,7 @@ class DatabaseBasedField(QWidget):
 
     def update_combo_list(self):
         self.combo.clear()
-        if self.backend.database.test_connect():
+        if self.backend.check_connection_status():
             self.combo.addItems(self.callback(self.backend.database))
             self.combo.setToolTip(self._combo_tooltip)
         else:
