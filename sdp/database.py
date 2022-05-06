@@ -6,10 +6,11 @@ from dataclasses import dataclass
 from enum import Enum
 from typing import Optional, Union
 
+import sqlalchemy
 from sqlalchemy import create_engine, MetaData, insert
 from sqlalchemy.engine import Engine
 from sqlalchemy.engine.url import URL
-from sqlalchemy.exc import DBAPIError
+from sqlalchemy.exc import DBAPIError, ArgumentError
 
 from sdp.description import Description
 from sdp.description_typing import TypePeeker, DEFAULT_PEEKER
@@ -50,6 +51,10 @@ class ConnectionTest:
     error : str = ""
 
 
+class UpdateEngineError(Exception):
+    pass
+
+
 class Database:
     engine: Optional[Engine] = None
 
@@ -68,7 +73,14 @@ class Database:
         self.settings = settings
         self.url = settings.to_url()
         logging.debug(self.url)
-        self.engine = create_engine(self.url, **self.engine_args)
+        try:
+            self.engine = create_engine(self.url, **self.engine_args)
+        except ModuleNotFoundError as e:
+            logging.error("{}. Use pip for installing module manually.".format(e))
+            self.engine = None
+        except ArgumentError as e:
+            logging.error(e)
+            self.engine = None
 
     def test_connect(self) -> ConnectionTest:
         conn = None
@@ -77,6 +89,8 @@ class Database:
             return ConnectionTest(True)
         except DBAPIError as e:
             error = str(e.orig)
+        except AttributeError as e:
+            error = "Can't create database engine"
         except Exception as e:
             logging.debug(e)
             error = "Unknown error"
@@ -88,6 +102,14 @@ class Database:
     @property
     def tables_name(self):
         return self.engine.table_names()
+
+    def _metadata(self, conn):
+        if sqlalchemy.__version__.startswith("1.4"):
+            metadata = MetaData()
+            metadata.reflect(bind=conn)
+        else:
+            metadata = MetaData(bind=conn, reflect=True)  # For 1.3.x version
+        return metadata
 
     def table_columns(self, name) -> list[str]:
         try:
@@ -107,7 +129,7 @@ class Database:
 
         if len(errors) == 0:
             with self.engine.connect() as conn:
-                metadata = MetaData(bind=conn,  reflect=True)
+                metadata= self._metadata(conn)
                 table = metadata.tables[base_table]
                 table_keys = table.c.keys()
                 columns = description["columns"]
@@ -125,7 +147,7 @@ class Database:
         return errors
 
     def _load_data(self, conn, description: Description, source):
-        metadata = MetaData(bind=conn, reflect=True)
+        metadata = self._metadata(conn)
         table = metadata.tables[description["table"]]
         reader = SourceReader.get_reader(description)
         for chunk in reader.chunk_generator(source):

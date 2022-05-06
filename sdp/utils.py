@@ -26,16 +26,16 @@ def open_help_html(html_path):
     return 0
 
 
-# def json_load(path, schema):
-#     if isinstance(schema, pathlib.Path) or isinstance(schema, str):
-#         with open(schema) as fin:
-#             schema = json.load(fin)
-#     with open(path) as fin:
-#         description = json.load(fin)
-#     try:
-#         jsonschema.validate(description, schema=schema)
-#     except jsonschema.exceptions.ValidationError as err:
-#         logging.error(err)
-#         return None
-#     logging.debug("{} successfully validated".format(path))
-#     return description
+class BColors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKCYAN = '\033[96m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
+    ERROR = FAIL + "ERROR" + ENDC
+    EXCEPTION = FAIL + "EXCEPTION" + ENDC

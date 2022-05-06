@@ -5,7 +5,7 @@ from sdp.description import Description
 from sdp.file_status import LoadStatus
 
 
-class CVSReaderTest(TestCase):
+class DatabaseTest(TestCase):
 
     def setUp(self) -> None:
         self.database = Database.connect_from_file("config.json")
@@ -14,7 +14,7 @@ class CVSReaderTest(TestCase):
         description = Description.load("data/detector_.json")
         load_result = self.database.load_data(description, file)
         self.assert_(load_result.status == LoadStatus.SUCCESS,
-                     msg= load_result.to_string())
+                     msg= load_result.to_string(file))
 
     def test_csv(self):
         self._test_file("data/detector_.json", "data/detector_.csv")

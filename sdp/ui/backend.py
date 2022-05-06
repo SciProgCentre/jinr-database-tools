@@ -70,7 +70,7 @@ class Backend(QObject):
                     load_result = self.database.load_data(description, item.path)
                     item.status = load_result.status
                     if load_result.status != LoadStatus.SUCCESS:
-                        logging.error(load_result.to_string())
+                        logging.error(load_result.to_string(item.path))
 
 
     @Slot()

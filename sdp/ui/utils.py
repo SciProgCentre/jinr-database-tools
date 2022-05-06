@@ -95,8 +95,11 @@ class IntFieldEditor(FieldEditor):
         self._editor = QLineEdit(str(obj.__getattribute__(field.name)))
 
         def finish():
-            obj.__setattr__(field.name, int(self._editor.text()))
-            self.updated.emit()
+            try:
+                obj.__setattr__(field.name, int(self._editor.text()))
+                self.updated.emit()
+            except ValueError:
+                pass
 
         self._editor.editingFinished.connect(finish)
 

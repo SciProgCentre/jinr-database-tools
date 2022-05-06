@@ -14,6 +14,7 @@ from sdp.ui.app import DatabaseApp
 FORMAT = "%(levelname)s: %(message)s"
 logging.basicConfig(format=FORMAT)
 
+
 class DebugAction(argparse.Action):
     def __call__(self, parser, namespace, values, option_string=None):
         if option_string in self.option_strings:
@@ -33,15 +34,16 @@ def create_parser():
     subparsers = parser.add_subparsers(metavar="command", required=True)
 
     parser_validate = subparsers.add_parser("validate", help="Validate JSON file with input data format")
-    parser_validate.add_argument("descriptions", nargs="+", metavar="JSON_DESCRIPTIONS")
+    parser_validate.add_argument("scheme", nargs="+", metavar="JSON_SCHEMA")
     parser_validate.set_defaults(func=validate)
 
     parser_load = subparsers.add_parser("load", help="Parse input data file and load to database")
-    parser_load.add_argument("files", nargs="+", metavar="FILE")
+    parser_load.add_argument("files", nargs="+", metavar="INPUT_DATA_FILE")
     parser_load.add_argument("-c", "--config", action="store", default="config.json",
+                             metavar="CONNECTION_CONFIG",
                              help="Configuration file with database settings")
-    parser_load.add_argument("-d", "--description", action="store", required=True,
-                             metavar="JSON_DESCRIPTION", help="JSON description of data")
+    parser_load.add_argument("-s", "--schema", action="store", required=True,
+                             metavar="JSON_SCHEMA", help="JSON schema of input data")
     parser_load.set_defaults(func = load_to_database)
 
 
@@ -49,19 +51,19 @@ def create_parser():
                                           help="Open description of the JSON schema for input data")
     parser_schema.set_defaults(func=lambda x: open_help_html("scheme.html"))
 
-    parser_gen = subparsers.add_parser("generate", help="Generate json templates from database")
+    parser_gen = subparsers.add_parser("generate", help="Generate JSON templates from database")
     parser_gen.add_argument("-c", "--config", action="store", default="config.json",
                              help="Configuration file with database settings")
     parser_gen.set_defaults(func=generate)
 
     parser_load = subparsers.add_parser("generate_fake_data")
-    parser_load.add_argument("descriptions", nargs="+", metavar="JSON_DESCRIPTIONS")
+    parser_load.add_argument("scheme", nargs="+", metavar="JSON_SCHEME")
     parser_load.set_defaults(func = generate_fake_data_from_description)
     return parser
 
 
 def validate(args):
-    for file in args.descriptions:
+    for file in args.scheme:
         if load_description(file) is not None:
             print(file, "successfully validated.")
     return 0
@@ -78,7 +80,7 @@ def load_description(path):
 
 def load_to_database(args):
 
-    description = load_description(args.description)
+    description = load_description(args.schema)
 
     if description is None:
         return 1
@@ -95,7 +97,7 @@ def load_to_database(args):
             return 1
 
         load_result = database.load_data(description, path)
-        print(load_result.to_string())
+        print(load_result.to_string(path))
     return 0
 
 
@@ -108,7 +110,7 @@ def generate(args):
 
 
 def generate_fake_data_from_description(args):
-    for description_name in args.descriptions:
+    for description_name in args.scheme:
         description = load_description(description_name)
 
         if description is None:
