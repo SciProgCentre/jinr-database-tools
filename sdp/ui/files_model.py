@@ -42,7 +42,7 @@ class FileItem(QStandardItem):
         self._status = value
         icon = get_icon(FileItem.status_to_icon(value))
         self.setData(icon, QtCore.Qt.DecorationRole)
-        self.setData(self._status.value, FileItem.STATUS_ROLE)
+        self.setData(self._status, FileItem.STATUS_ROLE)
 
     @staticmethod
     def status_to_icon(status):
@@ -64,7 +64,7 @@ class FilesModel(QStandardItemModel):
     @Slot()
     def clear_loaded(self):
         while True:
-            indexes = self.match(self.index(0,0), FileItem.STATUS_ROLE, LoadStatus.SUCCESS.value)
+            indexes = self.match(self.index(0,0), FileItem.STATUS_ROLE, LoadStatus.SUCCESS)
             if len(indexes) != 0:
                 self.removeRow(indexes[0].row())
             else:
@@ -114,7 +114,7 @@ class LoadedFilesModel(QSortFilterProxyModel):
 
     def filterAcceptsRow(self, source_row:int, source_parent: QModelIndex) -> bool:
         item = self.sourceModel().index(source_row, 0, source_parent)
-        return item.data(FileItem.STATUS_ROLE).value == LoadStatus.SUCCESS.value
+        return item.data(FileItem.STATUS_ROLE) == LoadStatus.SUCCESS
 
     def lessThan(self, source_left: QModelIndex, source_right: QModelIndex) -> bool:
         return True

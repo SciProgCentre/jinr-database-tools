@@ -84,6 +84,7 @@ class CentralWidget(QWidget):
 
         return vbox(
             title_label(self.tr("Loading to database")),
+            hbox_up,
             FileListView(backend),
             LoadedFilesView(backend)
         )
