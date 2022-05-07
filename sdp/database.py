@@ -57,6 +57,7 @@ class UpdateEngineError(Exception):
 
 class Database:
     engine: Optional[Engine] = None
+    NO_EXIST_ERROR = "Database engine don't exist"
 
     def __init__(self, settings: DatabaseSettings = None, type_peeker: TypePeeker = DEFAULT_PEEKER, echo=False):
         """
@@ -83,14 +84,14 @@ class Database:
             self.engine = None
 
     def test_connect(self) -> ConnectionTest:
+        if self.engine is None:
+            return ConnectionTest(False, Database.NO_EXIST_ERROR)
         conn = None
         try:
             conn = self.engine.connect()
             return ConnectionTest(True)
         except DBAPIError as e:
             error = str(e.orig)
-        except AttributeError as e:
-            error = "Can't create database engine"
         except Exception as e:
             logging.debug(e)
             error = "Unknown error"
@@ -104,7 +105,8 @@ class Database:
         return self.engine.table_names()
 
     def _metadata(self, conn):
-        if sqlalchemy.__version__.startswith("1.4"):
+        version = sqlalchemy.__version__
+        if version.startswith("1.4") or version.startswith("2."):
             metadata = MetaData()
             metadata.reflect(bind=conn)
         else:
@@ -154,12 +156,15 @@ class Database:
             stmt = insert(table, values=chunk)
             result = conn.execute(stmt)
 
+
     def load_data(self, description: Description, source: Union[pathlib.Path, str]) -> LoadResult:
         """
         :param description: Словарь с описывающий формат файла
         :param source: Путь к файлу
         :return: FileStatus.SUCCESS если удалось успешно загрузить файл в базу, иначе FileStatus.REJECTED
         """
+        if self.engine is None:
+            return LoadResult(LoadStatus.REJECTED, errors=[Database.NO_EXIST_ERROR])
         errors = self.check_description(description)
         if len(errors) != 0:
             return LoadResult(LoadStatus.REJECTED, errors)

@@ -1,7 +1,7 @@
 import pathlib
 from typing import Optional
 
-from PySide2.QtCore import Slot
+from PySide2.QtCore import Slot, QSortFilterProxyModel, QModelIndex
 from PySide2.QtGui import QStandardItem, QStandardItemModel
 from PySide2 import QtCore
 
@@ -105,3 +105,16 @@ class FilesModel(QStandardItemModel):
             item.level = lvl
             max_lvl = max(max_lvl, lvl)
         return max_lvl
+
+
+class LoadedFilesModel(QSortFilterProxyModel):
+
+    def filterAcceptsColumn(self, source_column:int, source_parent: QModelIndex) -> bool:
+        return True
+
+    def filterAcceptsRow(self, source_row:int, source_parent: QModelIndex) -> bool:
+        item = self.sourceModel().index(source_row, 0, source_parent)
+        return item.data(FileItem.STATUS_ROLE).value == LoadStatus.SUCCESS.value
+
+    def lessThan(self, source_left: QModelIndex, source_right: QModelIndex) -> bool:
+        return True

@@ -63,7 +63,7 @@ class Backend(QObject):
     @Slot()
     def load_to_database(self):
         description = self.current_description_item.description
-        if description is not None:
+        if description is not None and self.check_connection_status():
             for row in range(self._files_model.rowCount()):
                 item = self._files_model.item(row)
                 if item.status != LoadStatus.SUCCESS:

@@ -1,10 +1,12 @@
 import pathlib
 
 from PySide2 import QtCore
+from PySide2.QtCore import QSortFilterProxyModel
 from PySide2.QtWidgets import QWidget, QListView, QPushButton, QFileDialog, QLabel, QVBoxLayout
 
 from sdp.ui.backend import Backend
 from sdp.ui.description_manager_widget import DescriptionView
+from sdp.ui.files_model import LoadedFilesModel
 from sdp.ui.utils import hbox, get_icon, vbox
 
 
@@ -80,8 +82,11 @@ class CentralWidget(QWidget):
         hbox_down = hbox(clear_loaded, clear_all)
         hbox_down.insertStretch(0)
 
-        return vbox(title_label(self.tr("Loading to database")),
-            hbox_up, FileListView(backend), hbox_down)
+        return vbox(
+            title_label(self.tr("Loading to database")),
+            FileListView(backend),
+            LoadedFilesView(backend)
+        )
 
 
 class FileListView(QListView):
@@ -120,3 +125,11 @@ class FileListView(QListView):
                 self.backend.files_model.add_path(path)
         else:
             event.ignore()
+
+
+class LoadedFilesView(QListView):
+    def __init__(self, backend: Backend):
+        super(LoadedFilesView, self).__init__()
+        proxy_model = LoadedFilesModel()
+        proxy_model.setSourceModel(backend.files_model)
+        self.setModel(proxy_model)
