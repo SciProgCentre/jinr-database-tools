@@ -114,7 +114,7 @@ class Database:
     def table_columns(self, name) -> list[str]:
         try:
             with self.engine.connect() as conn:
-                metadata = MetaData(bind=conn, reflect=True)
+                metadata = self._metadata(conn)
                 table = metadata.tables[name]
                 return table.c.keys()
         except Exception:
@@ -174,7 +174,6 @@ class Database:
                     with source.open() as fin:
                         self._load_data(conn, description, fin)
             except Exception as e:
-                logging.warning(e)
                 return LoadResult(LoadStatus.REJECTED, exceptions=[e])
 
         return LoadResult(LoadStatus.SUCCESS)

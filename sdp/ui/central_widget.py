@@ -25,7 +25,7 @@ class SelectedDescription(QLabel):
     def update_label(self):
         item = self.backend.current_description_item
         if item is None:
-            self.setText(self.tr("No selected description"))
+            self.setText(self.tr("No selected schema"))
         else:
             self.setText(item.name)
 
@@ -57,10 +57,10 @@ class CentralWidget(QWidget):
         def block_loading():
             if backend.current_description_item is None:
                 load_to_database.setDisabled(True)
-                load_to_database.setToolTip(self.tr("Select description of files"))
+                load_to_database.setToolTip(self.tr("Select schema of input files"))
             else:
                 load_to_database.setDisabled(False)
-                load_to_database.setToolTip(self.tr("Load this files in database"))
+                load_to_database.setToolTip(self.tr("Load input files in database"))
 
         backend.description_changed.connect(block_loading)
         block_loading()
