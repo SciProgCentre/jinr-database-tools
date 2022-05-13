@@ -18,10 +18,10 @@ class Backend(QObject):
     _current_description_item = None
     description_changed = Signal()
 
-    def __init__(self, settings: Settings):
+    def __init__(self, settings: Settings, database_factory = Database):
         super(Backend, self).__init__(parent=None)
         self.settings = settings
-        self.database = Database(self.settings.database_settings)
+        self.database = database_factory(self.settings.database_settings)
         settings.update_database.connect(self.update_settings)
 
     def update_settings(self):

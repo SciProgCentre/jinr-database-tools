@@ -2,6 +2,7 @@ import dataclasses
 import json
 import logging
 import pathlib
+import random
 from dataclasses import dataclass
 from enum import Enum
 from typing import Optional, Union
@@ -205,3 +206,21 @@ class Database:
             logging.error(conn_test.error)
             return None
         return database
+
+
+class FakeDatabase:
+
+    def __init__(self, settings):
+        pass
+
+    def update_engine(self, settings):
+        pass
+
+    def test_connect(self):
+        return ConnectionTest(True)
+
+    def load_data(self, description, source):
+        if random.randint(0,2) % 2:
+            return LoadResult(LoadStatus.SUCCESS)
+        else:
+            return LoadResult(LoadStatus.REJECTED)

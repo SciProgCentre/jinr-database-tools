@@ -63,13 +63,13 @@ class FilesModel(QStandardItemModel):
 
     @Slot()
     def clear_loaded(self):
-        while True:
-            indexes = self.match(self.index(0,0), FileItem.STATUS_ROLE, LoadStatus.SUCCESS)
-            if len(indexes) != 0:
-                self.removeRow(indexes[0].row())
-            else:
-                break
-
+        items = []
+        for row in range(self.rowCount()):
+            item = self.item(row)
+            if item.status == LoadStatus.SUCCESS:
+                items.append(item)
+        for item in items:
+            self.removeRow(item.row())
     @Slot()
     def clear(self):
         super(FilesModel, self).clear()
@@ -107,14 +107,21 @@ class FilesModel(QStandardItemModel):
         return max_lvl
 
 
-class LoadedFilesModel(QSortFilterProxyModel):
+class ProxyFilesModel(QSortFilterProxyModel):
+    def __init__(self, model, loaded: bool = True):
+        super(ProxyFilesModel, self).__init__()
+        self.setSourceModel(model)
+        self.loaded = loaded
 
     def filterAcceptsColumn(self, source_column:int, source_parent: QModelIndex) -> bool:
         return True
 
     def filterAcceptsRow(self, source_row:int, source_parent: QModelIndex) -> bool:
         item = self.sourceModel().index(source_row, 0, source_parent)
-        return item.data(FileItem.STATUS_ROLE) == LoadStatus.SUCCESS
+        if self.loaded:
+            return item.data(FileItem.STATUS_ROLE) == LoadStatus.SUCCESS
+        else:
+            return item.data(FileItem.STATUS_ROLE) != LoadStatus.SUCCESS
 
     def lessThan(self, source_left: QModelIndex, source_right: QModelIndex) -> bool:
         return True

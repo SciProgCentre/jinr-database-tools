@@ -93,8 +93,6 @@ class DatabaseApp(QApplication):
         self.setOrganizationName(ORGANIZATION_NAME)
         self.setOrganizationDomain(ORGANIZATION_DOMAIN)
         self.setApplicationName(APPLICATION_NAME)
-        settings = Settings()
-        self.backend = Backend(settings)
 
     def apply_material(self):
         from qt_material import apply_stylesheet
@@ -107,6 +105,8 @@ class DatabaseApp(QApplication):
             self.setStyleSheet(new_stylesheet)
 
     def start_main_window(self):
+        settings = Settings()
+        self.backend = Backend(settings)
         self.window = DatabaseWindow(self.backend)
         self.apply_material()
         self.window.show()
