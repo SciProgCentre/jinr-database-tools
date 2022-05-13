@@ -16,6 +16,9 @@ class Column:
 
 
 class SourceReader(abc.ABC):
+    """Base class for reading input data and
+    represent every line of input table as dictionary using columns name as keys for table value
+    """
 
     def __init__(self, description: Description):
         self.description = description
@@ -30,6 +33,10 @@ class SourceReader(abc.ABC):
 
     @abc.abstractmethod
     def parse_source(self, source: Union[Iterable[str]]) -> Iterable[dict]:
+        """
+        Convert input data to sequence of dictionary.
+        Every dictionary used column names as key and input data as value
+        """
         pass
 
     @staticmethod
@@ -55,7 +62,7 @@ class SourceReader(abc.ABC):
 
 
 class CSVReader(SourceReader):
-
+    """Reader for CSV files using module [csv]"""
     def parse_source(self, source: Iterable[str]) -> Iterable[dict]:
         reader = csv.reader(source, **self.parser_settings["CSV"].data)
         for row in reader:
@@ -63,10 +70,11 @@ class CSVReader(SourceReader):
 
 
 class XMLReader(SourceReader):
+    """Reader for XML files using [xml.etree]"""
 
     @staticmethod
     def get_content(element: ET.Element) -> str:
-        """Extract content of element as string
+        """Extract content of element as raw string
         :param element:
         :return:
         """

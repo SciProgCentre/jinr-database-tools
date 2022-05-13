@@ -1,10 +1,11 @@
+import unittest
 from unittest import TestCase
 
 from sdp.description import Description
 from sdp.source_readers import CSVReader, XMLReader
 
 
-class CVSReaderTest(TestCase):
+class CSVReaderTest(TestCase):
 
     def setUp(self) -> None:
         description = Description.load("data/detector_.json")
@@ -12,8 +13,8 @@ class CVSReaderTest(TestCase):
 
     def test_chunk_generator(self):
         with open("data/detector_.csv") as fin:
-            for chunk in self.reader.parse_source(fin, 2):
-                print(chunk)
+            for row in self.reader.parse_source(fin):
+                print(row)
 
 
 class XMLReaderTest(TestCase):
@@ -24,5 +25,16 @@ class XMLReaderTest(TestCase):
 
     def test_chunk_generator(self):
         with open("data/run_info.xml") as fin:
-            for chunk in self.reader.parse_source(fin, 2):
-                print(chunk)
+            for row in self.reader.parse_source(fin):
+                print(row)
+
+
+def suite():
+    suite = unittest.TestSuite()
+    suite.addTest(CSVReaderTest())
+    suite.addTest(XMLReaderTest())
+    return suite
+
+if __name__ == '__main__':
+    runner = unittest.TextTestRunner()
+    runner.run(suite())

@@ -8,7 +8,7 @@ from enum import Enum
 from typing import Optional, Union, Iterable
 
 import sqlalchemy
-from sqlalchemy import create_engine, MetaData, insert
+from sqlalchemy import create_engine, MetaData, insert, Table
 from sqlalchemy.engine import Engine
 from sqlalchemy.engine.url import URL
 from sqlalchemy.exc import DBAPIError, ArgumentError
@@ -59,7 +59,6 @@ class UpdateEngineError(Exception):
 class Database:
     engine: Optional[Engine] = None
     NO_EXIST_ERROR = "Database engine don't exist"
-    CHUNK_SIZE = 5000
 
     def __init__(self, settings: DatabaseSettings = None, type_peeker: TypePeeker = DEFAULT_PEEKER, echo=False):
         """
@@ -124,7 +123,7 @@ class Database:
         except Exception:
             return []
 
-    def check_description(self, description: Description):
+    def check_description(self, description: Description, table: Table):
         base_table = description["table"]
         errors = []
         if base_table not in self.engine.table_names():
@@ -132,37 +131,25 @@ class Database:
                           .format(base_table, self.url))
 
         if len(errors) == 0:
-            with self.engine.connect() as conn:
-                metadata = self._metadata(conn)
-                table = metadata.tables[base_table]
-                table_keys = table.c.keys()
-                columns = description["columns"]
-                for column in columns:
-                    name = column["name"]
-                    if name not in table_keys:
-                        errors.append("Column {} doesn't exist in table {}".format(name, base_table))
-                    else:
-                        database_column = table.c[name]
-                        generic_type = self.type_peeker.peek(column["type"], column["type_properties"])
-                        if not generic_type.is_target(database_column.type):
-                            errors.append("Column {} have type \"{}\", when target column have type \"{}\"".format(
-                                name, column["type"], database_column.type
-                            ))
+            table_keys = table.c.keys()
+            columns = description["columns"]
+            for column in columns:
+                name = column["name"]
+                if name not in table_keys:
+                    errors.append("Column {} doesn't exist in table {}".format(name, base_table))
+                else:
+                    database_column = table.c[name]
+                    generic_type = self.type_peeker.peek(column["type"], column["type_properties"])
+                    if not generic_type.is_target(database_column.type):
+                        errors.append("Column {} have type \"{}\", when target column have type \"{}\"".format(
+                            name, column["type"], database_column.type
+                        ))
         return errors
 
     def _load_data(self, conn, table, reader: SourceReader, source):
-        chunk = []
-        for line in reader.parse_source(source):
-            chunk.append(line)
-            if len(chunk) > Database.CHUNK_SIZE:
-                stmt = insert(table, values=chunk)
-                with conn.begin() as c:
-                    c.execute(stmt)
-                chunk = []
-        if len(chunk) > 0:
-            stmt = insert(table, values=chunk)
-            with conn.begin() as c:
-                c.execute(stmt)
+        stmt = insert(table, values=list(reader.parse_source(source)))
+        with conn.begin():
+            conn.execute(stmt)
 
     def load_data(self, description: Description, source: Union[pathlib.Path, str]) -> LoadResult:
         """
@@ -176,12 +163,12 @@ class Database:
         with self.engine.connect() as conn:
             metadata = self._metadata(conn)
             table = metadata.tables[description["table"]]
-            errors = self.check_description(description)
+            errors = self.check_description(description, table)
             if len(errors) != 0:
                 return LoadResult(LoadStatus.REJECTED, errors)
 
-            reader = SourceReader.get_reader(description)
             try:
+                reader = SourceReader.get_reader(description)
                 if isinstance(source, str):
                     source = pathlib.Path(source)
                 if isinstance(source, pathlib.Path):

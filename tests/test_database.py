@@ -17,8 +17,8 @@ class DatabaseTest(TestCase):
         load_result = self.database.load_data(description, "data/detector_.csv")
         self.assert_(load_result.status == LoadStatus.SUCCESS,
                      msg= load_result.to_string("data/detector_.csv"))
-        # if load_result.status == LoadStatus.SUCCESS:
-            # self.test_clear_detector_()
+        if load_result.status == LoadStatus.SUCCESS:
+            self.test_clear_detector_()
 
     def test_clear_detector_(self):
         description = Description.load("data/detector_.json")
@@ -29,7 +29,9 @@ class DatabaseTest(TestCase):
                 statement = delete(table).where(
                     table.c.detector_name == "\'{}\'".format(str(i))
                 )
-                conn.execute(statement)
+                with conn.begin():
+                    result = conn.execute(statement)
+
 
     def test_xml(self):
         # FIXME(Нет подходящей таблицы)
