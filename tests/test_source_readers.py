@@ -12,7 +12,7 @@ class CVSReaderTest(TestCase):
 
     def test_chunk_generator(self):
         with open("data/detector_.csv") as fin:
-            for chunk in self.reader.chunk_generator(fin, 2):
+            for chunk in self.reader.parse_source(fin, 2):
                 print(chunk)
 
 
@@ -24,5 +24,5 @@ class XMLReaderTest(TestCase):
 
     def test_chunk_generator(self):
         with open("data/run_info.xml") as fin:
-            for chunk in self.reader.chunk_generator(fin, 2):
+            for chunk in self.reader.parse_source(fin, 2):
                 print(chunk)

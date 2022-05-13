@@ -5,7 +5,7 @@ import pathlib
 import random
 from dataclasses import dataclass
 from enum import Enum
-from typing import Optional, Union
+from typing import Optional, Union, Iterable
 
 import sqlalchemy
 from sqlalchemy import create_engine, MetaData, insert
@@ -59,6 +59,7 @@ class UpdateEngineError(Exception):
 class Database:
     engine: Optional[Engine] = None
     NO_EXIST_ERROR = "Database engine don't exist"
+    CHUNK_SIZE = 5000
 
     def __init__(self, settings: DatabaseSettings = None, type_peeker: TypePeeker = DEFAULT_PEEKER, echo=False):
         """
@@ -132,7 +133,7 @@ class Database:
 
         if len(errors) == 0:
             with self.engine.connect() as conn:
-                metadata= self._metadata(conn)
+                metadata = self._metadata(conn)
                 table = metadata.tables[base_table]
                 table_keys = table.c.keys()
                 columns = description["columns"]
@@ -149,14 +150,19 @@ class Database:
                             ))
         return errors
 
-    def _load_data(self, conn, description: Description, source):
-        metadata = self._metadata(conn)
-        table = metadata.tables[description["table"]]
-        reader = SourceReader.get_reader(description)
-        for chunk in reader.chunk_generator(source):
+    def _load_data(self, conn, table, reader: SourceReader, source):
+        chunk = []
+        for line in reader.parse_source(source):
+            chunk.append(line)
+            if len(chunk) > Database.CHUNK_SIZE:
+                stmt = insert(table, values=chunk)
+                with conn.begin() as c:
+                    c.execute(stmt)
+                chunk = []
+        if len(chunk) > 0:
             stmt = insert(table, values=chunk)
-            result = conn.execute(stmt)
-
+            with conn.begin() as c:
+                c.execute(stmt)
 
     def load_data(self, description: Description, source: Union[pathlib.Path, str]) -> LoadResult:
         """
@@ -166,11 +172,15 @@ class Database:
         """
         if self.engine is None:
             return LoadResult(LoadStatus.REJECTED, errors=[Database.NO_EXIST_ERROR])
-        errors = self.check_description(description)
-        if len(errors) != 0:
-            return LoadResult(LoadStatus.REJECTED, errors)
 
         with self.engine.connect() as conn:
+            metadata = self._metadata(conn)
+            table = metadata.tables[description["table"]]
+            errors = self.check_description(description)
+            if len(errors) != 0:
+                return LoadResult(LoadStatus.REJECTED, errors)
+
+            reader = SourceReader.get_reader(description)
             try:
                 if isinstance(source, str):
                     source = pathlib.Path(source)
@@ -178,7 +188,7 @@ class Database:
                     if not source.exists():
                         return LoadResult(LoadStatus.DELETED)
                     with source.open() as fin:
-                        self._load_data(conn, description, fin)
+                        self._load_data(conn, table, reader, fin)
             except Exception as e:
                 return LoadResult(LoadStatus.REJECTED, exceptions=[e])
 

@@ -2,7 +2,7 @@ import abc
 import csv
 import dataclasses
 import xml.etree.ElementTree as ET
-from typing import Iterable, Any, List
+from typing import Iterable, Any, List, IO, Union
 
 from sdp.description import Description
 from sdp.description_typing import DatabaseType, DEFAULT_PEEKER
@@ -11,7 +11,7 @@ from sdp.description_typing import DatabaseType, DEFAULT_PEEKER
 @dataclasses.dataclass
 class Column:
     name: str
-    order: int # TODO(Unused)
+    order: int  # TODO(Unused)
     type: DatabaseType
 
 
@@ -25,11 +25,11 @@ class SourceReader(abc.ABC):
         for n_of_col, column in enumerate(columns):
             self.columns.append(
                 Column(column["name"], column["order"],
-                DEFAULT_PEEKER.peek_from_column(column))
+                       DEFAULT_PEEKER.peek_from_column(column))
             )
 
     @abc.abstractmethod
-    def chunk_generator(self, source: Any, chunk_size: int) -> Iterable[List[dict]]:
+    def parse_source(self, source: Union[Iterable[str]]) -> Iterable[dict]:
         pass
 
     @staticmethod
@@ -42,31 +42,30 @@ class SourceReader(abc.ABC):
         else:
             raise Exception("Unknown format")
 
-    @staticmethod
-    def _create_chunk_generator(row_iterator, row_parser, chunk_size) -> Iterable[List[dict]]:
-        chunk = []
-        for n, row in enumerate(row_iterator):
-            chunk.append(row_parser(row))
-            if (n + 1) % chunk_size == 0:
-                yield chunk
-                chunk = []
-        if len(chunk) > 0:
-            yield chunk
+    # @staticmethod
+    # def _create_chunk_generator(row_iterator, row_parser, chunk_size) -> Iterable[List[dict]]:
+    #     chunk = []
+    #     for n, row in enumerate(row_iterator):
+    #         chunk.append(row_parser(row))
+    #         if (n + 1) % chunk_size == 0:
+    #             yield chunk
+    #             chunk = []
+    #     if len(chunk) > 0:
+    #         yield chunk
 
 
 class CSVReader(SourceReader):
 
-    def chunk_generator(self, source: Iterable[str], chunk_size: int = 500) -> Iterable[List[dict]]:
+    def parse_source(self, source: Iterable[str]) -> Iterable[dict]:
         reader = csv.reader(source, **self.parser_settings["CSV"].data)
-        return SourceReader._create_chunk_generator(reader,
-            lambda row: {column.name: item for column, item in zip(self.columns, row)},
-                                                    chunk_size)
+        for row in reader:
+            yield {column.name: item for column, item in zip(self.columns, row)}
 
 
 class XMLReader(SourceReader):
 
     @staticmethod
-    def get_content(element : ET.Element)->str:
+    def get_content(element: ET.Element) -> str:
         """Extract content of element as string
         :param element:
         :return:
@@ -80,15 +79,16 @@ class XMLReader(SourceReader):
                 content += item.tail
         return content
 
-    def chunk_generator(self, source: Any, chunk_size: int = 500) -> Iterable[List[dict]]:
+    def parse_source(self, source: Any, chunk_size: int = 500) -> Iterable[dict]:
         tree = ET.parse(source)
         root = tree.getroot()
-        table = root.find(".//{*}tbody") # Find table body using XPath syntax
+        table = root.find(".//{*}tbody")  # Find table body using XPath syntax
         settings = self.parser_settings["XML"]
         if settings["header"]:
             header = table[0]
             table.remove(header)
-        return SourceReader._create_chunk_generator(table,
-                lambda row: {column.name : column.type(self.get_content(item)) for column, item in zip(self.columns, row)},
-                                                    chunk_size)
+        for row in table:
+            line = {column.name: column.type(self.get_content(item))
+                        for column, item in zip(self.columns, row)}
+            yield line
 
