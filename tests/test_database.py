@@ -1,3 +1,4 @@
+import pathlib
 from unittest import TestCase
 
 from sqlalchemy import delete
@@ -9,29 +10,51 @@ from sdp.file_status import LoadStatus
 
 class DatabaseTest(TestCase):
 
+    schema_path = None
+    data_path = None
+
     def setUp(self) -> None:
         self.database = Database.connect_from_file("config.json")
+        self.clear_data()
 
-    def test_csv(self):
-        description = Description.load("data/detector_.json")
-        load_result = self.database.load_data(description, "data/detector_.csv")
+    def load_data(self):
+        description = Description.load(self.schema_path)
+        load_result = self.database.load_data(description, self.data_path)
         self.assert_(load_result.status == LoadStatus.SUCCESS,
-                     msg= load_result.to_string("data/detector_.csv"))
-        if load_result.status == LoadStatus.SUCCESS:
-            self.test_clear_detector_()
+                     msg= load_result.to_string(self.data_path))
 
-    def test_clear_detector_(self):
-        description = Description.load("data/detector_.json")
+    def clear_data(self):
+        description = Description.load(self.schema_path)
         with self.database.engine.connect() as conn:
             metadata = self.database._metadata(conn)
-            for i in range(10):
-                table = metadata.tables[description["table"]]
-                statement = delete(table).where(
-                    table.c.detector_name == "\'{}\'".format(str(i))
-                )
-                with conn.begin():
-                    result = conn.execute(statement)
+            table = metadata.tables[description["table"]]
+            self.delete_data(conn, table, description)
 
+
+    def delete_data(self, conn, table, description):
+        pass
+
+    def tearDown(self) -> None:
+        self.clear_data()
+
+
+class DetectorCSVTest(DatabaseTest):
+    schema_path = pathlib.Path("data/detector_.json")
+    data_path = pathlib.Path("data/detector_.csv")
+
+    def test_load(self):
+        self.load_data()
+
+    def delete_data(self, conn, table, description):
+        for i in range(10):
+            statement = delete(table).where(
+                table.c.detector_name == "\'{}\'".format(str(i))
+            )
+            with conn.begin():
+                conn.execute(statement)
+
+
+class RunInfoTest(DatabaseTest):
 
     def test_xml(self):
         # FIXME(Нет подходящей таблицы)
