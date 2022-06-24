@@ -38,3 +38,4 @@ positional arguments:
 optional arguments:
   -h, --help  show this help message and exit
 ```
+For getting help by command run: `smart-data-parser command -h`.

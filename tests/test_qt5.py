@@ -54,7 +54,6 @@ class EditorTest(TestCase):
         self.collection = self.app.backend.description_model.create_collection_item("Test")
         self.item = self.app.backend.description_model.create_description_item("test", self.collection, Description.empty())
 
-
     def test_editor(self):
         widget = DescriptionEditor(self.item, self.app.backend)
         self.app.apply_material()

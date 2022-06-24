@@ -26,7 +26,7 @@ setuptools.setup(
     },
     package_data = {
       "sdp" : ["resources/*"],
-      "sdp.ui" : ["resources/*", "qml/*"]
+      "sdp.ui" : ["resources/*"]
     },
     classifiers=[
         "Programming Language :: Python :: 3",

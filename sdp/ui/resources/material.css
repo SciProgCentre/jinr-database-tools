@@ -10,6 +10,10 @@ QGroupBox::title{
     font-weight: bold;
 }
 
+:pressed {
+    background : red;
+}
+
 .help {
     border: 2px solid lightgray;
     background-color: lightgray;

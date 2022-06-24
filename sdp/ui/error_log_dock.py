@@ -1,6 +1,7 @@
 import logging
 
-from PySide2.QtWidgets import QDockWidget, QPlainTextEdit
+from PySide2.QtWidgets import QDockWidget, QPlainTextEdit, QAction
+
 
 class ErrorHandler(logging.Handler):
     def __init__(self, widget: QPlainTextEdit):
