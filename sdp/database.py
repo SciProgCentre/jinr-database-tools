@@ -19,6 +19,16 @@ from sdp.source_readers import SourceReader
 from sdp.file_status import LoadStatus, LoadResult
 
 
+def get_metadata(conn):
+    version = sqlalchemy.__version__
+    if version.startswith("1.4") or version.startswith("2."):
+        metadata = MetaData()
+        metadata.reflect(bind=conn)
+    else:
+        metadata = MetaData(bind=conn, reflect=True)  # For 1.3.x version
+    return metadata
+
+
 class Drivers(Enum):
     POSTGRES = "postgresql"
     POSTGRES_PSYCOPG2 = "postgresql+psycopg2"
@@ -106,13 +116,7 @@ class Database:
         return self.engine.table_names()
 
     def _metadata(self, conn):
-        version = sqlalchemy.__version__
-        if version.startswith("1.4") or version.startswith("2."):
-            metadata = MetaData()
-            metadata.reflect(bind=conn)
-        else:
-            metadata = MetaData(bind=conn, reflect=True)  # For 1.3.x version
-        return metadata
+        return get_metadata(conn)
 
     def table_columns(self, name) -> list[str]:
         try:
