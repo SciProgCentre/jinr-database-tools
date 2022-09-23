@@ -40,3 +40,26 @@ QGroupBox::title{
     text-transform: uppercase;
     font-weight: bold;
 }
+
+QToolButton {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-left: none;
+    border-right: none;
+}
+
+QToolButton:hover {
+    border-left: none;
+    border-right: none;
+}
+
+QToolButton:pressed {
+    border-left: none;
+    border-right: none;
+}
+
+QToolButton:checked {
+    background: lightblue;
+    border-left: none;
+    border-right: none;
+}
