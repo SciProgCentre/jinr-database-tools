@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Smart Data Parser: Description of JSON conversation schema",
-  "description": "",
+  "title": "SDP",
+  "description": "Smart Data Parser: Description of JSON conversation schema",
   "type": "object",
   "required": [
     "table",
