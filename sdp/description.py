@@ -57,7 +57,7 @@ class Description:
     def _check_key(self, key):
         keys = self.scheme["properties"].keys()
         if key not in keys:
-            raise KeyError("{} is'n valid key".format(key))
+            raise KeyError("{} is not a valid key".format(key))
         return True
 
     def __getitem__(self, key):

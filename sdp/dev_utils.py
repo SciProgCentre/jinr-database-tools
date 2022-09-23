@@ -3,15 +3,13 @@ import logging
 import pathlib
 from typing import Union, TextIO
 
-from sqlalchemy import MetaData
-
-from sdp.database import Database
+from sdp.database import Database, get_metadata
 from sdp.description_typing import DEFAULT_PEEKER, DatabaseType
 
 
 def walk_database(database : Database):
     with database.engine.connect() as conn:
-        metadata = MetaData(bind=conn, reflect=True)
+        metadata = get_metadata(conn)
         for name, table in metadata.tables.items():
             for column_name, column in table.c.items():
                 yield table, column
@@ -22,7 +20,7 @@ def generate_descriptions(database: Database, out_folder: pathlib.Path):
         "format" : "CSV"
     }
     with database.engine.connect() as conn:
-        metadata = MetaData(bind=conn, reflect=True)
+        metadata = get_metadata(conn)
         for name, table in metadata.tables.items():
             logging.debug("Table {}".format(name))
             description["table"] = name
@@ -34,6 +32,7 @@ def generate_descriptions(database: Database, out_folder: pathlib.Path):
             description["columns"] = columns
             with open(out_folder / "{}.json".format(name), "w") as fout:
                 json.dump(description, fout, indent=2)
+            print(f"Generated file {fout.name} for table {name}")
     return 0
 
 
