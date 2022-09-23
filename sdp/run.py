@@ -7,7 +7,6 @@ import jsonschema
 
 from sdp.database import Database
 from sdp.description import Description
-from sdp.schema_doc_render import render_from_file_to_file
 from sdp.utils import open_help_html
 from sdp.dev_utils import generate_descriptions, generate_fake_data
 from sdp.ui.app import DatabaseApp

@@ -23,7 +23,7 @@ class BackendTest(TestCase):
         self.backend.settings.update_application_settings()
 
     def test_json_help(self):
-        self.backend.open_help_html()
+        self.backend.open_help_github()
 
     def test_appdata(self):
         path = appdata()

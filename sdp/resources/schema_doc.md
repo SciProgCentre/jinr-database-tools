@@ -264,4 +264,4 @@ Must be one of:
 **Description:** Encoding for conversion text string to binary
 
 ----------------------------------------------------------------------------------------------------------------------------
-Generated using [json-schema-for-humans](https://github.com/coveooss/json-schema-for-humans) on 2022-09-23 at 18:14:47 +0300
+Generated using [json-schema-for-humans](https://github.com/coveooss/json-schema-for-humans) on 2022-09-23 at 18:19:04 +0300

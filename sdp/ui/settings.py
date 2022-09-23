@@ -21,7 +21,7 @@ def default_size():
 class ApplicationSettings:
     window_size : QSize = dataclasses.field(default_factory=default_size)
     database_settings_visible : bool = True
-
+    url_json_help : str = "https://github.com/SciProgCentre/jinr-database-tools/blob/main/sdp/resources/schema_doc.md"
 
 class Settings(QObject):
 

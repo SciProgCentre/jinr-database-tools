@@ -75,7 +75,7 @@ class DatabaseWindow(QMainWindow):
         toolbar.addWidget(spacer)
 
         action = QAction("JSON\n format description", self)
-        action.triggered.connect(self.backend.open_help_html)
+        action.triggered.connect(self.backend.open_help_github)
         toolbar.addAction(action)
 
         error_log_dock = ErrorLogDock(self)

@@ -1,10 +1,7 @@
-import json
-import logging
 import os.path
 import pathlib
 import webbrowser
 
-import jsonschema
 from json_schema_for_humans.generate import generate_from_file_object
 
 ROOT_DIR = pathlib.Path(__file__).parent

@@ -1,5 +1,6 @@
 import logging
 import pathlib
+import webbrowser
 
 from PySide2.QtCore import QObject, Signal, Slot
 
@@ -74,8 +75,6 @@ class Backend(QObject):
 
 
     @Slot()
-    def open_help_html(self):
-        html_path = appdata() / "schema.html"
-        from ..utils import open_help_html
-        open_help_html(html_path)
+    def open_help_github(self):
+        webbrowser.open_new_tab(self.settings.app_settings.url_json_help)
         return 0
