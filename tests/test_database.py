@@ -10,12 +10,23 @@ from sdp.file_status import LoadStatus
 
 class DatabaseTest(TestCase):
 
-    schema_path = None
-    data_path = None
-
     def setUp(self) -> None:
         self.database = Database.connect_from_file("config.json")
-        self.clear_data()
+
+    def test_connection(self):
+        self.assertIsNotNone(self.database)
+
+    def test_table_names(self):
+        test_tables = ['simulation_file', 'detector_parameter', 'run_', 'detector_', 'parameter_', 'run_geometry', 'run_period']
+        self.assertListEqual(test_tables, self.database.tables_name)
+
+    def tearDown(self) -> None:
+        pass
+
+
+class DataDatabaseTest(TestCase):
+    schema_path = None
+    data_path = None
 
     def load_data(self):
         description = Description.load(self.schema_path)
@@ -30,7 +41,6 @@ class DatabaseTest(TestCase):
             table = metadata.tables[description["table"]]
             self.delete_data(conn, table, description)
 
-
     def delete_data(self, conn, table, description):
         pass
 
@@ -38,7 +48,7 @@ class DatabaseTest(TestCase):
         self.clear_data()
 
 
-class DetectorCSVTest(DatabaseTest):
+class DetectorCSVTest(DataDatabaseTest):
     schema_path = pathlib.Path("data/detector_.json")
     data_path = pathlib.Path("data/detector_.csv")
 
@@ -54,7 +64,7 @@ class DetectorCSVTest(DatabaseTest):
                 conn.execute(statement)
 
 
-class RunInfoTest(DatabaseTest):
+class RunInfoTest(DataDatabaseTest):
 
     def test_xml(self):
         # FIXME(Нет подходящей таблицы)

@@ -9,7 +9,6 @@ from sdp.file_status import LoadStatus
 from sdp.ui.description_model import FDFilesTree
 from sdp.ui.files_model import FilesModel
 from sdp.ui.settings import Settings
-from sdp.ui.utils import appdata
 
 
 class Backend(QObject):
@@ -19,14 +18,16 @@ class Backend(QObject):
     _current_description_item = None
     description_changed = Signal()
 
-    def __init__(self, settings: Settings, database_factory = Database):
+    def __init__(self, settings: Settings, database_factory=Database):
         super(Backend, self).__init__(parent=None)
         self.settings = settings
-        self.database = database_factory(self.settings.database_settings)
-        settings.update_database.connect(self.update_settings)
+        self.app_settings = self.settings.app.obj
+        self.database_settings = self.settings.database.obj
+        self.database = database_factory(self.database_settings)
+        settings.database.update.connect(self._update_database_settings)
 
-    def update_settings(self):
-        self.database.update_engine(self.settings.database_settings)
+    def _update_database_settings(self):
+        self.database.update_engine(self.database_settings)
         self.check_connection_status()
 
     connection_status = Signal(bool)
@@ -76,5 +77,5 @@ class Backend(QObject):
 
     @Slot()
     def open_help_github(self):
-        webbrowser.open_new_tab(self.settings.app_settings.url_json_help)
+        webbrowser.open_new_tab(self.app_settings.url_json_help)
         return 0

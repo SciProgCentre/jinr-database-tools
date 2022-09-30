@@ -8,7 +8,7 @@ from enum import Enum
 from typing import Optional, Union, Iterable
 
 import sqlalchemy
-from sqlalchemy import create_engine, MetaData, insert, Table
+from sqlalchemy import create_engine, MetaData, insert, Table, inspect
 from sqlalchemy.engine import Engine
 from sqlalchemy.engine.url import URL
 from sqlalchemy.exc import DBAPIError, ArgumentError
@@ -52,8 +52,7 @@ class DatabaseSettings:
     def to_url(self):
         settings = dataclasses.asdict(self)
         settings.pop("driver")
-        settings["drivername"] = self.driver.value
-        return URL(**settings)
+        return URL.create(self.driver.value, **settings)
 
 
 @dataclass
@@ -113,7 +112,8 @@ class Database:
 
     @property
     def tables_name(self):
-        return self.engine.table_names()
+        inspector = inspect(self.engine)
+        return inspector.get_table_names()
 
     def _metadata(self, conn):
         return get_metadata(conn)

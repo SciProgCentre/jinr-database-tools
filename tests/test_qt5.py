@@ -14,13 +14,12 @@ from sdp.ui.utils import appdata
 class BackendTest(TestCase):
 
     def setUp(self) -> None:
-        shutil.rmtree(PathItem.FD_PATH / "Test", ignore_errors=True)
         self.app = DatabaseApp(sys.argv)
         self.backend = self.app.backend
 
     def test_settings(self):
         settings = self.backend.settings
-        self.backend.settings.update_application_settings()
+
 
     def test_json_help(self):
         self.backend.open_help_github()
@@ -32,7 +31,6 @@ class BackendTest(TestCase):
 
 class MainWindowTest(TestCase):
     def setUp(self) -> None:
-        shutil.rmtree(PathItem.FD_PATH / "Test", ignore_errors=True)
         self.app = DatabaseApp(sys.argv)
 
     def test_description_manager(self):

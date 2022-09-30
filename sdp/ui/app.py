@@ -38,12 +38,12 @@ class DatabaseWindow(QMainWindow):
         self.setWindowTitle("Database tools")
         self.setWindowIcon(get_icon("is-database-upload.svg"))
         self.backend = backend
-        self.resize(backend.settings.app_settings.window_size)
+        self.resize(backend.app_settings.window_size)
         self.init_UI()
 
     def closeEvent(self, event: QtGui.QCloseEvent) -> None:
-        self.backend.settings.app_settings.window_size = self.size()
-        self.backend.settings.update_application_settings()
+        self.backend.app_settings.window_size = self.size()
+        self.backend.settings.save_settings()
         self.centralWidget().closeEvent(event)
         super(DatabaseWindow, self).closeEvent(event)
 
@@ -55,7 +55,7 @@ class DatabaseWindow(QMainWindow):
 
         connection_dock = ConnectionDock(self, self.backend)
         self.addDockWidget(QtCore.Qt.LeftDockWidgetArea, connection_dock)
-        connection_dock.setVisible(self.backend.settings.app_settings.database_settings_visible)
+        connection_dock.setVisible(self.backend.app_settings.database_settings_visible)
 
         action = ConnectionAction(self)
         action.setProperty("class", "disconnected")
@@ -63,7 +63,7 @@ class DatabaseWindow(QMainWindow):
 
         def hide():
             connection_dock.setVisible(not connection_dock.isVisible())
-            self.backend.settings.app_settings.database_settings_visible = connection_dock.isVisible()
+            self.backend.app_settings.database_settings_visible = connection_dock.isVisible()
 
         action.clicked.connect(hide)
         self.backend.connection_status.connect(action.change_status)
